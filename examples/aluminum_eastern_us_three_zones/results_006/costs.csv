@@ -1,4 +1,0 @@
-commodity,commodity_subtype,zone,resource_id,component_id,type,variable,value
-all,cost,all,all,all,Cost,FixedCost,6.014911741904183e9
-all,cost,all,all,all,Cost,VariableCost,1.7625222533210428e9
-all,cost,all,all,all,Cost,TotalCost,7.777433995225226e9
