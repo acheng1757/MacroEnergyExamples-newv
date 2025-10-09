@@ -1,7 +1,7 @@
 {
-    "BfBof": [
+    "BlastFurnaceBasicOxygenFurnace": [
         {
-            "type": "BfBof",
+            "type": "BlastFurnaceBasicOxygenFurnace",
             "global_data":{
                 "nodes": {},
                 "transforms": {

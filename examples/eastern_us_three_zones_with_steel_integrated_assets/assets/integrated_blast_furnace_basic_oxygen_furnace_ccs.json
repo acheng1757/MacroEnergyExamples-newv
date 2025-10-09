@@ -1,7 +1,7 @@
 {
-    "BfBofCCS": [
+    "BlastFurnaceBasicOxygenFurnaceCCS": [
         {
-            "type": "BfBofCCS",
+            "type": "BlastFurnaceBasicOxygenFurnaceCCS",
             "global_data":{
                 "nodes": {},
                 "transforms": {

@@ -1,7 +1,7 @@
 {
-    "natural_gas_dr_eaf": [
+    "IntegratedNaturalGasDirectReductionElectricArcFurnace": [
         {
-            "type": "DrEaf",
+            "type": "DirectReductionElectricArcFurnace",
             "global_data":{
                 "nodes": {},
                 "transforms": {

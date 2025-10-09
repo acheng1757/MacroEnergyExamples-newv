@@ -1,7 +1,7 @@
 {
-    "hydrogen_dr_eaf": [
+    "IntegratedHydrogenDirectReductionElectricArcFurnace": [
         {
-            "type": "DrEaf",
+            "type": "DirectReductionElectricArcFurnace",
             "global_data":{
                 "nodes": {},
                 "transforms": {

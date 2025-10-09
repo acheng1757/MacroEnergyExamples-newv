@@ -1,7 +1,7 @@
 {
-    "natural_gas_dr_eaf_ccs": [
+    "IntegratedNaturalGasDirectReductionElectricArcFurnaceCCS": [
         {
-            "type": "DrEafCCS",
+            "type": "DirectReductionElectricArcFurnaceCCS",
             "global_data":{
                 "nodes": {},
                 "transforms": {
