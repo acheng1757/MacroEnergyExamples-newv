@@ -1,13 +1,10 @@
 using MacroEnergy
 using Gurobi
 
-# Create Gurobi environment with parameters
-if !(@isdefined GRB_ENV)
-    const GRB_ENV = Gurobi.Env()
-end
-
-# Run the case with Gurobi optimizer and environment
-(system, model) = run_case(@__DIR__; 
-    optimizer=Gurobi.Optimizer, 
-    optimizer_env=GRB_ENV
+(system, model) = run_case(
+    @__DIR__;
+    optimizer=Gurobi.Optimizer,
+    optimizer_attributes=("Method" => 2, "Crossover" => 1, "BarConvTol" => 1e-3),
+    lazy_load=false,
 );
+
