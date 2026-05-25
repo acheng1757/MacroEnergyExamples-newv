@@ -694,7 +694,7 @@
           }
         },
         {
-          "id": "CEN_Bio_Ethanol_CCS_20_Herb",
+          "id": "CEN_Bio_Ethanol_CCS_20_Agri",
           "location": "CEN",
           "biomass_consumption_commodity": "Biomass_Agri",
           "co2_biomass_content": 1.7,
@@ -716,7 +716,7 @@
           }
         },
         {
-          "id": "CEN_Bio_Ethanol_CCS_86_Herb",
+          "id": "CEN_Bio_Ethanol_CCS_86_Agri",
           "location": "CEN",
           "biomass_consumption_commodity": "Biomass_Agri",
           "co2_biomass_content": 1.7,
@@ -760,7 +760,7 @@
           }
         },
         {
-          "id": "MIDAT_Bio_Ethanol_CCS_20_Herb",
+          "id": "MIDAT_Bio_Ethanol_CCS_20_Agri",
           "location": "MIDAT",
           "biomass_consumption_commodity": "Biomass_Agri",
           "co2_biomass_content": 1.708,
@@ -782,7 +782,7 @@
           }
         },
         {
-          "id": "MIDAT_Bio_Ethanol_CCS_86_Herb",
+          "id": "MIDAT_Bio_Ethanol_CCS_86_Agri",
           "location": "MIDAT",
           "biomass_consumption_commodity": "Biomass_Agri",
           "co2_biomass_content": 1.708,
@@ -826,7 +826,7 @@
           }
         },
         {
-          "id": "NCEN_Bio_Ethanol_CCS_20_Herb",
+          "id": "NCEN_Bio_Ethanol_CCS_20_Agri",
           "location": "NCEN",
           "biomass_consumption_commodity": "Biomass_Agri",
           "co2_biomass_content": 1.71,
@@ -848,7 +848,7 @@
           }
         },
         {
-          "id": "NCEN_Bio_Ethanol_CCS_86_Herb",
+          "id": "NCEN_Bio_Ethanol_CCS_86_Agri",
           "location": "NCEN",
           "biomass_consumption_commodity": "Biomass_Agri",
           "co2_biomass_content": 1.71,
@@ -892,7 +892,7 @@
           }
         },
         {
-          "id": "SE_Bio_Ethanol_CCS_20_Herb",
+          "id": "SE_Bio_Ethanol_CCS_20_Agri",
           "location": "SE",
           "biomass_consumption_commodity": "Biomass_Agri",
           "co2_biomass_content": 1.689,
@@ -914,7 +914,7 @@
           }
         },
         {
-          "id": "SE_Bio_Ethanol_CCS_86_Herb",
+          "id": "SE_Bio_Ethanol_CCS_86_Agri",
           "location": "SE",
           "biomass_consumption_commodity": "Biomass_Agri",
           "co2_biomass_content": 1.689,
@@ -958,7 +958,7 @@
           }
         },
         {
-          "id": "TX_Bio_Ethanol_CCS_20_Herb",
+          "id": "TX_Bio_Ethanol_CCS_20_Agri",
           "location": "TX",
           "biomass_consumption_commodity": "Biomass_Agri",
           "co2_biomass_content": 1.633,
@@ -980,7 +980,7 @@
           }
         },
         {
-          "id": "TX_Bio_Ethanol_CCS_86_Herb",
+          "id": "TX_Bio_Ethanol_CCS_86_Agri",
           "location": "TX",
           "biomass_consumption_commodity": "Biomass_Agri",
           "co2_biomass_content": 1.633,
