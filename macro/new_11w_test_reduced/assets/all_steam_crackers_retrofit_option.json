@@ -595,9 +595,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 108110.8027654695,
+              "fixed_om_cost": 59170.41351103538,
+              "variable_om_cost": 1.80705766417774,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -644,9 +644,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 108110.8027654695,
+              "fixed_om_cost": 59170.41351103538,
+              "variable_om_cost": 1.80705766417774,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -693,9 +693,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 108110.8027654695,
+              "fixed_om_cost": 59170.41351103538,
+              "variable_om_cost": 1.80705766417774,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -742,9 +742,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 108110.8027654695,
+              "fixed_om_cost": 59170.41351103538,
+              "variable_om_cost": 1.80705766417774,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -791,9 +791,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 108110.8027654695,
+              "fixed_om_cost": 59170.41351103538,
+              "variable_om_cost": 1.80705766417774,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -840,9 +840,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 108110.8027654695,
+              "fixed_om_cost": 59170.41351103538,
+              "variable_om_cost": 1.80705766417774,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -889,9 +889,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 108110.8027654695,
+              "fixed_om_cost": 59170.41351103538,
+              "variable_om_cost": 1.80705766417774,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -938,9 +938,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 108110.8027654695,
+              "fixed_om_cost": 59170.41351103538,
+              "variable_om_cost": 1.80705766417774,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -987,9 +987,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 106875.17587080522,
-              "fixed_om_cost": 58496.39029512962,
-              "variable_om_cost": 1.8072241869576304,
+              "investment_cost": 108110.8027654695,
+              "fixed_om_cost": 59170.41351103538,
+              "variable_om_cost": 1.80705766417774,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1093,21 +1093,21 @@
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.009388737329991419,
+            "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.0022673365365952092,
-            "process_capture_rate": 0.02040602882935689,
-            "fuel_emission_rate": 0.003360775425660544,
-            "fuel_capture_rate": 0.030246978830944904
+            "process_emission_rate": 0.022673365365952096,
+            "process_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545,
+            "fuel_capture_rate": 0.0
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 106900.97994268421,
-              "fixed_om_cost": 58510.188877001325,
-              "variable_om_cost": 1.8076605247406448,
+              "investment_cost": 117611.44958885663,
+              "fixed_om_cost": 64372.71533943124,
+              "variable_om_cost": 1.8176780442199247,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1142,21 +1142,21 @@
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.009388737329991419,
+            "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.0022673365365952092,
-            "process_capture_rate": 0.02040602882935689,
-            "fuel_emission_rate": 0.003360775425660544,
-            "fuel_capture_rate": 0.030246978830944904
+            "process_emission_rate": 0.022673365365952096,
+            "process_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545,
+            "fuel_capture_rate": 0.0
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 106900.97994268421,
-              "fixed_om_cost": 58510.188877001325,
-              "variable_om_cost": 1.8076605247406448,
+              "investment_cost": 117611.44958885663,
+              "fixed_om_cost": 64372.71533943124,
+              "variable_om_cost": 1.8176780442199247,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1191,21 +1191,21 @@
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.009388737329991419,
+            "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.0022673365365952092,
-            "process_capture_rate": 0.02040602882935689,
-            "fuel_emission_rate": 0.003360775425660544,
-            "fuel_capture_rate": 0.030246978830944904
+            "process_emission_rate": 0.022673365365952096,
+            "process_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545,
+            "fuel_capture_rate": 0.0
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 106900.97994268421,
-              "fixed_om_cost": 58510.188877001325,
-              "variable_om_cost": 1.8076605247406448,
+              "investment_cost": 117611.44958885663,
+              "fixed_om_cost": 64372.71533943124,
+              "variable_om_cost": 1.8176780442199247,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1240,21 +1240,21 @@
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.009388737329991419,
+            "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.0022673365365952092,
-            "process_capture_rate": 0.02040602882935689,
-            "fuel_emission_rate": 0.003360775425660544,
-            "fuel_capture_rate": 0.030246978830944904
+            "process_emission_rate": 0.022673365365952096,
+            "process_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545,
+            "fuel_capture_rate": 0.0
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 106900.97994268421,
-              "fixed_om_cost": 58510.188877001325,
-              "variable_om_cost": 1.8076605247406448,
+              "investment_cost": 117611.44958885663,
+              "fixed_om_cost": 64372.71533943124,
+              "variable_om_cost": 1.8176780442199247,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1289,21 +1289,21 @@
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.009388737329991419,
+            "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.0022673365365952092,
-            "process_capture_rate": 0.02040602882935689,
-            "fuel_emission_rate": 0.003360775425660544,
-            "fuel_capture_rate": 0.030246978830944904
+            "process_emission_rate": 0.022673365365952096,
+            "process_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545,
+            "fuel_capture_rate": 0.0
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 106900.97994268421,
-              "fixed_om_cost": 58510.188877001325,
-              "variable_om_cost": 1.8076605247406448,
+              "investment_cost": 117611.44958885663,
+              "fixed_om_cost": 64372.71533943124,
+              "variable_om_cost": 1.8176780442199247,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1338,21 +1338,21 @@
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.009388737329991419,
+            "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.0022673365365952092,
-            "process_capture_rate": 0.02040602882935689,
-            "fuel_emission_rate": 0.003360775425660544,
-            "fuel_capture_rate": 0.030246978830944904
+            "process_emission_rate": 0.022673365365952096,
+            "process_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545,
+            "fuel_capture_rate": 0.0
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 106900.97994268421,
-              "fixed_om_cost": 58510.188877001325,
-              "variable_om_cost": 1.8076605247406448,
+              "investment_cost": 117611.44958885663,
+              "fixed_om_cost": 64372.71533943124,
+              "variable_om_cost": 1.8176780442199247,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1387,21 +1387,21 @@
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.009388737329991419,
+            "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.0022673365365952092,
-            "process_capture_rate": 0.02040602882935689,
-            "fuel_emission_rate": 0.003360775425660544,
-            "fuel_capture_rate": 0.030246978830944904
+            "process_emission_rate": 0.022673365365952096,
+            "process_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545,
+            "fuel_capture_rate": 0.0
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 106900.97994268421,
-              "fixed_om_cost": 58510.188877001325,
-              "variable_om_cost": 1.8076605247406448,
+              "investment_cost": 117611.44958885663,
+              "fixed_om_cost": 64372.71533943124,
+              "variable_om_cost": 1.8176780442199247,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1436,21 +1436,21 @@
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.009388737329991419,
+            "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.0022673365365952092,
-            "process_capture_rate": 0.02040602882935689,
-            "fuel_emission_rate": 0.003360775425660544,
-            "fuel_capture_rate": 0.030246978830944904
+            "process_emission_rate": 0.022673365365952096,
+            "process_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545,
+            "fuel_capture_rate": 0.0
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 106900.97994268421,
-              "fixed_om_cost": 58510.188877001325,
-              "variable_om_cost": 1.8076605247406448,
+              "investment_cost": 117611.44958885663,
+              "fixed_om_cost": 64372.71533943124,
+              "variable_om_cost": 1.8176780442199247,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1485,21 +1485,21 @@
             "ethylene_production": 0.05310189716107201,
             "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
-            "elec_consumption": 0.009388737329991419,
+            "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.0022673365365952092,
-            "process_capture_rate": 0.02040602882935689,
-            "fuel_emission_rate": 0.003360775425660544,
-            "fuel_capture_rate": 0.030246978830944904
+            "process_emission_rate": 0.022673365365952096,
+            "process_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545,
+            "fuel_capture_rate": 0.0
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 106900.97994268421,
-              "fixed_om_cost": 58510.188877001325,
-              "variable_om_cost": 1.8076605247406448,
+              "investment_cost": 117611.44958885663,
+              "fixed_om_cost": 64372.71533943124,
+              "variable_om_cost": 1.8176780442199247,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
