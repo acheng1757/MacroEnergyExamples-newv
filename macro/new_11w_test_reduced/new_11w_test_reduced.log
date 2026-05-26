@@ -1,41 +1,48 @@
-2026-05-25 14:27:04 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced
-2026-05-25 14:27:04 | INFO | 1 | MacroEnergy | user_additions.jl:78 |  ++ Loading user additions from ../../MacroEnergyExamples.jl/macro/new_11w_test_reduced/user_additions
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | user_additions.jl:114 |  ++ Successfully loaded user additions.
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | user_additions.jl:122 |  ++ Added user assets: 0
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | load_stages_data.jl:37 | Loading case from /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/system_data.json
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 0.01 seconds
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | load_stages_data.jl:20 | Done loading case data. It took 0.01 seconds
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | case_settings.jl:129 | Configuring case
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | case_settings.jl:154 |  -- Setting solution algorithm
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | case_settings.jl:165 |  -- Solution algorithm set to MacroEnergy.Monolithic()
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
-2026-05-25 14:27:05 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
-2026-05-25 14:27:06 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
-2026-05-25 14:28:45 | INFO | 1 | MacroEnergy | generate_system.jl:43 | Done generating system. It took 100.61 seconds
-2026-05-25 14:28:45 | INFO | 1 | MacroEnergy | case.jl:54 |  -- Discounting fixed costs for period 1
-2026-05-25 14:28:45 | INFO | 1 | MacroEnergy | case.jl:57 |  -- Computing retirement case for period 1
-2026-05-25 14:28:46 | INFO | 1 | MacroEnergy | case.jl:45 | *** Done generating case. It took 100.81 seconds ***
-2026-05-25 14:28:46 | INFO | 1 | MacroEnergy | solver.jl:7 | *** Running simulation with monolithic solver ***
-2026-05-25 14:28:46 | INFO | 1 | MacroEnergy | generate_model.jl:17 | Generating model
-2026-05-25 14:28:46 | INFO | 1 | MacroEnergy | generate_model.jl:30 |  -- Period 1
-2026-05-25 14:28:46 | INFO | 1 | MacroEnergy | generate_model.jl:37 |  -- Adding linking variables
-2026-05-25 14:28:46 | INFO | 1 | MacroEnergy | generate_model.jl:40 |  -- Defining available capacity
-2026-05-25 14:28:46 | INFO | 1 | MacroEnergy | generate_model.jl:43 |  -- Generating planning model
-2026-05-25 14:28:46 | INFO | 1 | MacroEnergy | generate_model.jl:47 |  -- Adding retrofit constraints
-2026-05-25 14:28:46 | INFO | 1 | MacroEnergy | generate_model.jl:51 |  -- Including age-based retirements
-2026-05-25 14:28:46 | INFO | 1 | MacroEnergy | generate_model.jl:59 |  -- Generating operational model
-2026-05-25 14:28:55 | WARN | 1 | MacroEnergy | max_non_served_demand_per_segment.jl:35 | MaxNonServedDemandPerSegmentConstraint required for a node that does not have a non-served demand variable so Macro will not create this constraint
-2026-05-25 14:28:55 | WARN | 1 | MacroEnergy | max_non_served_demand.jl:28 | MaxNonServedDemandConstraint required for a node that does not have a non-served demand variable so Macro will not create this constraint
-2026-05-25 14:29:08 | INFO | 1 | MacroEnergy | generate_model.jl:98 |  -- Model generation complete, it took 22.240700006484985 seconds
-2026-05-25 14:29:08 | INFO | 1 | MacroEnergy | solver.jl:14 | Scaling constraints and RHS
-2026-05-25 14:30:08 | INFO | 1 | MacroEnergy | write_outputs.jl:13 | Writing results for period 1
-2026-05-25 14:30:08 | INFO | 1 | MacroEnergy | write_capacity.jl:68 | Writing capacity results to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_002/results/capacity.csv
-2026-05-25 14:30:19 | INFO | 1 | MacroEnergy | write_cost.jl:36 | Writing total discounted costs to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_002/results/costs.csv
-2026-05-25 14:30:19 | INFO | 1 | MacroEnergy | write_cost.jl:79 | Writing total undiscounted costs to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_002/results/undiscounted_costs.csv
-2026-05-25 14:30:20 | INFO | 1 | MacroEnergy | write_cost.jl:565 | Writing detailed discounted costs by type to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_002/results/costs_by_type.csv
-2026-05-25 14:30:20 | INFO | 1 | MacroEnergy | write_cost.jl:573 | Writing detailed discounted costs by zone to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_002/results/costs_by_zone.csv
-2026-05-25 14:30:21 | INFO | 1 | MacroEnergy | write_cost.jl:565 | Writing detailed undiscounted costs by type to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_002/results/undiscounted_costs_by_type.csv
-2026-05-25 14:30:22 | INFO | 1 | MacroEnergy | write_cost.jl:573 | Writing detailed undiscounted costs by zone to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_002/results/undiscounted_costs_by_zone.csv
-2026-05-25 14:30:22 | INFO | 1 | MacroEnergy | write_flow.jl:66 | Writing flow results to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_002/results/flows.csv
+2026-05-25 14:55:44 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced
+2026-05-25 14:55:44 | INFO | 1 | MacroEnergy | user_additions.jl:78 |  ++ Loading user additions from ../../MacroEnergyExamples.jl/macro/new_11w_test_reduced/user_additions
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | user_additions.jl:114 |  ++ Successfully loaded user additions.
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | user_additions.jl:122 |  ++ Added user assets: 0
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | load_stages_data.jl:37 | Loading case from /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/system_data.json
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 0.01 seconds
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | load_stages_data.jl:20 | Done loading case data. It took 0.02 seconds
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | case_settings.jl:129 | Configuring case
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | case_settings.jl:154 |  -- Setting solution algorithm
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | case_settings.jl:165 |  -- Solution algorithm set to MacroEnergy.Monolithic()
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
+2026-05-25 14:55:45 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-05-25 14:55:46 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-05-25 14:57:38 | INFO | 1 | MacroEnergy | generate_system.jl:43 | Done generating system. It took 112.8 seconds
+2026-05-25 14:57:38 | INFO | 1 | MacroEnergy | case.jl:54 |  -- Discounting fixed costs for period 1
+2026-05-25 14:57:38 | INFO | 1 | MacroEnergy | case.jl:57 |  -- Computing retirement case for period 1
+2026-05-25 14:57:38 | INFO | 1 | MacroEnergy | case.jl:45 | *** Done generating case. It took 112.94 seconds ***
+2026-05-25 14:57:38 | INFO | 1 | MacroEnergy | solver.jl:7 | *** Running simulation with monolithic solver ***
+2026-05-25 14:57:41 | INFO | 1 | MacroEnergy | generate_model.jl:17 | Generating model
+2026-05-25 14:57:41 | INFO | 1 | MacroEnergy | generate_model.jl:30 |  -- Period 1
+2026-05-25 14:57:41 | INFO | 1 | MacroEnergy | generate_model.jl:37 |  -- Adding linking variables
+2026-05-25 14:57:41 | INFO | 1 | MacroEnergy | generate_model.jl:40 |  -- Defining available capacity
+2026-05-25 14:57:41 | INFO | 1 | MacroEnergy | generate_model.jl:43 |  -- Generating planning model
+2026-05-25 14:57:42 | INFO | 1 | MacroEnergy | generate_model.jl:47 |  -- Adding retrofit constraints
+2026-05-25 14:57:42 | INFO | 1 | MacroEnergy | generate_model.jl:51 |  -- Including age-based retirements
+2026-05-25 14:57:42 | INFO | 1 | MacroEnergy | generate_model.jl:59 |  -- Generating operational model
+2026-05-25 14:57:58 | WARN | 1 | MacroEnergy | max_non_served_demand_per_segment.jl:35 | MaxNonServedDemandPerSegmentConstraint required for a node that does not have a non-served demand variable so Macro will not create this constraint
+2026-05-25 14:57:58 | WARN | 1 | MacroEnergy | max_non_served_demand.jl:28 | MaxNonServedDemandConstraint required for a node that does not have a non-served demand variable so Macro will not create this constraint
+2026-05-25 14:58:16 | INFO | 1 | MacroEnergy | generate_model.jl:98 |  -- Model generation complete, it took 34.988128900527954 seconds
+2026-05-25 14:58:16 | INFO | 1 | MacroEnergy | solver.jl:14 | Scaling constraints and RHS
+2026-05-25 14:59:27 | INFO | 1 | MacroEnergy | write_outputs.jl:13 | Writing results for period 1
+2026-05-25 14:59:27 | INFO | 1 | MacroEnergy | write_capacity.jl:68 | Writing capacity results to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/capacity.csv
+2026-05-25 14:59:37 | INFO | 1 | MacroEnergy | write_cost.jl:36 | Writing total discounted costs to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/costs.csv
+2026-05-25 14:59:37 | INFO | 1 | MacroEnergy | write_cost.jl:79 | Writing total undiscounted costs to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/undiscounted_costs.csv
+2026-05-25 14:59:38 | INFO | 1 | MacroEnergy | write_cost.jl:565 | Writing detailed discounted costs by type to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/costs_by_type.csv
+2026-05-25 14:59:38 | INFO | 1 | MacroEnergy | write_cost.jl:573 | Writing detailed discounted costs by zone to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/costs_by_zone.csv
+2026-05-25 14:59:40 | INFO | 1 | MacroEnergy | write_cost.jl:565 | Writing detailed undiscounted costs by type to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/undiscounted_costs_by_type.csv
+2026-05-25 14:59:40 | INFO | 1 | MacroEnergy | write_cost.jl:573 | Writing detailed undiscounted costs by zone to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/undiscounted_costs_by_zone.csv
+2026-05-25 14:59:40 | INFO | 1 | MacroEnergy | write_flow.jl:66 | Writing flow results to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/flows.csv
+2026-05-25 14:59:47 | INFO | 1 | MacroEnergy | write_non_served_demand.jl:44 | Writing non-served demand results to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/non_served_demand.csv
+2026-05-25 14:59:47 | INFO | 1 | MacroEnergy | write_storage_level.jl:58 | Writing storage level results to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/storage_level.csv
+2026-05-25 14:59:47 | INFO | 1 | MacroEnergy | write_curtailment.jl:44 | Writing curtailment results to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/curtailment.csv
+2026-05-25 14:59:47 | INFO | 1 | MacroEnergy | write_time_weights.jl:49 | Writing time weights to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results/time_weights.csv
+2026-05-25 14:59:47 | INFO | 1 | MacroEnergy | write_duals.jl:38 | Writing constraint dual values to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results
+2026-05-25 14:59:47 | INFO | 1 | MacroEnergy | write_duals.jl:81 | Writing balance constraint dual values to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results
+2026-05-25 14:59:47 | INFO | 1 | MacroEnergy | write_duals.jl:174 | Writing CO2 cap constraint dual values to /Users/abbie/MacroEnergyExamples.jl/macro/new_11w_test_reduced/results_004/results

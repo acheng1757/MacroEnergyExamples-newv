@@ -342,7 +342,7 @@
           }
         },
         {
-          "id": "CEN_Bio_Ethanol_CCS_20_Herb",
+          "id": "CEN_Bio_Ethanol_CCS_20_Wood",
           "location": "CEN",
           "biomass_consumption_commodity": "Biomass_Wood",
           "co2_biomass_content": 1.802,
@@ -364,7 +364,7 @@
           }
         },
         {
-          "id": "CEN_Bio_Ethanol_CCS_86_Herb",
+          "id": "CEN_Bio_Ethanol_CCS_86_Wood",
           "location": "CEN",
           "biomass_consumption_commodity": "Biomass_Wood",
           "co2_biomass_content": 1.802,
@@ -408,7 +408,7 @@
           }
         },
         {
-          "id": "MIDAT_Bio_Ethanol_CCS_20_Herb",
+          "id": "MIDAT_Bio_Ethanol_CCS_20_Wood",
           "location": "MIDAT",
           "biomass_consumption_commodity": "Biomass_Wood",
           "co2_biomass_content": 1.806,
@@ -430,7 +430,7 @@
           }
         },
         {
-          "id": "MIDAT_Bio_Ethanol_CCS_86_Herb",
+          "id": "MIDAT_Bio_Ethanol_CCS_86_Wood",
           "location": "MIDAT",
           "biomass_consumption_commodity": "Biomass_Wood",
           "co2_biomass_content": 1.806,
@@ -474,7 +474,7 @@
           }
         },
         {
-          "id": "NCEN_Bio_Ethanol_CCS_20_Herb",
+          "id": "NCEN_Bio_Ethanol_CCS_20_Wood",
           "location": "NCEN",
           "biomass_consumption_commodity": "Biomass_Wood",
           "co2_biomass_content": 1.802,
@@ -496,7 +496,7 @@
           }
         },
         {
-          "id": "NCEN_Bio_Ethanol_CCS_86_Herb",
+          "id": "NCEN_Bio_Ethanol_CCS_86_Wood",
           "location": "NCEN",
           "biomass_consumption_commodity": "Biomass_Wood",
           "co2_biomass_content": 1.802,
@@ -540,7 +540,7 @@
           }
         },
         {
-          "id": "SE_Bio_Ethanol_CCS_20_Herb",
+          "id": "SE_Bio_Ethanol_CCS_20_Wood",
           "location": "SE",
           "biomass_consumption_commodity": "Biomass_Wood",
           "co2_biomass_content": 1.821,
@@ -562,7 +562,7 @@
           }
         },
         {
-          "id": "SE_Bio_Ethanol_CCS_86_Herb",
+          "id": "SE_Bio_Ethanol_CCS_86_Wood",
           "location": "SE",
           "biomass_consumption_commodity": "Biomass_Wood",
           "co2_biomass_content": 1.821,
@@ -606,7 +606,7 @@
           }
         },
         {
-          "id": "TX_Bio_Ethanol_CCS_20_Herb",
+          "id": "TX_Bio_Ethanol_CCS_20_Wood",
           "location": "TX",
           "biomass_consumption_commodity": "Biomass_Wood",
           "co2_biomass_content": 1.821,
@@ -628,7 +628,7 @@
           }
         },
         {
-          "id": "TX_Bio_Ethanol_CCS_86_Herb",
+          "id": "TX_Bio_Ethanol_CCS_86_Wood",
           "location": "TX",
           "biomass_consumption_commodity": "Biomass_Wood",
           "co2_biomass_content": 1.821,
