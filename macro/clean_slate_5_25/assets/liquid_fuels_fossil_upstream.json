@@ -1,79 +1,67 @@
 {
-    "GasolineFossilUpstream": [
+    "FossilRefineryRepresentation": [
         {
-            "type": "FossilFuelsUpstream",
-            "global_data":{
+            "type": "ConstrainedFossilLiquidFuels",
+            "global_data": {
                 "transforms": {
                     "timedata": "LiquidFuels",
                     "constraints": {
-                            "BalanceConstraint": true
+                        "BalanceConstraint": true
                     },
-                    "emission_rate": 0
+                    "jetfuel_ratio": 0.2763,
+                    "diesel_ratio": 0.7449,
+                    "gasoline_emission_rate": 0.0,
+                    "jetfuel_emission_rate": 0.0,
+                    "diesel_emission_rate": 0.0
                 },
-                "edges" :{
-                    "fossil_fuel_edge": {
-                        "commodity": "LiquidFuels",
+                "edges": {
+                    "fossil_gasoline_edge": {
+                        "commodity": "Fossil_Gasoline",
                         "unidirectional": true,
-                        "has_capacity": false
+                        "has_capacity": false,
+                        "start_vertex": "gasoline_fossil_global"
+                    },
+                    "fossil_jetfuel_edge": {
+                        "commodity": "Fossil_JetFuel",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "start_vertex": "jetfuel_fossil_global"
+                    },
+                    "fossil_diesel_edge": {
+                        "commodity": "Fossil_Diesel",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "start_vertex": "diesel_fossil_global"
+                    },
+                    "gasoline_edge": {
+                        "commodity": "Gasoline",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "gasoline_global"
+                    },
+                    "jetfuel_edge": {
+                        "commodity": "JetFuel",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "jetfuel_global"
+                    },
+                    "diesel_edge": {
+                        "commodity": "Diesel",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "diesel_global"
                     },
                     "co2_edge": {
                         "commodity": "CO2",
                         "unidirectional": true,
                         "has_capacity": false,
                         "end_vertex": "co2_sink"
-                    },
-                    "fuel_edge": {
-                        "commodity": "LiquidFuels",
-                        "unidirectional": true,
-                        "has_capacity": false
                     }
                 }
             },
-            "instance_data":[
-                {
-                    "id": "Global_Gasoline_Fossil_Upstream",
-                    "edges":{
-                            "fossil_fuel_edge": {
-                                "commodity": "Fossil_Gasoline",
-                                "start_vertex": "gasoline_fossil_global"
-                            },
-                            "fuel_edge": {
-                                "commodity": "Gasoline",
-                                "end_vertex": "gasoline_global"
-                            }
-                        }
-
-                },
-                {
-                    "id": "Global_JetFuel_Fossil_Upstream",
-                    "edges":{
-                            "fossil_fuel_edge": {
-                                "commodity": "Fossil_JetFuel",
-                                "start_vertex": "jetfuel_fossil_global"
-                            },
-                            "fuel_edge": {
-                                "commodity": "JetFuel",
-                                "end_vertex": "jetfuel_global"
-                            }
-                        }
-
-                },
-                {
-                    "id": "Global_Diesel_Fossil_Upstream",
-                    "edges":{
-                            "fossil_fuel_edge": {
-                                "commodity": "Fossil_Diesel",
-                                "start_vertex": "diesel_fossil_global"
-                            },
-                            "fuel_edge": {
-                                "commodity": "Diesel",
-                                "end_vertex": "diesel_global"
-                            }
-                        }
-
-                }
-           ]
+            "instance_data": [
+                {"id": "Global_Fossil_Petroleum_Refinery"}
+            ]
         }
     ]
-
 }
