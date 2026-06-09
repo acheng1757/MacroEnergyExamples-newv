@@ -1951,8 +1951,7 @@
         "location": "CA",
         "supply": {
           "segment1": {
-            "price": 100,
-            "max": 100000000000
+            "price": 100
           }
         }
       },
@@ -1961,8 +1960,7 @@
         "location": "NW",
         "supply": {
           "segment1": {
-            "price": 100,
-            "max": 100000000000
+            "price": 100
           }
         }
       },
@@ -1971,8 +1969,7 @@
         "location": "SW",
         "supply": {
           "segment1": {
-            "price": 100,
-            "max": 100000000000
+            "price": 100
           }
         }
       },
@@ -1981,8 +1978,7 @@
         "location": "TX",
         "supply": {
           "segment1": {
-            "price": 100,
-            "max": 100000000000
+            "price": 100
           }
         }
       },
@@ -1991,8 +1987,7 @@
         "location": "NCEN",
         "supply": {
           "segment1": {
-            "price": 100,
-            "max": 100000000000
+            "price": 100
           }
         }
       },
@@ -2001,8 +1996,7 @@
         "location": "CEN",
         "supply": {
           "segment1": {
-            "price": 100,
-            "max": 100000000000
+            "price": 100
           }
         }
       },
@@ -2011,8 +2005,7 @@
         "location": "SE",
         "supply": {
           "segment1": {
-            "price": 100,
-            "max": 100000000000
+            "price": 100
           }
         }
       },
@@ -2021,8 +2014,7 @@
         "location": "MIDAT",
         "supply": {
           "segment1": {
-            "price": 100,
-            "max": 100000000000
+            "price": 100
           }
         }
       },
@@ -2031,8 +2023,7 @@
         "location": "NE",
         "supply": {
           "segment1": {
-            "price": 100,
-            "max": 100000000000
+            "price": 100
           }
         }
       }
@@ -3075,7 +3066,7 @@
             "global_data": {
                 "time_interval": "Ethanol",
                 "max_nsd": [
-                    0
+                    1
                 ],
                 "price_nsd": [
                     5000.0
