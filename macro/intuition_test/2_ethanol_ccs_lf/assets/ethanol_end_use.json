@@ -1,0 +1,180 @@
+{
+    "GasolineEndUse": [
+        {
+            "type": "FuelsEndUse",
+            "global_data":{
+                "transforms": {
+                    "timedata": "LiquidFuels",
+                    "constraints": {
+                            "BalanceConstraint": true
+                    }
+                },
+                "edges" :{
+                    "fuel_edge": {
+                        "commodity": "LiquidFuels",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "co2_edge": {
+                        "commodity": "CO2",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "co2_sink"
+                    },
+                    "fuel_demand_edge": {
+                        "commodity": "LiquidFuels",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    }
+                }
+            },
+            "instance_data":[
+                {
+                    "id": "CA_Ethanol_Use",
+                    "transforms": {
+                        "emission_rate": 0.2303626755
+                    },
+                    "edges":{
+                            "fuel_edge": {
+                                "commodity": "Ethanol",
+                                "start_vertex": "ethanol_CA"
+                            },
+                            "fuel_demand_edge": {
+                                "commodity": "Ethanol",
+                                "end_vertex": "ethanol_demand_global"
+                            }
+                        }
+                },
+                {
+                    "id": "NW_Ethanol_Use",
+                    "transforms": {
+                        "emission_rate": 0.2303626755
+                    },
+                    "edges":{
+                            "fuel_edge": {
+                                "commodity": "Ethanol",
+                                "start_vertex": "ethanol_NW"
+                            },
+                            "fuel_demand_edge": {
+                                "commodity": "Ethanol",
+                                "end_vertex": "ethanol_demand_global"
+                            }
+                        }
+                },
+                {
+                    "id": "SW_Ethanol_Use",
+                    "transforms": {
+                        "emission_rate": 0.2303626755
+                    },
+                    "edges":{
+                            "fuel_edge": {
+                                "commodity": "Ethanol",
+                                "start_vertex": "ethanol_SW"
+                            },
+                            "fuel_demand_edge": {
+                                "commodity": "Ethanol",
+                                "end_vertex": "ethanol_demand_global"
+                            }
+                        }
+                },
+                {
+                    "id": "TX_Ethanol_Use",
+                    "transforms": {
+                        "emission_rate": 0.2303626755
+                    },
+                    "edges":{
+                            "fuel_edge": {
+                                "commodity": "Ethanol",
+                                "start_vertex": "ethanol_TX"
+                            },
+                            "fuel_demand_edge": {
+                                "commodity": "Ethanol",
+                                "end_vertex": "ethanol_demand_global"
+                            }
+                        }
+                },
+                {
+                    "id": "NCEN_Ethanol_Use",
+                    "transforms": {
+                        "emission_rate": 0.2303626755
+                    },
+                    "edges":{
+                            "fuel_edge": {
+                                "commodity": "Ethanol",
+                                "start_vertex": "ethanol_NCEN"
+                            },
+                            "fuel_demand_edge": {
+                                "commodity": "Ethanol",
+                                "end_vertex": "ethanol_demand_global"
+                            }
+                        }
+                },
+                {
+                    "id": "CEN_Ethanol_Use",
+                    "transforms": {
+                        "emission_rate": 0.2303626755
+                    },
+                    "edges":{
+                            "fuel_edge": {
+                                "commodity": "Ethanol",
+                                "start_vertex": "ethanol_CEN"
+                            },
+                            "fuel_demand_edge": {
+                                "commodity": "Ethanol",
+                                "end_vertex": "ethanol_demand_global"
+                            }
+                        }
+                },
+                {
+                    "id": "SE_Ethanol_Use",
+                    "transforms": {
+                        "emission_rate": 0.2303626755
+                    },
+                    "edges":{
+                            "fuel_edge": {
+                                "commodity": "Ethanol",
+                                "start_vertex": "ethanol_SE"
+                            },
+                            "fuel_demand_edge": {
+                                "commodity": "Ethanol",
+                                "end_vertex": "ethanol_demand_global"
+                            }
+                        }
+                },
+                {
+                    "id": "MIDAT_Ethanol_Use",
+                    "transforms": {
+                        "emission_rate": 0.2303626755
+                    },
+                    "edges":{
+                            "fuel_edge": {
+                                "commodity": "Ethanol",
+                                "start_vertex": "ethanol_MIDAT"
+                            },
+                            "fuel_demand_edge": {
+                                "commodity": "Ethanol",
+                                "end_vertex": "ethanol_demand_global"
+                            }
+                        }
+                },
+                {
+                    "id": "NE_Ethanol_Use",
+                    "transforms": {
+                        "emission_rate": 0.2303626755
+                    },
+                    "edges":{
+                            "fuel_edge": {
+                                "commodity": "Ethanol",
+                                "start_vertex": "ethanol_NE"
+                            },
+                            "fuel_demand_edge": {
+                                "commodity": "Ethanol",
+                                "end_vertex": "ethanol_demand_global"
+                            }
+                        }
+                }
+            ]
+        }
+    ]
+
+}

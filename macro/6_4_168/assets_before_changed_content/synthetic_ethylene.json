@@ -19,11 +19,11 @@
           "fixed_om_cost": 95841.65,
           "variable_om_cost": 2.95,
           "ethylene_production": 0.11376564277588169,
-          "natgas_production": 0.1570262415358362,
+          "natgas_production": 0.1578839590443686,
           "h2_consumption": 5.5446013778157,
-          "gasoline_production": 0.7770682541979523,
+          "gasoline_production": 0.7649146757679182,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.06301888661826005,
+          "emission_rate": 0.08033665471228657,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -39,11 +39,11 @@
           "fixed_om_cost": 95841.65,
           "variable_om_cost": 2.95,
           "ethylene_production": 0.11376564277588169,
-          "natgas_production": 0.1570262415358362,
+          "natgas_production": 0.1578839590443686,
           "h2_consumption": 5.5446013778157,
-          "gasoline_production": 0.7770682541979523,
+          "gasoline_production": 0.7649146757679182,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.06301888661826005,
+          "emission_rate": 0.08033665471228657,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -59,11 +59,11 @@
           "fixed_om_cost": 95841.65,
           "variable_om_cost": 2.95,
           "ethylene_production": 0.11376564277588169,
-          "natgas_production": 0.1570262415358362,
+          "natgas_production": 0.1578839590443686,
           "h2_consumption": 5.5446013778157,
-          "gasoline_production": 0.7770682541979523,
+          "gasoline_production": 0.7649146757679182,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.06301888661826005,
+          "emission_rate": 0.08033665471228657,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -79,11 +79,11 @@
           "fixed_om_cost": 95841.65,
           "variable_om_cost": 2.95,
           "ethylene_production": 0.11376564277588169,
-          "natgas_production": 0.1570262415358362,
+          "natgas_production": 0.1578839590443686,
           "h2_consumption": 5.5446013778157,
-          "gasoline_production": 0.7770682541979523,
+          "gasoline_production": 0.7649146757679182,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.06301888661826005,
+          "emission_rate": 0.08033665471228657,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -99,11 +99,11 @@
           "fixed_om_cost": 95841.65,
           "variable_om_cost": 2.95,
           "ethylene_production": 0.11376564277588169,
-          "natgas_production": 0.1570262415358362,
+          "natgas_production": 0.1578839590443686,
           "h2_consumption": 5.5446013778157,
-          "gasoline_production": 0.7770682541979523,
+          "gasoline_production": 0.7649146757679182,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.06301888661826005,
+          "emission_rate": 0.08033665471228657,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -119,11 +119,11 @@
           "fixed_om_cost": 95841.65,
           "variable_om_cost": 2.95,
           "ethylene_production": 0.11376564277588169,
-          "natgas_production": 0.1570262415358362,
+          "natgas_production": 0.1578839590443686,
           "h2_consumption": 5.5446013778157,
-          "gasoline_production": 0.7770682541979523,
+          "gasoline_production": 0.7649146757679182,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.06301888661826005,
+          "emission_rate": 0.08033665471228657,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -139,11 +139,11 @@
           "fixed_om_cost": 95841.65,
           "variable_om_cost": 2.95,
           "ethylene_production": 0.11376564277588169,
-          "natgas_production": 0.1570262415358362,
+          "natgas_production": 0.1578839590443686,
           "h2_consumption": 5.5446013778157,
-          "gasoline_production": 0.7770682541979523,
+          "gasoline_production": 0.7649146757679182,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.06301888661826005,
+          "emission_rate": 0.08033665471228657,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -159,11 +159,11 @@
           "fixed_om_cost": 95841.65,
           "variable_om_cost": 2.95,
           "ethylene_production": 0.11376564277588169,
-          "natgas_production": 0.1570262415358362,
+          "natgas_production": 0.1578839590443686,
           "h2_consumption": 5.5446013778157,
-          "gasoline_production": 0.7770682541979523,
+          "gasoline_production": 0.7649146757679182,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.06301888661826005,
+          "emission_rate": 0.08033665471228657,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -179,11 +179,11 @@
           "fixed_om_cost": 95841.65,
           "variable_om_cost": 2.95,
           "ethylene_production": 0.11376564277588169,
-          "natgas_production": 0.1570262415358362,
+          "natgas_production": 0.1578839590443686,
           "h2_consumption": 5.5446013778157,
-          "gasoline_production": 0.7770682541979523,
+          "gasoline_production": 0.7649146757679182,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.06301888661826005,
+          "emission_rate": 0.08033665471228657,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -212,11 +212,11 @@
           "fixed_om_cost": 112111.54,
           "variable_om_cost": 3.45,
           "ethylene_production": 0.12055455093429777,
-          "natgas_production": 0.16639670441229656,
+          "natgas_production": 0.16730560578661843,
           "h2_consumption": 5.875472707775769,
-          "gasoline_production": 0.8234394158408681,
+          "gasoline_production": 0.8105605786618445,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.007105004626221489,
+          "emission_rate": 0.025456201919348886,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -232,11 +232,11 @@
           "fixed_om_cost": 112111.54,
           "variable_om_cost": 3.45,
           "ethylene_production": 0.12055455093429777,
-          "natgas_production": 0.16639670441229656,
+          "natgas_production": 0.16730560578661843,
           "h2_consumption": 5.875472707775769,
-          "gasoline_production": 0.8234394158408681,
+          "gasoline_production": 0.8105605786618445,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.007105004626221489,
+          "emission_rate": 0.025456201919348886,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -252,11 +252,11 @@
           "fixed_om_cost": 112111.54,
           "variable_om_cost": 3.45,
           "ethylene_production": 0.12055455093429777,
-          "natgas_production": 0.16639670441229656,
+          "natgas_production": 0.16730560578661843,
           "h2_consumption": 5.875472707775769,
-          "gasoline_production": 0.8234394158408681,
+          "gasoline_production": 0.8105605786618445,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.007105004626221489,
+          "emission_rate": 0.025456201919348886,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -272,11 +272,11 @@
           "fixed_om_cost": 112111.54,
           "variable_om_cost": 3.45,
           "ethylene_production": 0.12055455093429777,
-          "natgas_production": 0.16639670441229656,
+          "natgas_production": 0.16730560578661843,
           "h2_consumption": 5.875472707775769,
-          "gasoline_production": 0.8234394158408681,
+          "gasoline_production": 0.8105605786618445,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.007105004626221489,
+          "emission_rate": 0.025456201919348886,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -292,11 +292,11 @@
           "fixed_om_cost": 112111.54,
           "variable_om_cost": 3.45,
           "ethylene_production": 0.12055455093429777,
-          "natgas_production": 0.16639670441229656,
+          "natgas_production": 0.16730560578661843,
           "h2_consumption": 5.875472707775769,
-          "gasoline_production": 0.8234394158408681,
+          "gasoline_production": 0.8105605786618445,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.007105004626221489,
+          "emission_rate": 0.025456201919348886,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -312,11 +312,11 @@
           "fixed_om_cost": 112111.54,
           "variable_om_cost": 3.45,
           "ethylene_production": 0.12055455093429777,
-          "natgas_production": 0.16639670441229656,
+          "natgas_production": 0.16730560578661843,
           "h2_consumption": 5.875472707775769,
-          "gasoline_production": 0.8234394158408681,
+          "gasoline_production": 0.8105605786618445,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.007105004626221489,
+          "emission_rate": 0.025456201919348886,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -332,11 +332,11 @@
           "fixed_om_cost": 112111.54,
           "variable_om_cost": 3.45,
           "ethylene_production": 0.12055455093429777,
-          "natgas_production": 0.16639670441229656,
+          "natgas_production": 0.16730560578661843,
           "h2_consumption": 5.875472707775769,
-          "gasoline_production": 0.8234394158408681,
+          "gasoline_production": 0.8105605786618445,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.007105004626221489,
+          "emission_rate": 0.025456201919348886,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -352,11 +352,11 @@
           "fixed_om_cost": 112111.54,
           "variable_om_cost": 3.45,
           "ethylene_production": 0.12055455093429777,
-          "natgas_production": 0.16639670441229656,
+          "natgas_production": 0.16730560578661843,
           "h2_consumption": 5.875472707775769,
-          "gasoline_production": 0.8234394158408681,
+          "gasoline_production": 0.8105605786618445,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.007105004626221489,
+          "emission_rate": 0.025456201919348886,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -372,11 +372,11 @@
           "fixed_om_cost": 112111.54,
           "variable_om_cost": 3.45,
           "ethylene_production": 0.12055455093429777,
-          "natgas_production": 0.16639670441229656,
+          "natgas_production": 0.16730560578661843,
           "h2_consumption": 5.875472707775769,
-          "gasoline_production": 0.8234394158408681,
+          "gasoline_production": 0.8105605786618445,
           "min_flow_fraction": 0.8,
-          "emission_rate": 0.007105004626221489,
+          "emission_rate": 0.025456201919348886,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
