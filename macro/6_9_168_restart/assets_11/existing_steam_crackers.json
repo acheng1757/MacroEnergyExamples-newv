@@ -45,7 +45,7 @@
             "commodity": "Ethane",
             "unidirectional": true,
             "has_capacity": true,
-            "can_expand": false,
+            "can_expand": true,
             "can_retire": true,
             "integer_decisions": false,
             "constraints": {
@@ -69,7 +69,7 @@
       },
       "instance_data": [
         {
-          "id": "CA_Existing_F-NGin-H2out",
+          "id": "CA_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -199,7 +199,7 @@
           ]
         },
         {
-          "id": "NW_Existing_F-NGin-H2out",
+          "id": "NW_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -329,7 +329,7 @@
           ]
         },
         {
-          "id": "SW_Existing_F-NGin-H2out",
+          "id": "SW_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -459,7 +459,7 @@
           ]
         },
         {
-          "id": "TX_Existing_F-NGin-H2out",
+          "id": "TX_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -589,7 +589,7 @@
           ]
         },
         {
-          "id": "NCEN_Existing_F-NGin-H2out",
+          "id": "NCEN_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -719,7 +719,7 @@
           ]
         },
         {
-          "id": "CEN_Existing_F-NGin-H2out",
+          "id": "CEN_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -849,7 +849,7 @@
           ]
         },
         {
-          "id": "SE_Existing_F-NGin-H2out",
+          "id": "SE_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -979,7 +979,7 @@
           ]
         },
         {
-          "id": "MIDAT_Existing_F-NGin-H2out",
+          "id": "MIDAT_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -1109,7 +1109,7 @@
           ]
         },
         {
-          "id": "NE_Existing_F-NGin-H2out",
+          "id": "NE_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
