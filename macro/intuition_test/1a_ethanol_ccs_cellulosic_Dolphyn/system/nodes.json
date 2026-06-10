@@ -1951,7 +1951,7 @@
         "location": "CA",
         "supply": {
           "segment1": {
-            "price": 100
+            "price": 170
           }
         }
       },
@@ -1960,7 +1960,7 @@
         "location": "NW",
         "supply": {
           "segment1": {
-            "price": 100
+            "price": 170
           }
         }
       },
@@ -1969,7 +1969,7 @@
         "location": "SW",
         "supply": {
           "segment1": {
-            "price": 100
+            "price": 170
           }
         }
       },
@@ -1978,7 +1978,7 @@
         "location": "TX",
         "supply": {
           "segment1": {
-            "price": 100
+            "price": 170
           }
         }
       },
@@ -1987,7 +1987,7 @@
         "location": "NCEN",
         "supply": {
           "segment1": {
-            "price": 100
+            "price": 170
           }
         }
       },
@@ -1996,7 +1996,7 @@
         "location": "CEN",
         "supply": {
           "segment1": {
-            "price": 100
+            "price": 170
           }
         }
       },
@@ -2005,7 +2005,7 @@
         "location": "SE",
         "supply": {
           "segment1": {
-            "price": 100
+            "price": 170
           }
         }
       },
@@ -2014,7 +2014,7 @@
         "location": "MIDAT",
         "supply": {
           "segment1": {
-            "price": 100
+            "price": 170
           }
         }
       },
@@ -2023,7 +2023,7 @@
         "location": "NE",
         "supply": {
           "segment1": {
-            "price": 100
+            "price": 170
           }
         }
       }
