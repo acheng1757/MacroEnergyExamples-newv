@@ -51,7 +51,8 @@
             "constraints": {
               "CapacityConstraint": true,
               "MinFlowConstraint": true
-            }
+            },
+            "can_retrofit": true
           },
           "co2_emission_edge": {
             "commodity": "CO2",
@@ -70,31 +71,32 @@
         {
           "id": "CA_F-NGin-H2out",
           "transforms": {
-            "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
+            "ethylene_production": 0.05310189716107201,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
             "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.023061333696664285,
+            "fuel_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 99124.32571125469,
-              "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
-              "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
                   "header": "ethylene"
                 }
-              }
+              },
+              "investment_cost": 99124.32571125469,
+              "fixed_om_cost": 54252.000813395156,
+              "variable_om_cost": -2.6159185526465834,
+              "existing_capacity": 0.0,
+              "min_flow_fraction": 0.8
             },
             "elec_consumption_edge": {
               "start_vertex": "elec_CA"
@@ -119,31 +121,32 @@
         {
           "id": "NW_F-NGin-H2out",
           "transforms": {
-            "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
+            "ethylene_production": 0.05310189716107201,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
             "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.023061333696664285,
+            "fuel_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 99124.32571125469,
-              "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
-              "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
                   "header": "ethylene"
                 }
-              }
+              },
+              "investment_cost": 99124.32571125469,
+              "fixed_om_cost": 54252.000813395156,
+              "variable_om_cost": -2.6159185526465834,
+              "existing_capacity": 0.0,
+              "min_flow_fraction": 0.8
             },
             "elec_consumption_edge": {
               "start_vertex": "elec_NW"
@@ -168,31 +171,32 @@
         {
           "id": "SW_F-NGin-H2out",
           "transforms": {
-            "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
+            "ethylene_production": 0.05310189716107201,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
             "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.023061333696664285,
+            "fuel_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 99124.32571125469,
-              "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
-              "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
                   "header": "ethylene"
                 }
-              }
+              },
+              "investment_cost": 99124.32571125469,
+              "fixed_om_cost": 54252.000813395156,
+              "variable_om_cost": -2.6159185526465834,
+              "existing_capacity": 0.0,
+              "min_flow_fraction": 0.8
             },
             "elec_consumption_edge": {
               "start_vertex": "elec_SW"
@@ -217,31 +221,32 @@
         {
           "id": "TX_F-NGin-H2out",
           "transforms": {
-            "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
+            "ethylene_production": 0.05310189716107201,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
             "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.023061333696664285,
+            "fuel_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 99124.32571125469,
-              "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
-              "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
                   "header": "ethylene"
                 }
-              }
+              },
+              "investment_cost": 99124.32571125469,
+              "fixed_om_cost": 54252.000813395156,
+              "variable_om_cost": -2.6159185526465834,
+              "existing_capacity": 48642.3299,
+              "min_flow_fraction": 0.8
             },
             "elec_consumption_edge": {
               "start_vertex": "elec_TX"
@@ -266,31 +271,32 @@
         {
           "id": "NCEN_F-NGin-H2out",
           "transforms": {
-            "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
+            "ethylene_production": 0.05310189716107201,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
             "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.023061333696664285,
+            "fuel_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 99124.32571125469,
-              "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
-              "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
                   "header": "ethylene"
                 }
-              }
+              },
+              "investment_cost": 99124.32571125469,
+              "fixed_om_cost": 54252.000813395156,
+              "variable_om_cost": -2.6159185526465834,
+              "existing_capacity": 4632.602848,
+              "min_flow_fraction": 0.8
             },
             "elec_consumption_edge": {
               "start_vertex": "elec_NCEN"
@@ -315,31 +321,32 @@
         {
           "id": "CEN_F-NGin-H2out",
           "transforms": {
-            "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
+            "ethylene_production": 0.05310189716107201,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
             "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.023061333696664285,
+            "fuel_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 99124.32571125469,
-              "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
-              "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
                   "header": "ethylene"
                 }
-              }
+              },
+              "investment_cost": 99124.32571125469,
+              "fixed_om_cost": 54252.000813395156,
+              "variable_om_cost": -2.6159185526465834,
+              "existing_capacity": 23163.01424,
+              "min_flow_fraction": 0.8
             },
             "elec_consumption_edge": {
               "start_vertex": "elec_CEN"
@@ -364,31 +371,32 @@
         {
           "id": "SE_F-NGin-H2out",
           "transforms": {
-            "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
+            "ethylene_production": 0.05310189716107201,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
             "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.023061333696664285,
+            "fuel_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 99124.32571125469,
-              "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
-              "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
                   "header": "ethylene"
                 }
-              }
+              },
+              "investment_cost": 99124.32571125469,
+              "fixed_om_cost": 54252.000813395156,
+              "variable_om_cost": -2.6159185526465834,
+              "existing_capacity": 2316.301424,
+              "min_flow_fraction": 0.8
             },
             "elec_consumption_edge": {
               "start_vertex": "elec_SE"
@@ -413,31 +421,32 @@
         {
           "id": "MIDAT_F-NGin-H2out",
           "transforms": {
-            "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
+            "ethylene_production": 0.05310189716107201,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
             "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.023061333696664285,
+            "fuel_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 99124.32571125469,
-              "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
-              "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
                   "header": "ethylene"
                 }
-              }
+              },
+              "investment_cost": 99124.32571125469,
+              "fixed_om_cost": 54252.000813395156,
+              "variable_om_cost": -2.6159185526465834,
+              "existing_capacity": 2316.301424,
+              "min_flow_fraction": 0.8
             },
             "elec_consumption_edge": {
               "start_vertex": "elec_MIDAT"
@@ -462,31 +471,32 @@
         {
           "id": "NE_F-NGin-H2out",
           "transforms": {
-            "ethylene_production": 0.05310189716107201,
-            "h2_production": 0.17002634947246875,
             "h2_consumption": 0.0,
+            "h2_production": 0.17002634947246875,
             "elec_consumption": 0.0,
+            "ethylene_production": 0.05310189716107201,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
             "process_capture_rate": 0.0,
-            "fuel_emission_rate": 0.03360775425660545,
-            "fuel_capture_rate": 0.0
+            "process_emission_rate": 0.023061333696664285,
+            "fuel_capture_rate": 0.0,
+            "fuel_emission_rate": 0.03360775425660545
           },
           "edges": {
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 99124.32571125469,
-              "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
-              "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
                   "header": "ethylene"
                 }
-              }
+              },
+              "investment_cost": 99124.32571125469,
+              "fixed_om_cost": 54252.000813395156,
+              "variable_om_cost": -2.6159185526465834,
+              "existing_capacity": 0.0,
+              "min_flow_fraction": 0.8
             },
             "elec_consumption_edge": {
               "start_vertex": "elec_NE"
@@ -586,7 +596,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.002427722488558895,
             "fuel_capture_rate": 0.0
@@ -635,7 +645,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.002427722488558895,
             "fuel_capture_rate": 0.0
@@ -684,7 +694,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.002427722488558895,
             "fuel_capture_rate": 0.0
@@ -733,7 +743,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.002427722488558895,
             "fuel_capture_rate": 0.0
@@ -782,7 +792,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.002427722488558895,
             "fuel_capture_rate": 0.0
@@ -831,7 +841,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.002427722488558895,
             "fuel_capture_rate": 0.0
@@ -880,7 +890,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.002427722488558895,
             "fuel_capture_rate": 0.0
@@ -929,7 +939,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.002427722488558895,
             "fuel_capture_rate": 0.0
@@ -978,7 +988,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.002427722488558895,
             "fuel_capture_rate": 0.0
@@ -1096,8 +1106,8 @@
             "elec_consumption": 0.00805296662375736,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.00024277224885588944,
             "fuel_capture_rate": 0.0021849502397030054
           },
@@ -1145,8 +1155,8 @@
             "elec_consumption": 0.00805296662375736,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.00024277224885588944,
             "fuel_capture_rate": 0.0021849502397030054
           },
@@ -1194,8 +1204,8 @@
             "elec_consumption": 0.00805296662375736,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.00024277224885588944,
             "fuel_capture_rate": 0.0021849502397030054
           },
@@ -1243,8 +1253,8 @@
             "elec_consumption": 0.00805296662375736,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.00024277224885588944,
             "fuel_capture_rate": 0.0021849502397030054
           },
@@ -1292,8 +1302,8 @@
             "elec_consumption": 0.00805296662375736,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.00024277224885588944,
             "fuel_capture_rate": 0.0021849502397030054
           },
@@ -1341,8 +1351,8 @@
             "elec_consumption": 0.00805296662375736,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.00024277224885588944,
             "fuel_capture_rate": 0.0021849502397030054
           },
@@ -1390,8 +1400,8 @@
             "elec_consumption": 0.00805296662375736,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.00024277224885588944,
             "fuel_capture_rate": 0.0021849502397030054
           },
@@ -1439,8 +1449,8 @@
             "elec_consumption": 0.00805296662375736,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.00024277224885588944,
             "fuel_capture_rate": 0.0021849502397030054
           },
@@ -1488,8 +1498,8 @@
             "elec_consumption": 0.00805296662375736,
             "natgas_consumption": 0.01327416154318993,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.00024277224885588944,
             "fuel_capture_rate": 0.0021849502397030054
           },
@@ -1606,8 +1616,8 @@
             "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.003360775425660544,
             "fuel_capture_rate": 0.030246978830944904
           },
@@ -1655,8 +1665,8 @@
             "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.003360775425660544,
             "fuel_capture_rate": 0.030246978830944904
           },
@@ -1704,8 +1714,8 @@
             "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.003360775425660544,
             "fuel_capture_rate": 0.030246978830944904
           },
@@ -1753,8 +1763,8 @@
             "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.003360775425660544,
             "fuel_capture_rate": 0.030246978830944904
           },
@@ -1802,8 +1812,8 @@
             "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.003360775425660544,
             "fuel_capture_rate": 0.030246978830944904
           },
@@ -1851,8 +1861,8 @@
             "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.003360775425660544,
             "fuel_capture_rate": 0.030246978830944904
           },
@@ -1900,8 +1910,8 @@
             "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.003360775425660544,
             "fuel_capture_rate": 0.030246978830944904
           },
@@ -1949,8 +1959,8 @@
             "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.003360775425660544,
             "fuel_capture_rate": 0.030246978830944904
           },
@@ -1998,8 +2008,8 @@
             "elec_consumption": 0.009896601142309887,
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.002148994529733744,
-            "process_capture_rate": 0.0193409507676037,
+            "process_emission_rate": 0.002306133369666428,
+            "process_capture_rate": 0.020755200326997857,
             "fuel_emission_rate": 0.003360775425660544,
             "fuel_capture_rate": 0.030246978830944904
           },
@@ -2116,7 +2126,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2165,7 +2175,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2214,7 +2224,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2263,7 +2273,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2312,7 +2322,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2361,7 +2371,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2410,7 +2420,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2459,7 +2469,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2508,7 +2518,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "process_capture_rate": 0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2626,7 +2636,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2675,7 +2685,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2724,7 +2734,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2773,7 +2783,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2822,7 +2832,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2871,7 +2881,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2920,7 +2930,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -2969,7 +2979,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -3018,7 +3028,7 @@
             "elec_consumption": 0.0,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -3136,7 +3146,7 @@
             "elec_consumption": 0.18027433753372105,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -3185,7 +3195,7 @@
             "elec_consumption": 0.18027433753372105,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -3234,7 +3244,7 @@
             "elec_consumption": 0.18027433753372105,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -3283,7 +3293,7 @@
             "elec_consumption": 0.18027433753372105,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -3332,7 +3342,7 @@
             "elec_consumption": 0.18027433753372105,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -3381,7 +3391,7 @@
             "elec_consumption": 0.18027433753372105,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -3430,7 +3440,7 @@
             "elec_consumption": 0.18027433753372105,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -3479,7 +3489,7 @@
             "elec_consumption": 0.18027433753372105,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0
@@ -3528,7 +3538,7 @@
             "elec_consumption": 0.18027433753372105,
             "natgas_consumption": 0.0,
             "natgas_production": 0.1175015044523935,
-            "process_emission_rate": 0.0,
+            "process_emission_rate": 0.0015713859506164378,
             "process_capture_rate": -0.0,
             "fuel_emission_rate": 0.0,
             "fuel_capture_rate": 0.0

@@ -69,7 +69,7 @@
       },
       "instance_data": [
         {
-          "id": "Existing_CA_F-NGin-H2out",
+          "id": "CA_Existing_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -78,7 +78,7 @@
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.03360775425660545
           },
@@ -94,7 +94,7 @@
               },
               "investment_cost": 99124.32571125469,
               "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
+              "variable_om_cost": -6.907733075949925,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },
@@ -199,7 +199,7 @@
           ]
         },
         {
-          "id": "Existing_NW_F-NGin-H2out",
+          "id": "NW_Existing_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -208,7 +208,7 @@
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.03360775425660545
           },
@@ -224,7 +224,7 @@
               },
               "investment_cost": 99124.32571125469,
               "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
+              "variable_om_cost": -6.907733075949925,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },
@@ -329,7 +329,7 @@
           ]
         },
         {
-          "id": "Existing_SW_F-NGin-H2out",
+          "id": "SW_Existing_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -338,7 +338,7 @@
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.03360775425660545
           },
@@ -354,7 +354,7 @@
               },
               "investment_cost": 99124.32571125469,
               "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
+              "variable_om_cost": -6.907733075949925,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },
@@ -459,7 +459,7 @@
           ]
         },
         {
-          "id": "Existing_TX_F-NGin-H2out",
+          "id": "TX_Existing_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -468,7 +468,7 @@
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.03360775425660545
           },
@@ -484,7 +484,7 @@
               },
               "investment_cost": 99124.32571125469,
               "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
+              "variable_om_cost": -6.907733075949925,
               "existing_capacity": 48642.3299,
               "min_flow_fraction": 0.8
             },
@@ -589,7 +589,7 @@
           ]
         },
         {
-          "id": "Existing_NCEN_F-NGin-H2out",
+          "id": "NCEN_Existing_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -598,7 +598,7 @@
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.03360775425660545
           },
@@ -614,7 +614,7 @@
               },
               "investment_cost": 99124.32571125469,
               "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
+              "variable_om_cost": -6.907733075949925,
               "existing_capacity": 4632.602848,
               "min_flow_fraction": 0.8
             },
@@ -719,7 +719,7 @@
           ]
         },
         {
-          "id": "Existing_CEN_F-NGin-H2out",
+          "id": "CEN_Existing_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -728,7 +728,7 @@
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.03360775425660545
           },
@@ -744,7 +744,7 @@
               },
               "investment_cost": 99124.32571125469,
               "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
+              "variable_om_cost": -6.907733075949925,
               "existing_capacity": 23163.01424,
               "min_flow_fraction": 0.8
             },
@@ -849,7 +849,7 @@
           ]
         },
         {
-          "id": "Existing_SE_F-NGin-H2out",
+          "id": "SE_Existing_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -858,7 +858,7 @@
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.03360775425660545
           },
@@ -874,7 +874,7 @@
               },
               "investment_cost": 99124.32571125469,
               "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
+              "variable_om_cost": -6.907733075949925,
               "existing_capacity": 2316.301424,
               "min_flow_fraction": 0.8
             },
@@ -979,7 +979,7 @@
           ]
         },
         {
-          "id": "Existing_MIDAT_F-NGin-H2out",
+          "id": "MIDAT_Existing_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -988,7 +988,7 @@
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.03360775425660545
           },
@@ -1004,7 +1004,7 @@
               },
               "investment_cost": 99124.32571125469,
               "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
+              "variable_om_cost": -6.907733075949925,
               "existing_capacity": 2316.301424,
               "min_flow_fraction": 0.8
             },
@@ -1109,7 +1109,7 @@
           ]
         },
         {
-          "id": "Existing_NE_F-NGin-H2out",
+          "id": "NE_Existing_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
             "h2_production": 0.17002634947246875,
@@ -1118,7 +1118,7 @@
             "natgas_consumption": 0.1837585478605609,
             "natgas_production": 0.0,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.021489945297337443,
+            "process_emission_rate": 0.023061333696664285,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.03360775425660545
           },
@@ -1134,7 +1134,7 @@
               },
               "investment_cost": 99124.32571125469,
               "fixed_om_cost": 54252.000813395156,
-              "variable_om_cost": -2.6159185526465834,
+              "variable_om_cost": -6.907733075949925,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },

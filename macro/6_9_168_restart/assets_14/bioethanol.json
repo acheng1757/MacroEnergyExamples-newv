@@ -1,0 +1,1123 @@
+{
+  "bioethanol": [
+    {
+      "type": "BioEthanol",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_consumption_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "ethanol_production_commodity": "Ethanol"
+      },
+      "instance_data": [
+        {
+          "id": "CEN_Bio_Ethanol_Herb",
+          "location": "CEN",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.723,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9848,
+          "elec_production": 0.2142,
+          "process_emission_rate": 1.2657844831072058,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_Ethanol_Herb",
+          "location": "MIDAT",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.736,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9924,
+          "elec_production": 0.215,
+          "process_emission_rate": 1.2770288557795868,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_Ethanol_Herb",
+          "location": "NCEN",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.74,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9967,
+          "elec_production": 0.2155,
+          "process_emission_rate": 1.2800256401638046,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_Ethanol_Herb",
+          "location": "SE",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.717,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9815,
+          "elec_production": 0.2138,
+          "process_emission_rate": 1.2605368948190427,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_Ethanol_Herb",
+          "location": "TX",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.714,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9761,
+          "elec_production": 0.2132,
+          "process_emission_rate": 1.2587909143387706,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_Ethanol_Wood",
+          "location": "CEN",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.802,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0762,
+          "elec_production": 0.2241,
+          "process_emission_rate": 1.3237169551757773,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_Ethanol_Wood",
+          "location": "MIDAT",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.806,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0697,
+          "elec_production": 0.2233,
+          "process_emission_rate": 1.3292217785994507,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_Ethanol_Wood",
+          "location": "NCEN",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.802,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0751,
+          "elec_production": 0.2239,
+          "process_emission_rate": 1.3239677590797228,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_Ethanol_Wood",
+          "location": "SE",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.821,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0838,
+          "elec_production": 0.2249,
+          "process_emission_rate": 1.3409613278481578,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_Ethanol_Wood",
+          "location": "TX",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.821,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0577,
+          "elec_production": 0.2221,
+          "process_emission_rate": 1.346980621542852,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_Ethanol_Agri",
+          "location": "CEN",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.7,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8694,
+          "elec_production": 0.2017,
+          "process_emission_rate": 1.2693696969254373,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_Ethanol_Agri",
+          "location": "MIDAT",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.708,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8813,
+          "elec_production": 0.203,
+          "process_emission_rate": 1.274610853982036,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_Ethanol_Agri",
+          "location": "NCEN",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.71,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8835,
+          "elec_production": 0.2033,
+          "process_emission_rate": 1.276109246174145,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_Ethanol_Agri",
+          "location": "SE",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.689,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8759,
+          "elec_production": 0.2024,
+          "process_emission_rate": 1.256864873501764,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_Ethanol_Agri",
+          "location": "TX",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.633,
+          "investment_cost": 273134.22,
+          "fixed_om_cost": 144062.46,
+          "variable_om_cost": 0.45,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8062,
+          "elec_production": 0.1949,
+          "process_emission_rate": 1.2169163233542812,
+          "process_capture_rate": 0.0,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BioEthanol",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_consumption_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "ethanol_production_commodity": "Ethanol"
+      },
+      "instance_data": [
+        {
+          "id": "CEN_Bio_Ethanol_CCS_20_Herb",
+          "location": "CEN",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.723,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9848,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0066530834936263,
+          "process_capture_rate": 0.2591313993220189,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_Ethanol_CCS_20_Herb",
+          "location": "MIDAT",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.736,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9924,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0155955081916268,
+          "process_capture_rate": 0.26143334729527945,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_Ethanol_CCS_20_Herb",
+          "location": "NCEN",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.74,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9967,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0179787908761988,
+          "process_capture_rate": 0.2620468489942856,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_Ethanol_CCS_20_Herb",
+          "location": "SE",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.717,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9815,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0024797814801973,
+          "process_capture_rate": 0.2580571130477643,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_Ethanol_CCS_20_Herb",
+          "location": "TX",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.714,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9761,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0010912381244825,
+          "process_capture_rate": 0.2576996759240067,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_Ethanol_CCS_20_Wood",
+          "location": "CEN",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.802,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0762,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0527256198696353,
+          "process_capture_rate": 0.2709913350011464,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_Ethanol_CCS_20_Wood",
+          "location": "MIDAT",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.806,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0697,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0571034958427774,
+          "process_capture_rate": 0.2721182824526373,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_Ethanol_CCS_20_Wood",
+          "location": "NCEN",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.802,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0751,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0529250791984923,
+          "process_capture_rate": 0.27104267957639494,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_Ethanol_CCS_20_Wood",
+          "location": "SE",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.821,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0838,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0664397245676358,
+          "process_capture_rate": 0.27452160297440703,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_Ethanol_CCS_20_Wood",
+          "location": "TX",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.821,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0577,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.071226748460205,
+          "process_capture_rate": 0.2757538727803706,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_Ethanol_CCS_20_Agri",
+          "location": "CEN",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.7,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8694,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0095043323524717,
+          "process_capture_rate": 0.2598653642983579,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_Ethanol_CCS_20_Agri",
+          "location": "MIDAT",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.708,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8813,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0136725197350442,
+          "process_capture_rate": 0.26093833397062455,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_Ethanol_CCS_20_Agri",
+          "location": "NCEN",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.71,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8835,
+          "elec_production": 0.0,
+          "process_emission_rate": 1.0148641610773304,
+          "process_capture_rate": 0.2612450848201276,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_Ethanol_CCS_20_Agri",
+          "location": "SE",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.689,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8759,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.9995594963793296,
+          "process_capture_rate": 0.257305376846867,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_Ethanol_CCS_20_Agri",
+          "location": "TX",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.633,
+          "investment_cost": 293026.95,
+          "fixed_om_cost": 154950.42,
+          "variable_om_cost": 0.48,
+          "elec_consumption": 0.0,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8062,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.9677892134261799,
+          "process_capture_rate": 0.2491271096627698,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BioEthanol",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_consumption_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "ethanol_production_commodity": "Ethanol"
+      },
+      "instance_data": [
+        {
+          "id": "CEN_Bio_Ethanol_CCS_86_Herb",
+          "location": "CEN",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.723,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9848,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.17442510173199594,
+          "process_capture_rate": 1.091359381083649,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_Ethanol_CCS_86_Herb",
+          "location": "MIDAT",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.736,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9924,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.17597457628609572,
+          "process_capture_rate": 1.1010542792008104,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_Ethanol_CCS_86_Herb",
+          "location": "NCEN",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.74,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9967,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.1763875331741528,
+          "process_capture_rate": 1.1036381066963317,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_Ethanol_CCS_86_Herb",
+          "location": "SE",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.717,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9815,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.17370198406595314,
+          "process_capture_rate": 1.0868349104620085,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_Ethanol_CCS_86_Herb",
+          "location": "TX",
+          "biomass_consumption_commodity": "Biomass_Herb",
+          "co2_biomass_content": 1.714,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.9761,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.17346138795588184,
+          "process_capture_rate": 1.0853295260926072,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_Ethanol_CCS_86_Wood",
+          "location": "CEN",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.802,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0762,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.18240819638119377,
+          "process_capture_rate": 1.141308758489588,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_Ethanol_CCS_86_Wood",
+          "location": "MIDAT",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.806,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0697,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.1831667610491082,
+          "process_capture_rate": 1.1460550172463067,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_Ethanol_CCS_86_Wood",
+          "location": "NCEN",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.802,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0751,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.1824427571591795,
+          "process_capture_rate": 1.1415250016157077,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_Ethanol_CCS_86_Wood",
+          "location": "SE",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.821,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0838,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.18478447093529354,
+          "process_capture_rate": 1.1561768566067494,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_Ethanol_CCS_86_Wood",
+          "location": "TX",
+          "biomass_consumption_commodity": "Biomass_Wood",
+          "co2_biomass_content": 1.821,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 2.0577,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.18561392960695136,
+          "process_capture_rate": 1.161366691633624,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_Ethanol_CCS_86_Agri",
+          "location": "CEN",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.7,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8694,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.17491914419848437,
+          "process_capture_rate": 1.0944505524523453,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_Ethanol_CCS_86_Agri",
+          "location": "MIDAT",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.708,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8813,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.17564137564064122,
+          "process_capture_rate": 1.0989694780650276,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_Ethanol_CCS_86_Agri",
+          "location": "NCEN",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.71,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8835,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.17584785408466974,
+          "process_capture_rate": 1.1002613918127881,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_Ethanol_CCS_86_Agri",
+          "location": "SE",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.689,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8759,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.17319597953056995,
+          "process_capture_rate": 1.0836688936956267,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_Ethanol_CCS_86_Agri",
+          "location": "TX",
+          "biomass_consumption_commodity": "Biomass_Agri",
+          "co2_biomass_content": 1.633,
+          "investment_cost": 520155.64,
+          "fixed_om_cost": 279265.62,
+          "variable_om_cost": 1.67,
+          "elec_consumption": 0.2632,
+          "natgas_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "ethanol_production": 1.8062,
+          "elec_production": 0.0,
+          "process_emission_rate": 0.1676910693216573,
+          "process_capture_rate": 1.0492252537672924,
+          "fuel_emission_rate": 0,
+          "fuel_capture_rate": 0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

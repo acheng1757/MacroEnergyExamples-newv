@@ -1,0 +1,299 @@
+{
+  "existing_vre": [
+    {
+      "type": "VRE",
+      "global_data": {},
+      "instance_data": [
+        {
+          "id": "CA_onshore_wind_turbine_1",
+          "location": "CA",
+          "existing_capacity": 0,
+          "fixed_om_cost": 43000.0,
+          "capacity_size": 35.243,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "CA_onshore_wind_turbine_1"
+            }
+          }
+        },
+        {
+          "id": "CA_solar_photovoltaic_1",
+          "location": "CA",
+          "existing_capacity": 0,
+          "fixed_om_cost": 22887.0,
+          "capacity_size": 20.655,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "CA_solar_photovoltaic_1"
+            }
+          }
+        },
+        {
+          "id": "CEN_onshore_wind_turbine_1",
+          "location": "CEN",
+          "existing_capacity": 0,
+          "fixed_om_cost": 43000.0,
+          "capacity_size": 241.356,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "CEN_onshore_wind_turbine_1"
+            }
+          }
+        },
+        {
+          "id": "CEN_solar_photovoltaic_1",
+          "location": "CEN",
+          "existing_capacity": 0,
+          "fixed_om_cost": 22887.0,
+          "capacity_size": 10.632,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "CEN_solar_photovoltaic_1"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_onshore_wind_turbine_1",
+          "location": "MIDAT",
+          "existing_capacity": 0,
+          "fixed_om_cost": 43000.0,
+          "capacity_size": 161.2,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "MIDAT_onshore_wind_turbine_1"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_solar_photovoltaic_1",
+          "location": "MIDAT",
+          "existing_capacity": 0,
+          "fixed_om_cost": 22887.0,
+          "capacity_size": 10.578,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "MIDAT_solar_photovoltaic_1"
+            }
+          }
+        },
+        {
+          "id": "NE_onshore_wind_turbine_1",
+          "location": "NE",
+          "existing_capacity": 0,
+          "fixed_om_cost": 43000.0,
+          "capacity_size": 86.17,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NE_onshore_wind_turbine_1"
+            }
+          }
+        },
+        {
+          "id": "NE_solar_photovoltaic_1",
+          "location": "NE",
+          "existing_capacity": 0,
+          "fixed_om_cost": 22887.0,
+          "capacity_size": 3.63,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NE_solar_photovoltaic_1"
+            }
+          }
+        },
+        {
+          "id": "NW_onshore_wind_turbine_1",
+          "location": "NW",
+          "existing_capacity": 0,
+          "fixed_om_cost": 43000.0,
+          "capacity_size": 275.447,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NW_onshore_wind_turbine_1"
+            }
+          }
+        },
+        {
+          "id": "NW_solar_photovoltaic_1",
+          "location": "NW",
+          "existing_capacity": 0,
+          "fixed_om_cost": 22887.0,
+          "capacity_size": 13.533,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NW_solar_photovoltaic_1"
+            }
+          }
+        },
+        {
+          "id": "NCEN_onshore_wind_turbine_1",
+          "location": "NCEN",
+          "existing_capacity": 0,
+          "fixed_om_cost": 43000.0,
+          "capacity_size": 139.405,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NCEN_onshore_wind_turbine_1"
+            }
+          }
+        },
+        {
+          "id": "NCEN_solar_photovoltaic_1",
+          "location": "NCEN",
+          "existing_capacity": 0,
+          "fixed_om_cost": 22887.0,
+          "capacity_size": 4.655,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NCEN_solar_photovoltaic_1"
+            }
+          }
+        },
+        {
+          "id": "SE_solar_photovoltaic_1",
+          "location": "SE",
+          "existing_capacity": 0,
+          "fixed_om_cost": 22887.0,
+          "capacity_size": 17.142,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_solar_photovoltaic_1"
+            }
+          }
+        },
+        {
+          "id": "SW_onshore_wind_turbine_1",
+          "location": "SW",
+          "existing_capacity": 0,
+          "fixed_om_cost": 43000.0,
+          "capacity_size": 176.157,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SW_onshore_wind_turbine_1"
+            }
+          }
+        },
+        {
+          "id": "SW_solar_photovoltaic_1",
+          "location": "SW",
+          "existing_capacity": 0,
+          "fixed_om_cost": 22887.0,
+          "capacity_size": 27.14,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SW_solar_photovoltaic_1"
+            }
+          }
+        },
+        {
+          "id": "TX_onshore_wind_turbine_1",
+          "location": "TX",
+          "existing_capacity": 0,
+          "fixed_om_cost": 43000.0,
+          "capacity_size": 264.43,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "TX_onshore_wind_turbine_1"
+            }
+          }
+        },
+        {
+          "id": "TX_solar_photovoltaic_1",
+          "location": "TX",
+          "existing_capacity": 0,
+          "fixed_om_cost": 22887.0,
+          "capacity_size": 111.009,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "elec_can_expand": false,
+          "elec_can_retire": true,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "TX_solar_photovoltaic_1"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

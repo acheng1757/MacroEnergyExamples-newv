@@ -1,0 +1,172 @@
+{
+  "mustrun": [
+    {
+      "type": "MustRun",
+      "global_data": {},
+      "instance_data": [
+        {
+          "id": "CA_small_hydroelectric_1",
+          "location": "CA",
+          "existing_capacity": 0,
+          "fixed_om_cost": 45648.0,
+          "capacity_size": 1.324,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.0,
+          "can_expand": false,
+          "can_retire": false,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "CA_small_hydroelectric_1"
+            }
+          }
+        },
+        {
+          "id": "CEN_small_hydroelectric_1",
+          "location": "CEN",
+          "existing_capacity": 0,
+          "fixed_om_cost": 45648.0,
+          "capacity_size": 2.652,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.0,
+          "can_expand": false,
+          "can_retire": false,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "CEN_small_hydroelectric_1"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_small_hydroelectric_1",
+          "location": "MIDAT",
+          "existing_capacity": 0,
+          "fixed_om_cost": 45648.0,
+          "capacity_size": 1.236,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.0,
+          "can_expand": false,
+          "can_retire": false,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "MIDAT_small_hydroelectric_1"
+            }
+          }
+        },
+        {
+          "id": "NE_small_hydroelectric_1",
+          "location": "NE",
+          "existing_capacity": 0,
+          "fixed_om_cost": 45648.0,
+          "capacity_size": 1.051,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.0,
+          "can_expand": false,
+          "can_retire": false,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NE_small_hydroelectric_1"
+            }
+          }
+        },
+        {
+          "id": "NW_small_hydroelectric_1",
+          "location": "NW",
+          "existing_capacity": 0,
+          "fixed_om_cost": 45648.0,
+          "capacity_size": 2.385,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.0,
+          "can_expand": false,
+          "can_retire": false,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NW_small_hydroelectric_1"
+            }
+          }
+        },
+        {
+          "id": "NCEN_small_hydroelectric_1",
+          "location": "NCEN",
+          "existing_capacity": 0,
+          "fixed_om_cost": 45648.0,
+          "capacity_size": 0.91,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.0,
+          "can_expand": false,
+          "can_retire": false,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "NCEN_small_hydroelectric_1"
+            }
+          }
+        },
+        {
+          "id": "SE_small_hydroelectric_1",
+          "location": "SE",
+          "existing_capacity": 0,
+          "fixed_om_cost": 45648.0,
+          "capacity_size": 1.219,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.0,
+          "can_expand": false,
+          "can_retire": false,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SE_small_hydroelectric_1"
+            }
+          }
+        },
+        {
+          "id": "SW_small_hydroelectric_1",
+          "location": "SW",
+          "existing_capacity": 0,
+          "fixed_om_cost": 45648.0,
+          "capacity_size": 1.182,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.0,
+          "can_expand": false,
+          "can_retire": false,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "SW_small_hydroelectric_1"
+            }
+          }
+        },
+        {
+          "id": "TX_small_hydroelectric_1",
+          "location": "TX",
+          "existing_capacity": 0,
+          "fixed_om_cost": 45648.0,
+          "capacity_size": 0.829,
+          "ramp_up_fraction": 1.0,
+          "ramp_down_fraction": 1.0,
+          "min_flow_fraction": 0.0,
+          "can_expand": false,
+          "can_retire": false,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "TX_small_hydroelectric_1"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
