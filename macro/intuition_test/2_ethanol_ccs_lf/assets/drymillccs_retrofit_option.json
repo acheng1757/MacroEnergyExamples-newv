@@ -70,8 +70,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.359607071148,
-            "process_capture_rate": 0.5394106067219999,
+            "process_emission_rate": 0.37127963806799996,
+            "process_capture_rate": 0.5569194571019999,
             "fuel_emission_rate": 0.0548672505,
             "fuel_capture_rate": 0.08230087574999999
           },
@@ -79,8 +79,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_CA",
-              "investment_cost": 4777.71,
-              "fixed_om_cost": 156598.49,
+              "investment_cost": 59678.19,
+              "fixed_om_cost": 186707.0,
               "variable_om_cost": 79.74,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -115,8 +115,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.359607071148,
-            "process_capture_rate": 0.5394106067219999,
+            "process_emission_rate": 0.37127963806799996,
+            "process_capture_rate": 0.5569194571019999,
             "fuel_emission_rate": 0.0548672505,
             "fuel_capture_rate": 0.08230087574999999
           },
@@ -124,8 +124,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_NW",
-              "investment_cost": 4777.71,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 59678.19,
+              "fixed_om_cost": 186707.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -160,8 +160,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.359607071148,
-            "process_capture_rate": 0.5394106067219999,
+            "process_emission_rate": 0.37127963806799996,
+            "process_capture_rate": 0.5569194571019999,
             "fuel_emission_rate": 0.0548672505,
             "fuel_capture_rate": 0.08230087574999999
           },
@@ -169,8 +169,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_SW",
-              "investment_cost": 4777.71,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 59678.19,
+              "fixed_om_cost": 186707.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -205,8 +205,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.359607071148,
-            "process_capture_rate": 0.5394106067219999,
+            "process_emission_rate": 0.37127963806799996,
+            "process_capture_rate": 0.5569194571019999,
             "fuel_emission_rate": 0.0548672505,
             "fuel_capture_rate": 0.08230087574999999
           },
@@ -214,8 +214,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_TX",
-              "investment_cost": 4777.71,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 59678.19,
+              "fixed_om_cost": 186707.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -250,8 +250,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.359607071148,
-            "process_capture_rate": 0.5394106067219999,
+            "process_emission_rate": 0.37127963806799996,
+            "process_capture_rate": 0.5569194571019999,
             "fuel_emission_rate": 0.0548672505,
             "fuel_capture_rate": 0.08230087574999999
           },
@@ -259,8 +259,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_NCEN",
-              "investment_cost": 4777.71,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 59678.19,
+              "fixed_om_cost": 186707.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -295,8 +295,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.359607071148,
-            "process_capture_rate": 0.5394106067219999,
+            "process_emission_rate": 0.37127963806799996,
+            "process_capture_rate": 0.5569194571019999,
             "fuel_emission_rate": 0.0548672505,
             "fuel_capture_rate": 0.08230087574999999
           },
@@ -304,8 +304,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_CEN",
-              "investment_cost": 4777.71,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 59678.19,
+              "fixed_om_cost": 186707.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -340,8 +340,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.359607071148,
-            "process_capture_rate": 0.5394106067219999,
+            "process_emission_rate": 0.37127963806799996,
+            "process_capture_rate": 0.5569194571019999,
             "fuel_emission_rate": 0.0548672505,
             "fuel_capture_rate": 0.08230087574999999
           },
@@ -349,8 +349,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_SE",
-              "investment_cost": 4777.71,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 59678.19,
+              "fixed_om_cost": 186707.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -385,8 +385,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.359607071148,
-            "process_capture_rate": 0.5394106067219999,
+            "process_emission_rate": 0.37127963806799996,
+            "process_capture_rate": 0.5569194571019999,
             "fuel_emission_rate": 0.0548672505,
             "fuel_capture_rate": 0.08230087574999999
           },
@@ -394,8 +394,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_MIDAT",
-              "investment_cost": 4777.71,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 59678.19,
+              "fixed_om_cost": 186707.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -430,8 +430,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.359607071148,
-            "process_capture_rate": 0.5394106067219999,
+            "process_emission_rate": 0.37127963806799996,
+            "process_capture_rate": 0.5569194571019999,
             "fuel_emission_rate": 0.0548672505,
             "fuel_capture_rate": 0.08230087574999999
           },
@@ -439,8 +439,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_NE",
-              "investment_cost": 4777.71,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 59678.19,
+              "fixed_om_cost": 186707.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -539,8 +539,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.08990176778699997,
-            "process_capture_rate": 0.809115910083,
+            "process_emission_rate": 0.09281990951699996,
+            "process_capture_rate": 0.835379185653,
             "fuel_emission_rate": 0.013716812624999996,
             "fuel_capture_rate": 0.123451313625
           },
@@ -548,8 +548,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_CA",
-              "investment_cost": 36112.15,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 162918.5,
+              "fixed_om_cost": 243214.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -584,8 +584,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.08990176778699997,
-            "process_capture_rate": 0.809115910083,
+            "process_emission_rate": 0.09281990951699996,
+            "process_capture_rate": 0.835379185653,
             "fuel_emission_rate": 0.013716812624999996,
             "fuel_capture_rate": 0.123451313625
           },
@@ -593,8 +593,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_NW",
-              "investment_cost": 36112.15,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 162918.5,
+              "fixed_om_cost": 243214.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -629,8 +629,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.08990176778699997,
-            "process_capture_rate": 0.809115910083,
+            "process_emission_rate": 0.09281990951699996,
+            "process_capture_rate": 0.835379185653,
             "fuel_emission_rate": 0.013716812624999996,
             "fuel_capture_rate": 0.123451313625
           },
@@ -638,8 +638,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_SW",
-              "investment_cost": 36112.15,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 162918.5,
+              "fixed_om_cost": 243214.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -674,8 +674,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.08990176778699997,
-            "process_capture_rate": 0.809115910083,
+            "process_emission_rate": 0.09281990951699996,
+            "process_capture_rate": 0.835379185653,
             "fuel_emission_rate": 0.013716812624999996,
             "fuel_capture_rate": 0.123451313625
           },
@@ -683,8 +683,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_TX",
-              "investment_cost": 36112.15,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 162918.5,
+              "fixed_om_cost": 243214.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -719,8 +719,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.08990176778699997,
-            "process_capture_rate": 0.809115910083,
+            "process_emission_rate": 0.09281990951699996,
+            "process_capture_rate": 0.835379185653,
             "fuel_emission_rate": 0.013716812624999996,
             "fuel_capture_rate": 0.123451313625
           },
@@ -728,8 +728,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_NCEN",
-              "investment_cost": 36112.15,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 162918.5,
+              "fixed_om_cost": 243214.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -764,8 +764,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.08990176778699997,
-            "process_capture_rate": 0.809115910083,
+            "process_emission_rate": 0.09281990951699996,
+            "process_capture_rate": 0.835379185653,
             "fuel_emission_rate": 0.013716812624999996,
             "fuel_capture_rate": 0.123451313625
           },
@@ -773,8 +773,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_CEN",
-              "investment_cost": 36112.15,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 162918.5,
+              "fixed_om_cost": 243214.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -809,8 +809,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.08990176778699997,
-            "process_capture_rate": 0.809115910083,
+            "process_emission_rate": 0.09281990951699996,
+            "process_capture_rate": 0.835379185653,
             "fuel_emission_rate": 0.013716812624999996,
             "fuel_capture_rate": 0.123451313625
           },
@@ -818,8 +818,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_SE",
-              "investment_cost": 36112.15,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 162918.5,
+              "fixed_om_cost": 243214.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -854,8 +854,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.08990176778699997,
-            "process_capture_rate": 0.809115910083,
+            "process_emission_rate": 0.09281990951699996,
+            "process_capture_rate": 0.835379185653,
             "fuel_emission_rate": 0.013716812624999996,
             "fuel_capture_rate": 0.123451313625
           },
@@ -863,8 +863,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_MIDAT",
-              "investment_cost": 36112.15,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 162918.5,
+              "fixed_om_cost": 243214.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {
@@ -899,8 +899,8 @@
             "elec_production": 0,
             "co2_biomass_content": 1.65,
             "natgas_consumption": 0.75,
-            "process_emission_rate": 0.08990176778699997,
-            "process_capture_rate": 0.809115910083,
+            "process_emission_rate": 0.09281990951699996,
+            "process_capture_rate": 0.835379185653,
             "fuel_emission_rate": 0.013716812624999996,
             "fuel_capture_rate": 0.123451313625
           },
@@ -908,8 +908,8 @@
             "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_NE",
-              "investment_cost": 36112.15,
-              "fixed_om_cost": 173741.51,
+              "investment_cost": 162918.5,
+              "fixed_om_cost": 243214.0,
               "variable_om_cost": 80.28,
               "min_flow_fraction": 0.8,
               "availability": {

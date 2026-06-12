@@ -72,7 +72,7 @@
             "natgas_consumption": 0.75,
             "co2_biomass_content": 1.65,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.89901767787,
+            "process_emission_rate": 0.9281990951699999,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.13716812625
           },
@@ -116,7 +116,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 4777.71,
+                  "investment_cost": 59678.19,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -129,7 +129,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 36112.15,
+                  "investment_cost": 103240.31,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -146,7 +146,7 @@
             "natgas_consumption": 0.75,
             "co2_biomass_content": 1.65,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.89901767787,
+            "process_emission_rate": 0.9281990951699999,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.13716812625
           },
@@ -190,7 +190,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 4777.71,
+                  "investment_cost": 59678.19,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -203,7 +203,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 36112.15,
+                  "investment_cost": 103240.31,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -220,7 +220,7 @@
             "natgas_consumption": 0.75,
             "co2_biomass_content": 1.65,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.89901767787,
+            "process_emission_rate": 0.9281990951699999,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.13716812625
           },
@@ -264,7 +264,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 4777.71,
+                  "investment_cost": 59678.19,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -277,7 +277,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 36112.15,
+                  "investment_cost": 103240.31,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -294,7 +294,7 @@
             "natgas_consumption": 0.75,
             "co2_biomass_content": 1.65,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.89901767787,
+            "process_emission_rate": 0.9281990951699999,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.13716812625
           },
@@ -338,7 +338,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 4777.71,
+                  "investment_cost": 59678.19,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -351,7 +351,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 36112.15,
+                  "investment_cost": 103240.31,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -368,7 +368,7 @@
             "natgas_consumption": 0.75,
             "co2_biomass_content": 1.65,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.89901767787,
+            "process_emission_rate": 0.9281990951699999,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.13716812625
           },
@@ -412,7 +412,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 4777.71,
+                  "investment_cost": 59678.19,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -425,7 +425,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 36112.15,
+                  "investment_cost": 103240.31,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -442,7 +442,7 @@
             "natgas_consumption": 0.75,
             "co2_biomass_content": 1.65,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.89901767787,
+            "process_emission_rate": 0.9281990951699999,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.13716812625
           },
@@ -486,7 +486,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 4777.71,
+                  "investment_cost": 59678.19,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -499,7 +499,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 36112.15,
+                  "investment_cost": 103240.31,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -516,7 +516,7 @@
             "natgas_consumption": 0.75,
             "co2_biomass_content": 1.65,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.89901767787,
+            "process_emission_rate": 0.9281990951699999,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.13716812625
           },
@@ -560,7 +560,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 4777.71,
+                  "investment_cost": 59678.19,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -573,7 +573,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 36112.15,
+                  "investment_cost": 103240.31,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -590,7 +590,7 @@
             "natgas_consumption": 0.75,
             "co2_biomass_content": 1.65,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.89901767787,
+            "process_emission_rate": 0.9281990951699999,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.13716812625
           },
@@ -634,7 +634,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 4777.71,
+                  "investment_cost": 59678.19,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -647,7 +647,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 36112.15,
+                  "investment_cost": 103240.31,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -664,7 +664,7 @@
             "natgas_consumption": 0.75,
             "co2_biomass_content": 1.65,
             "process_capture_rate": 0.0,
-            "process_emission_rate": 0.89901767787,
+            "process_emission_rate": 0.9281990951699999,
             "fuel_capture_rate": 0.0,
             "fuel_emission_rate": 0.13716812625
           },
@@ -708,7 +708,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 4777.71,
+                  "investment_cost": 59678.19,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -721,7 +721,7 @@
                 "biomass_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 36112.15,
+                  "investment_cost": 103240.31,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
