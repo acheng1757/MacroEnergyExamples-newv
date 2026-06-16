@@ -6,7 +6,8 @@
         "co2_sink": "co2_sink",
         "biomass_consumption_constraints": {
           "MinFlowConstraint": true,
-          "CapacityConstraint": true
+          "CapacityConstraint": true,
+          "MaxCapacityConstraint": true
         },
         "ethanol_production_commodity": "Ethanol"
       },
@@ -28,6 +29,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -52,6 +54,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -76,6 +79,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -100,6 +104,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -124,6 +129,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -148,6 +154,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -172,6 +179,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -196,6 +204,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -220,6 +229,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -244,6 +254,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -268,6 +279,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -292,6 +304,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -316,6 +329,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -340,6 +354,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -364,6 +379,7 @@
           "process_capture_rate": 0.0,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -379,7 +395,8 @@
         "co2_sink": "co2_sink",
         "biomass_consumption_constraints": {
           "MinFlowConstraint": true,
-          "CapacityConstraint": true
+          "CapacityConstraint": true,
+          "MaxCapacityConstraint": true
         },
         "ethanol_production_commodity": "Ethanol"
       },
@@ -401,6 +418,7 @@
           "process_capture_rate": 0.2627685215937675,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -425,6 +443,7 @@
           "process_capture_rate": 0.26508443547810995,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -449,6 +468,7 @@
           "process_capture_rate": 0.2657059176977343,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -473,6 +493,7 @@
           "process_capture_rate": 0.26168824992904927,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -497,6 +518,7 @@
           "process_capture_rate": 0.2613208371545189,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -521,6 +543,7 @@
           "process_capture_rate": 0.2747960482058775,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -545,6 +568,7 @@
           "process_capture_rate": 0.27591102487644104,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -569,6 +593,7 @@
           "process_capture_rate": 0.27484539765097143,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -593,6 +618,7 @@
           "process_capture_rate": 0.27834028209021994,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -617,6 +643,7 @@
           "process_capture_rate": 0.2795246687724742,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -641,6 +668,7 @@
           "process_capture_rate": 0.2632910027737239,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -665,6 +693,7 @@
           "process_capture_rate": 0.2643859188776907,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -689,6 +718,7 @@
           "process_capture_rate": 0.2646966599875029,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -713,6 +743,7 @@
           "process_capture_rate": 0.2607429861031604,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -737,6 +768,7 @@
           "process_capture_rate": 0.25243703058917183,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -752,7 +784,8 @@
         "co2_sink": "co2_sink",
         "biomass_consumption_constraints": {
           "MinFlowConstraint": true,
-          "CapacityConstraint": true
+          "CapacityConstraint": true,
+          "MaxCapacityConstraint": true
         },
         "ethanol_production_commodity": "Ethanol"
       },
@@ -774,6 +807,7 @@
           "process_capture_rate": 1.1066775074157205,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -798,6 +832,7 @@
           "process_capture_rate": 1.1164312244491323,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -822,6 +857,7 @@
           "process_capture_rate": 1.1190486627539393,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -846,6 +882,7 @@
           "process_capture_rate": 1.1021278286871155,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -870,6 +907,7 @@
           "process_capture_rate": 1.1005804308061067,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -894,6 +932,7 @@
           "process_capture_rate": 1.1573327118166643,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -918,6 +957,7 @@
           "process_capture_rate": 1.1620285543594542,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -942,6 +982,7 @@
           "process_capture_rate": 1.1575405522404627,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -966,6 +1007,7 @@
           "process_capture_rate": 1.1722596288500762,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -990,6 +1032,7 @@
           "process_capture_rate": 1.177247799021235,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1014,6 +1057,7 @@
           "process_capture_rate": 1.108877992338339,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1038,6 +1082,7 @@
           "process_capture_rate": 1.1134893476765577,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1062,6 +1107,7 @@
           "process_capture_rate": 1.1147980668289614,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1086,6 +1132,7 @@
           "process_capture_rate": 1.0981467497955493,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1110,6 +1157,7 @@
           "process_capture_rate": 1.0631653369186398,
           "fuel_emission_rate": 0,
           "fuel_capture_rate": 0,
+          "max_capacity": 1000000,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
