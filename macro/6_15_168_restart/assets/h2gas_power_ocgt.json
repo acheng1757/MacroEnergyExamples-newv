@@ -5,7 +5,7 @@
       "global_data": {
         "fuel_commodity": "Hydrogen",
         "timedata": "Hydrogen",
-        "uc": false,
+        "uc": true,
         "elec_constraints": {
           "CapacityConstraint": true,
           "RampingLimitConstraint": true,

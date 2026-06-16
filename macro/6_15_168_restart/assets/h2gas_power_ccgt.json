@@ -5,11 +5,13 @@
       "global_data": {
         "fuel_commodity": "Hydrogen",
         "timedata": "Hydrogen",
-        "uc": false,
+        "uc": true,
         "elec_constraints": {
           "CapacityConstraint": true,
           "RampingLimitConstraint": true,
-          "MinFlowConstraint": true
+          "MinFlowConstraint": true,
+          "MinUpTimeConstraint": true,
+          "MinDownTimeConstraint": true
         },
         "emission_rate": 0,
         "co2_sink": "co2_sink"

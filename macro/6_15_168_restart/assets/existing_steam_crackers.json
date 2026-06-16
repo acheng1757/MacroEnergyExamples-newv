@@ -72,15 +72,15 @@
           "id": "Existing_CA_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.15555899920781585,
+            "h2_production": 0.15556655271082956,
             "elec_consumption": 0.0,
-            "ethylene_production": 0.04858351935980771,
-            "natgas_consumption": 0.168122740326781,
+            "ethylene_production": 0.048585878437468075,
+            "natgas_consumption": 0.16813090388936625,
             "natgas_production": 0.0,
             "process_capture_rate": 0,
-            "process_emission_rate": 0.01967126002520943,
+            "process_emission_rate": 0.019662347655492782,
             "fuel_capture_rate": 0,
-            "fuel_emission_rate": 0.03074810841576036
+            "fuel_emission_rate": 0.030749601456540814
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -92,9 +92,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90694.35230791842,
+              "fixed_om_cost": 49638.169438976314,
+              "variable_om_cost": -2.3934492075501876,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },
@@ -202,15 +202,15 @@
           "id": "Existing_NW_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.15555899920781585,
+            "h2_production": 0.15556655271082956,
             "elec_consumption": 0.0,
-            "ethylene_production": 0.04858351935980771,
-            "natgas_consumption": 0.168122740326781,
+            "ethylene_production": 0.048585878437468075,
+            "natgas_consumption": 0.16813090388936625,
             "natgas_production": 0.0,
             "process_capture_rate": 0,
-            "process_emission_rate": 0.01967126002520943,
+            "process_emission_rate": 0.019662347655492782,
             "fuel_capture_rate": 0,
-            "fuel_emission_rate": 0.03074810841576036
+            "fuel_emission_rate": 0.030749601456540814
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -222,9 +222,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90694.35230791842,
+              "fixed_om_cost": 49638.169438976314,
+              "variable_om_cost": -2.3934492075501876,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },
@@ -332,15 +332,15 @@
           "id": "Existing_SW_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.15555899920781585,
+            "h2_production": 0.15556655271082956,
             "elec_consumption": 0.0,
-            "ethylene_production": 0.04858351935980771,
-            "natgas_consumption": 0.168122740326781,
+            "ethylene_production": 0.048585878437468075,
+            "natgas_consumption": 0.16813090388936625,
             "natgas_production": 0.0,
             "process_capture_rate": 0,
-            "process_emission_rate": 0.01967126002520943,
+            "process_emission_rate": 0.019662347655492782,
             "fuel_capture_rate": 0,
-            "fuel_emission_rate": 0.03074810841576036
+            "fuel_emission_rate": 0.030749601456540814
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -352,9 +352,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90694.35230791842,
+              "fixed_om_cost": 49638.169438976314,
+              "variable_om_cost": -2.3934492075501876,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },
@@ -462,15 +462,15 @@
           "id": "Existing_TX_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.15555899920781585,
+            "h2_production": 0.15556655271082956,
             "elec_consumption": 0.0,
-            "ethylene_production": 0.04858351935980771,
-            "natgas_consumption": 0.168122740326781,
+            "ethylene_production": 0.048585878437468075,
+            "natgas_consumption": 0.16813090388936625,
             "natgas_production": 0.0,
             "process_capture_rate": 0,
-            "process_emission_rate": 0.01967126002520943,
+            "process_emission_rate": 0.019662347655492782,
             "fuel_capture_rate": 0,
-            "fuel_emission_rate": 0.03074810841576036
+            "fuel_emission_rate": 0.030749601456540814
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -482,9 +482,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90694.35230791842,
+              "fixed_om_cost": 49638.169438976314,
+              "variable_om_cost": -2.3934492075501876,
               "existing_capacity": 53163.59567,
               "min_flow_fraction": 0.8
             },
@@ -592,15 +592,15 @@
           "id": "Existing_NCEN_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.15555899920781585,
+            "h2_production": 0.15556655271082956,
             "elec_consumption": 0.0,
-            "ethylene_production": 0.04858351935980771,
-            "natgas_consumption": 0.168122740326781,
+            "ethylene_production": 0.048585878437468075,
+            "natgas_consumption": 0.16813090388936625,
             "natgas_production": 0.0,
             "process_capture_rate": 0,
-            "process_emission_rate": 0.01967126002520943,
+            "process_emission_rate": 0.019662347655492782,
             "fuel_capture_rate": 0,
-            "fuel_emission_rate": 0.03074810841576036
+            "fuel_emission_rate": 0.030749601456540814
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -612,9 +612,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90694.35230791842,
+              "fixed_om_cost": 49638.169438976314,
+              "variable_om_cost": -2.3934492075501876,
               "existing_capacity": 5063.199587,
               "min_flow_fraction": 0.8
             },
@@ -722,15 +722,15 @@
           "id": "Existing_CEN_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.15555899920781585,
+            "h2_production": 0.15556655271082956,
             "elec_consumption": 0.0,
-            "ethylene_production": 0.04858351935980771,
-            "natgas_consumption": 0.168122740326781,
+            "ethylene_production": 0.048585878437468075,
+            "natgas_consumption": 0.16813090388936625,
             "natgas_production": 0.0,
             "process_capture_rate": 0,
-            "process_emission_rate": 0.01967126002520943,
+            "process_emission_rate": 0.019662347655492782,
             "fuel_capture_rate": 0,
-            "fuel_emission_rate": 0.03074810841576036
+            "fuel_emission_rate": 0.030749601456540814
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -742,9 +742,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90694.35230791842,
+              "fixed_om_cost": 49638.169438976314,
+              "variable_om_cost": -2.3934492075501876,
               "existing_capacity": 25315.99794,
               "min_flow_fraction": 0.8
             },
@@ -852,15 +852,15 @@
           "id": "Existing_SE_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.15555899920781585,
+            "h2_production": 0.15556655271082956,
             "elec_consumption": 0.0,
-            "ethylene_production": 0.04858351935980771,
-            "natgas_consumption": 0.168122740326781,
+            "ethylene_production": 0.048585878437468075,
+            "natgas_consumption": 0.16813090388936625,
             "natgas_production": 0.0,
             "process_capture_rate": 0,
-            "process_emission_rate": 0.01967126002520943,
+            "process_emission_rate": 0.019662347655492782,
             "fuel_capture_rate": 0,
-            "fuel_emission_rate": 0.03074810841576036
+            "fuel_emission_rate": 0.030749601456540814
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -872,9 +872,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90694.35230791842,
+              "fixed_om_cost": 49638.169438976314,
+              "variable_om_cost": -2.3934492075501876,
               "existing_capacity": 2531.599794,
               "min_flow_fraction": 0.8
             },
@@ -982,15 +982,15 @@
           "id": "Existing_MIDAT_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.15555899920781585,
+            "h2_production": 0.15556655271082956,
             "elec_consumption": 0.0,
-            "ethylene_production": 0.04858351935980771,
-            "natgas_consumption": 0.168122740326781,
+            "ethylene_production": 0.048585878437468075,
+            "natgas_consumption": 0.16813090388936625,
             "natgas_production": 0.0,
             "process_capture_rate": 0,
-            "process_emission_rate": 0.01967126002520943,
+            "process_emission_rate": 0.019662347655492782,
             "fuel_capture_rate": 0,
-            "fuel_emission_rate": 0.03074810841576036
+            "fuel_emission_rate": 0.030749601456540814
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1002,9 +1002,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90694.35230791842,
+              "fixed_om_cost": 49638.169438976314,
+              "variable_om_cost": -2.3934492075501876,
               "existing_capacity": 2531.599794,
               "min_flow_fraction": 0.8
             },
@@ -1112,15 +1112,15 @@
           "id": "Existing_NE_F-NGin-H2out",
           "transforms": {
             "h2_consumption": 0.0,
-            "h2_production": 0.15555899920781585,
+            "h2_production": 0.15556655271082956,
             "elec_consumption": 0.0,
-            "ethylene_production": 0.04858351935980771,
-            "natgas_consumption": 0.168122740326781,
+            "ethylene_production": 0.048585878437468075,
+            "natgas_consumption": 0.16813090388936625,
             "natgas_production": 0.0,
             "process_capture_rate": 0,
-            "process_emission_rate": 0.01967126002520943,
+            "process_emission_rate": 0.019662347655492782,
             "fuel_capture_rate": 0,
-            "fuel_emission_rate": 0.03074810841576036
+            "fuel_emission_rate": 0.030749601456540814
           },
           "edges": {
             "ethane_consumption_edge": {
@@ -1132,9 +1132,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90694.35230791842,
+              "fixed_om_cost": 49638.169438976314,
+              "variable_om_cost": -2.3934492075501876,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },
