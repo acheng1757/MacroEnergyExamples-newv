@@ -1,0 +1,57 @@
+{
+    "gasoline_blending": [
+        {
+            "type": "BlendedGasoline",
+            "global_data": {
+                "nodes": {},
+                "transforms": {
+                    "timedata": "LiquidFuels",
+                    "constraints": {
+                        "BalanceConstraint": true
+                    }
+                },
+                "edges": {
+                    "gasoline_edge": {
+                        "commodity": "LiquidFuels",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "ethanol_edge": {
+                        "commodity": "LiquidFuels",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "gasoline_blend_edge": {
+                        "commodity": "LiquidFuels",
+                        "unidirectional": true,
+                        "has_capacity": true,
+                        "can_expand": true,
+                        "can_retire": true,
+                        "constraints": {
+                            "CapacityConstraint": true
+                        }
+                    }
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "Global_Gasoline_Blending",
+                    "transforms": {
+                        "max_ethanol_fraction": 0.07102903404
+                    },
+                    "edges": {
+                        "gasoline_edge": {
+                            "start_vertex": "gasoline_demand_global"
+                        },
+                        "ethanol_edge": {
+                            "start_vertex": "ethanol_demand_global"
+                        },
+                        "gasoline_blend_edge": {
+                            "end_vertex": "gasoline_blended_demand_global"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
