@@ -1420,7 +1420,7 @@
         "location": "CA",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 150
           }
         }
       },
@@ -1429,7 +1429,7 @@
         "location": "NW",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 150
           }
         }
       },
@@ -1438,7 +1438,7 @@
         "location": "SW",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 150
           }
         }
       },
@@ -1447,7 +1447,7 @@
         "location": "TX",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 150
           }
         }
       },
@@ -1456,7 +1456,7 @@
         "location": "NCEN",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 150
           }
         }
       },
@@ -1465,7 +1465,7 @@
         "location": "CEN",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 150
           }
         }
       },
@@ -1474,7 +1474,7 @@
         "location": "SE",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 150
           }
         }
       },
@@ -1483,7 +1483,7 @@
         "location": "MIDAT",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 150
           }
         }
       },
@@ -1492,7 +1492,7 @@
         "location": "NE",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 150
           }
         }
       }
@@ -2550,7 +2550,7 @@
                     "id": "co2_sink",
                     "constraints": {
                         "BalanceConstraint": false,
-                        "CO2CapConstraint": false
+                        "CO2CapConstraint": true
                     },
                     "rhs_policy": {
                         "CO2CapConstraint": 0
@@ -3072,7 +3072,7 @@
                     "demand": {
                         "timeseries": {
                             "path": "system/demand.csv",
-                            "header": "Demand_Zero"
+                            "header": "Ethylene_Global_Demand"
                         }
                     }
                 }

@@ -32,7 +32,8 @@
                 {
                     "id": "Global_Gasoline_Blending",
                     "transforms": {
-                        "max_ethanol_fraction": 0.07102903404
+                        "max_ethanol_fraction": 0,
+                        "min_ethanol_fraction": 0
                     },
                     "edges": {
                         "gasoline_edge": {
