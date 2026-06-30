@@ -1,0 +1,53 @@
+{
+    "gasoline_blending": [
+        {
+            "type": "BlendedGasoline",
+            "global_data": {
+                "nodes": {},
+                "transforms": {
+                    "timedata": "LiquidFuels",
+                    "constraints": {
+                        "BalanceConstraint": true
+                    }
+                },
+                "edges": {
+                    "gasoline_edge": {
+                        "commodity": "Gasoline",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "ethanol_edge": {
+                        "commodity": "Ethanol",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    },
+                    "gasoline_blend_edge": {
+                        "commodity": "Blended_Gasoline",
+                        "unidirectional": true,
+                        "has_capacity": false
+                    }
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "Global_Gasoline_Blending",
+                    "transforms": {
+                        "max_ethanol_fraction": 0.07102903404,
+                        "min_ethanol_fraction": 0.07102903404
+                    },
+                    "edges": {
+                        "gasoline_edge": {
+                            "start_vertex": "gasoline_demand_global"
+                        },
+                        "ethanol_edge": {
+                            "start_vertex": "ethanol_demand_global"
+                        },
+                        "gasoline_blend_edge": {
+                            "end_vertex": "gasoline_blended_demand_global"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

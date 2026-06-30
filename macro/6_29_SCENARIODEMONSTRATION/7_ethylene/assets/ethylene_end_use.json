@@ -1,0 +1,19 @@
+{
+    "FuelsEndUse": [
+        {
+            "type": "FuelsEndUse",
+            "global_data": {
+                "co2_sink": "co2_sink"
+            },
+            "instance_data": [
+                {
+                    "id": "Global_Ethylene_Use",
+                    "emission_rate": 3.14285714286,
+                    "fuel_commodity": "Ethylene",
+                    "fuel_start_vertex": "ethylene_global",
+                    "fuel_demand_end_vertex": "ethylene_demand_global"
+                }
+            ]
+        }
+    ]
+}
