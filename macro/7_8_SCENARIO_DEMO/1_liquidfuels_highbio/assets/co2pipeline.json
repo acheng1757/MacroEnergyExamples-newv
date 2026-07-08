@@ -19,8 +19,8 @@
                     "CapacityConstraint": true
                 },
                 "discharge_capacity_size": 1141.5525,
-                "discharge_can_retire": false,
                 "discharge_can_expand": true,
+                "discharge_can_retire": false,
                 "discharge_max_capacity": 1141552.511,
                 "discharge_constraints": {
                     "CapacityConstraint": true,

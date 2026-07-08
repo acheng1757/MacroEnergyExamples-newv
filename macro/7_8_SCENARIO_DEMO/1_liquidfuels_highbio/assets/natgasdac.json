@@ -20,8 +20,8 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.0018289083530000016,
-          "capture_rate": 0.181061926947,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -39,8 +39,8 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.0018289083530000016,
-          "capture_rate": 0.181061926947,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -58,8 +58,8 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.0018289083530000016,
-          "capture_rate": 0.181061926947,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -77,8 +77,8 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.0018289083530000016,
-          "capture_rate": 0.181061926947,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -96,8 +96,8 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.0018289083530000016,
-          "capture_rate": 0.181061926947,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -115,8 +115,8 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.0018289083530000016,
-          "capture_rate": 0.181061926947,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -134,8 +134,8 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.0018289083530000016,
-          "capture_rate": 0.181061926947,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -153,8 +153,8 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.0018289083530000016,
-          "capture_rate": 0.181061926947,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -172,8 +172,8 @@
           "electricity_production": 0.125,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.0018289083530000016,
-          "capture_rate": 0.181061926947,
+          "emission_rate": 0.0018289083500000016,
+          "capture_rate": 0.18106192665,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -203,8 +203,8 @@
           "electricity_production": 0.0,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.018289083529999996,
-          "capture_rate": 0.16460175177,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -222,8 +222,8 @@
           "electricity_production": 0.0,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.018289083529999996,
-          "capture_rate": 0.16460175177,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -241,8 +241,8 @@
           "electricity_production": 0.0,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.018289083529999996,
-          "capture_rate": 0.16460175177,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -260,8 +260,8 @@
           "electricity_production": 0.0,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.018289083529999996,
-          "capture_rate": 0.16460175177,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -279,8 +279,8 @@
           "electricity_production": 0.0,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.018289083529999996,
-          "capture_rate": 0.16460175177,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -298,8 +298,8 @@
           "electricity_production": 0.0,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.018289083529999996,
-          "capture_rate": 0.16460175177,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -317,8 +317,8 @@
           "electricity_production": 0.0,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.018289083529999996,
-          "capture_rate": 0.16460175177,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -336,8 +336,8 @@
           "electricity_production": 0.0,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.018289083529999996,
-          "capture_rate": 0.16460175177,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -355,8 +355,8 @@
           "electricity_production": 0.0,
           "ramp_up_fraction": 1,
           "ramp_down_fraction": 1,
-          "emission_rate": 0.018289083529999996,
-          "capture_rate": 0.16460175177,
+          "emission_rate": 0.018289083499999997,
+          "capture_rate": 0.1646017515,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",

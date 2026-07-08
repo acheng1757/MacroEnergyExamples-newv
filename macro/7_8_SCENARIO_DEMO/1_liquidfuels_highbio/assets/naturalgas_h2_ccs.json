@@ -30,8 +30,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.01005899594150001,
-          "capture_rate": 0.1728318393585,
+          "emission_rate": 0.010058995925000008,
+          "capture_rate": 0.172831839075,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -57,8 +57,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.01005899594150001,
-          "capture_rate": 0.1728318393585,
+          "emission_rate": 0.010058995925000008,
+          "capture_rate": 0.172831839075,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -84,8 +84,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.01005899594150001,
-          "capture_rate": 0.1728318393585,
+          "emission_rate": 0.010058995925000008,
+          "capture_rate": 0.172831839075,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -111,8 +111,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.01005899594150001,
-          "capture_rate": 0.1728318393585,
+          "emission_rate": 0.010058995925000008,
+          "capture_rate": 0.172831839075,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -138,8 +138,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.01005899594150001,
-          "capture_rate": 0.1728318393585,
+          "emission_rate": 0.010058995925000008,
+          "capture_rate": 0.172831839075,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -165,8 +165,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.01005899594150001,
-          "capture_rate": 0.1728318393585,
+          "emission_rate": 0.010058995925000008,
+          "capture_rate": 0.172831839075,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -192,8 +192,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.01005899594150001,
-          "capture_rate": 0.1728318393585,
+          "emission_rate": 0.010058995925000008,
+          "capture_rate": 0.172831839075,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -219,8 +219,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.01005899594150001,
-          "capture_rate": 0.1728318393585,
+          "emission_rate": 0.010058995925000008,
+          "capture_rate": 0.172831839075,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -246,8 +246,8 @@
           "min_down_time": 12,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.01005899594150001,
-          "capture_rate": 0.1728318393585,
+          "emission_rate": 0.010058995925000008,
+          "capture_rate": 0.172831839075,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -287,8 +287,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.0069498517414000064,
-          "capture_rate": 0.1759409835586,
+          "emission_rate": 0.006949851730000007,
+          "capture_rate": 0.17594098327,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -314,8 +314,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.0069498517414000064,
-          "capture_rate": 0.1759409835586,
+          "emission_rate": 0.006949851730000007,
+          "capture_rate": 0.17594098327,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -341,8 +341,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.0069498517414000064,
-          "capture_rate": 0.1759409835586,
+          "emission_rate": 0.006949851730000007,
+          "capture_rate": 0.17594098327,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -368,8 +368,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.0069498517414000064,
-          "capture_rate": 0.1759409835586,
+          "emission_rate": 0.006949851730000007,
+          "capture_rate": 0.17594098327,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -395,8 +395,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.0069498517414000064,
-          "capture_rate": 0.1759409835586,
+          "emission_rate": 0.006949851730000007,
+          "capture_rate": 0.17594098327,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -422,8 +422,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.0069498517414000064,
-          "capture_rate": 0.1759409835586,
+          "emission_rate": 0.006949851730000007,
+          "capture_rate": 0.17594098327,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -449,8 +449,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.0069498517414000064,
-          "capture_rate": 0.1759409835586,
+          "emission_rate": 0.006949851730000007,
+          "capture_rate": 0.17594098327,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -476,8 +476,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.0069498517414000064,
-          "capture_rate": 0.1759409835586,
+          "emission_rate": 0.006949851730000007,
+          "capture_rate": 0.17594098327,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -503,8 +503,8 @@
           "min_down_time": 3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.0069498517414000064,
-          "capture_rate": 0.1759409835586,
+          "emission_rate": 0.006949851730000007,
+          "capture_rate": 0.17594098327,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",

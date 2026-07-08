@@ -21,7 +21,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7508,
-          "emission_rate": 1.217908256073152,
+          "emission_rate": 1.2179082568983848,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -41,7 +41,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7568,
-          "emission_rate": 1.2218019520733128,
+          "emission_rate": 1.22180195290036,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -61,7 +61,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7387,
-          "emission_rate": 1.2091208640728301,
+          "emission_rate": 1.2091208648944338,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -81,7 +81,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7447,
-          "emission_rate": 1.212014560072991,
+          "emission_rate": 1.2120145608964092,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -101,7 +101,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7735,
-          "emission_rate": 1.232759616073755,
+          "emission_rate": 1.232759616905793,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -121,7 +121,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7568,
-          "emission_rate": 1.2188019520733127,
+          "emission_rate": 1.2188019529003604,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -141,7 +141,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7523,
-          "emission_rate": 1.2136316800731923,
+          "emission_rate": 1.2136316808988787,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -161,7 +161,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7674,
-          "emission_rate": 1.2298659200735944,
+          "emission_rate": 1.2298659209038174,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -181,7 +181,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.778,
-          "emission_rate": 1.236929888073876,
+          "emission_rate": 1.2369298889072748,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -201,7 +201,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.9277,
-          "emission_rate": 1.307548864077857,
+          "emission_rate": 1.30754886495617,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -221,7 +221,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.9217,
-          "emission_rate": 1.2836551680776962,
+          "emission_rate": 1.2836551689541942,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -241,7 +241,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8944,
-          "emission_rate": 1.2686335360769725,
+          "emission_rate": 1.2686335369453043,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -261,7 +261,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8718,
-          "emission_rate": 1.295782176076369,
+          "emission_rate": 1.2957821769378959,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -281,7 +281,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8823,
-          "emission_rate": 1.2748461440766508,
+          "emission_rate": 1.2748461449413533,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -301,7 +301,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8839,
-          "emission_rate": 1.274569568076691,
+          "emission_rate": 1.274569568941847,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -321,7 +321,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8944,
-          "emission_rate": 1.2916335360769724,
+          "emission_rate": 1.2916335369453043,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -341,7 +341,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8748,
-          "emission_rate": 1.2802290240764496,
+          "emission_rate": 1.2802290249388837,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -361,7 +361,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8566,
-          "emission_rate": 1.303547936075967,
+          "emission_rate": 1.303547936932957,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -381,7 +381,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7659,
-          "emission_rate": 1.2131424960735542,
+          "emission_rate": 1.2131424969033238,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -401,7 +401,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5285,
-          "emission_rate": 1.2015649280672402,
+          "emission_rate": 1.201564928825783,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -421,7 +421,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5754,
-          "emission_rate": 1.215991072068487,
+          "emission_rate": 1.2159910728410936,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -441,7 +441,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5088,
-          "emission_rate": 1.1741604160667176,
+          "emission_rate": 1.1741604168193625,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -461,7 +461,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.6162,
-          "emission_rate": 1.2315235200695727,
+          "emission_rate": 1.2315235208544286,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -481,7 +481,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5965,
-          "emission_rate": 1.22511900806905,
+          "emission_rate": 1.225119008848008,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -501,7 +501,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.6056,
-          "emission_rate": 1.2124595520692913,
+          "emission_rate": 1.2124595528509714,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -521,7 +521,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.6132,
-          "emission_rate": 1.2300766720694922,
+          "emission_rate": 1.2300766728534407,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -541,7 +541,7 @@
           "electricity_consumption": 0.208,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.6434,
-          "emission_rate": 1.2315451520702967,
+          "emission_rate": 1.2315451528633186,
           "capture_rate": 0.0,
           "availability": {
             "timeseries": {
@@ -573,8 +573,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7295,
-          "emission_rate": 0.7390717753847066,
-          "capture_rate": 0.4827364166878783,
+          "emission_rate": 0.7390717758800204,
+          "capture_rate": 0.4827364170114003,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -593,8 +593,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7355,
-          "emission_rate": 0.7414322597176032,
-          "capture_rate": 0.48427820435514135,
+          "emission_rate": 0.741432260214006,
+          "capture_rate": 0.48427820467937477,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -613,8 +613,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7174,
-          "emission_rate": 0.7337459067189135,
-          "capture_rate": 0.4792577413533522,
+          "emission_rate": 0.7337459072120488,
+          "capture_rate": 0.47925774167545127,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -633,8 +633,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7235,
-          "emission_rate": 0.73550149105181,
-          "capture_rate": 0.4804044290206152,
+          "emission_rate": 0.7355014915460345,
+          "capture_rate": 0.48040442934342575,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -653,8 +653,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.752,
-          "emission_rate": 0.7480748166330687,
-          "capture_rate": 0.48861689544011483,
+          "emission_rate": 0.7480748171324669,
+          "capture_rate": 0.4886168957663046,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -673,8 +673,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7355,
-          "emission_rate": 0.7396175597176031,
-          "capture_rate": 0.48309290435514135,
+          "emission_rate": 0.739617560214006,
+          "capture_rate": 0.48309290467937477,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -693,8 +693,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.731,
-          "emission_rate": 0.7364861714679307,
-          "capture_rate": 0.4810475886046941,
+          "emission_rate": 0.7364861719635168,
+          "capture_rate": 0.48104758892839394,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -713,8 +713,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.746,
-          "emission_rate": 0.746319232300172,
-          "capture_rate": 0.4874702077728517,
+          "emission_rate": 0.7463192327984811,
+          "capture_rate": 0.48747020809833014,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -733,8 +733,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7565,
-          "emission_rate": 0.7506013048827411,
-          "capture_rate": 0.4902671111905621,
+          "emission_rate": 0.7506013053829562,
+          "capture_rate": 0.4902671115172855,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -753,8 +753,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.905,
-          "emission_rate": 0.7934471171219307,
-          "capture_rate": 0.5182525309553229,
+          "emission_rate": 0.7934471176491036,
+          "capture_rate": 0.5182525312996542,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -773,8 +773,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.899,
-          "emission_rate": 0.7789886327890343,
-          "capture_rate": 0.5088087432880599,
+          "emission_rate": 0.7789886333151179,
+          "capture_rate": 0.5088087436316797,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -793,8 +793,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.872,
-          "emission_rate": 0.7698787032909996,
-          "capture_rate": 0.5028584487853761,
+          "emission_rate": 0.7698787038121818,
+          "capture_rate": 0.5028584491257945,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -813,8 +813,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8495,
-          "emission_rate": 0.7862814620426376,
-          "capture_rate": 0.5135721700331396,
+          "emission_rate": 0.7862814625597353,
+          "capture_rate": 0.5135721703708901,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -833,8 +833,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.86,
-          "emission_rate": 0.7736263346252066,
-          "capture_rate": 0.50530627345085,
+          "emission_rate": 0.7736263351442103,
+          "capture_rate": 0.5053062737898455,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -853,8 +853,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8615,
-          "emission_rate": 0.7734603307084307,
-          "capture_rate": 0.5051978453676658,
+          "emission_rate": 0.7734603312277069,
+          "capture_rate": 0.5051978457068391,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -873,8 +873,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.872,
-          "emission_rate": 0.7837914032909996,
-          "capture_rate": 0.511945748785376,
+          "emission_rate": 0.7837914038121818,
+          "capture_rate": 0.5119457491257944,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -893,8 +893,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8525,
-          "emission_rate": 0.776875954209086,
-          "capture_rate": 0.5074288138667711,
+          "emission_rate": 0.7768759547267282,
+          "capture_rate": 0.5074288142048774,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -913,8 +913,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8345,
-          "emission_rate": 0.7909660012103963,
-          "capture_rate": 0.5166319508649819,
+          "emission_rate": 0.7909660017247709,
+          "capture_rate": 0.516631951200954,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -933,8 +933,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7445,
-          "emission_rate": 0.7362019362169481,
-          "capture_rate": 0.480861935856036,
+          "emission_rate": 0.7362019367149847,
+          "capture_rate": 0.48086193618133655,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -953,8 +953,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5089,
-          "emission_rate": 0.7289950511507582,
-          "capture_rate": 0.47615464491596066,
+          "emission_rate": 0.7289950516060439,
+          "capture_rate": 0.47615464521333767,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -973,8 +973,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5554,
-          "emission_rate": 0.7377616297307066,
-          "capture_rate": 0.48188067433724946,
+          "emission_rate": 0.7377616301944335,
+          "capture_rate": 0.48188067464014,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -993,8 +993,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.4894,
-          "emission_rate": 0.7124012020688446,
-          "capture_rate": 0.4653161099973558,
+          "emission_rate": 0.7124012025205904,
+          "capture_rate": 0.46531611029242065,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1013,8 +1013,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5959,
-          "emission_rate": 0.7471922239777583,
-          "capture_rate": 0.48804041609127513,
+          "emission_rate": 0.7471922244488374,
+          "capture_rate": 0.48804041639896784,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1033,8 +1033,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5764,
-          "emission_rate": 0.7433012748958444,
-          "capture_rate": 0.4854989811726701,
+          "emission_rate": 0.7433012753633835,
+          "capture_rate": 0.48549898147805065,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1053,8 +1053,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5854,
-          "emission_rate": 0.7356513513951893,
-          "capture_rate": 0.48050231267356475,
+          "emission_rate": 0.7356513518643623,
+          "capture_rate": 0.48050231298001245,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1073,8 +1073,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5929,
-          "emission_rate": 0.74631443181131,
-          "capture_rate": 0.4874670722576435,
+          "emission_rate": 0.7463144322818444,
+          "capture_rate": 0.4874670725649805,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1093,8 +1093,8 @@
           "electricity_consumption": 0.2528,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.6229,
-          "emission_rate": 0.7472286534757928,
-          "capture_rate": 0.48806421059395894,
+          "emission_rate": 0.7472286539517733,
+          "capture_rate": 0.4880642109048531,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1125,8 +1125,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7295,
-          "emission_rate": 0.010874092909446029,
-          "capture_rate": 1.210934099163139,
+          "emission_rate": 0.010874092916733667,
+          "capture_rate": 1.210934099974687,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1145,8 +1145,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7355,
-          "emission_rate": 0.01090882313024745,
-          "capture_rate": 1.214801640942497,
+          "emission_rate": 0.010908823137551113,
+          "capture_rate": 1.2148016417558296,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1165,8 +1165,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7174,
-          "emission_rate": 0.010795732467843188,
-          "capture_rate": 1.2022079156044225,
+          "emission_rate": 0.010795732475098773,
+          "capture_rate": 1.2022079164124013,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1185,8 +1185,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7235,
-          "emission_rate": 0.010821562688644606,
-          "capture_rate": 1.2050843573837806,
+          "emission_rate": 0.010821562695916219,
+          "capture_rate": 1.205084358193544,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1205,8 +1205,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.752,
-          "emission_rate": 0.011006556237451356,
-          "capture_rate": 1.2256851558357322,
+          "emission_rate": 0.01100655624479909,
+          "capture_rate": 1.2256851566539724,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1225,8 +1225,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7355,
-          "emission_rate": 0.010882123130247449,
-          "capture_rate": 1.211828340942497,
+          "emission_rate": 0.010882123137551113,
+          "capture_rate": 1.2118283417558298,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1245,8 +1245,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.731,
-          "emission_rate": 0.010836050464646384,
-          "capture_rate": 1.2066977096079785,
+          "emission_rate": 0.010836050471938028,
+          "capture_rate": 1.2066977104199728,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1265,8 +1265,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.746,
-          "emission_rate": 0.010980726016649936,
-          "capture_rate": 1.222808714056374,
+          "emission_rate": 0.010980726023981644,
+          "capture_rate": 1.2228087148728297,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1285,8 +1285,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7565,
-          "emission_rate": 0.011043728903052422,
-          "capture_rate": 1.2298246871702507,
+          "emission_rate": 0.011043728910412175,
+          "capture_rate": 1.2298246879898296,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1305,8 +1305,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.905,
-          "emission_rate": 0.011674126867887581,
-          "capture_rate": 1.300025521209366,
+          "emission_rate": 0.011674126875643969,
+          "capture_rate": 1.3000255220731138,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1325,8 +1325,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.899,
-          "emission_rate": 0.011461396647086163,
-          "capture_rate": 1.276335979430008,
+          "emission_rate": 0.011461396654826523,
+          "capture_rate": 1.2763359802919712,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1345,8 +1345,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.872,
-          "emission_rate": 0.011327360653479768,
-          "capture_rate": 1.2614097914228959,
+          "emission_rate": 0.011327360661148013,
+          "capture_rate": 1.2614097922768284,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1365,8 +1365,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8495,
-          "emission_rate": 0.011568697325474442,
-          "capture_rate": 1.2882849347503027,
+          "emission_rate": 0.01156869733308259,
+          "capture_rate": 1.2882849355975428,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1385,8 +1385,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.86,
-          "emission_rate": 0.011382500211876928,
-          "capture_rate": 1.2675501078641795,
+          "emission_rate": 0.011382500219513121,
+          "capture_rate": 1.2675501087145427,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1405,8 +1405,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8615,
-          "emission_rate": 0.011380057767077283,
-          "capture_rate": 1.2672781183090192,
+          "emission_rate": 0.011380057774717484,
+          "capture_rate": 1.2672781191598286,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1425,8 +1425,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.872,
-          "emission_rate": 0.011532060653479767,
-          "capture_rate": 1.284205091422896,
+          "emission_rate": 0.011532060661148013,
+          "capture_rate": 1.2842050922768282,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1445,8 +1445,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8525,
-          "emission_rate": 0.011430312435875152,
-          "capture_rate": 1.2728744556399818,
+          "emission_rate": 0.011430312443491315,
+          "capture_rate": 1.2728744564881143,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1465,8 +1465,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.8345,
-          "emission_rate": 0.01163762177347089,
-          "capture_rate": 1.2959603303019074,
+          "emission_rate": 0.011637621781038976,
+          "capture_rate": 1.295960331144686,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1485,8 +1485,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.7445,
-          "emission_rate": 0.010831868461449581,
-          "capture_rate": 1.2062320036115344,
+          "emission_rate": 0.010831868468777282,
+          "capture_rate": 1.2062320044275439,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1505,8 +1505,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5089,
-          "emission_rate": 0.010725832294993822,
-          "capture_rate": 1.194423863771725,
+          "emission_rate": 0.01072583230169252,
+          "capture_rate": 1.194423864517689,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1525,8 +1525,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5554,
-          "emission_rate": 0.010854816506204831,
-          "capture_rate": 1.2087874875617513,
+          "emission_rate": 0.010854816513027728,
+          "capture_rate": 1.2087874883215457,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1545,8 +1545,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.4894,
-          "emission_rate": 0.010481684077389206,
-          "capture_rate": 1.1672356279888112,
+          "emission_rate": 0.01048168408403582,
+          "capture_rate": 1.1672356287289751,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1565,8 +1565,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5959,
-          "emission_rate": 0.01099357049661442,
-          "capture_rate": 1.224239069572419,
+          "emission_rate": 0.01099357050354549,
+          "capture_rate": 1.2242390703442596,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1585,8 +1585,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5764,
-          "emission_rate": 0.010936322279009803,
-          "capture_rate": 1.2178639337895047,
+          "emission_rate": 0.010936322285888788,
+          "capture_rate": 1.2178639345555455,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1605,8 +1605,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5854,
-          "emission_rate": 0.010823767610211935,
-          "capture_rate": 1.2053298964585422,
+          "emission_rate": 0.010823767617114958,
+          "capture_rate": 1.2053298972272597,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1625,8 +1625,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.5929,
-          "emission_rate": 0.01098065538621371,
-          "capture_rate": 1.2228008486827397,
+          "emission_rate": 0.010980655393136765,
+          "capture_rate": 1.222800849453688,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",
@@ -1645,8 +1645,8 @@
           "electricity_consumption": 0.9841,
           "min_flow_fraction": 0.85,
           "natgas_production": 2.6229,
-          "emission_rate": 0.010994106490220815,
-          "capture_rate": 1.224298757579531,
+          "emission_rate": 0.010994106497223998,
+          "capture_rate": 1.2242987583594023,
           "availability": {
             "timeseries": {
               "path": "system/availability.csv",

@@ -34,7 +34,7 @@
           "min_flow_fraction": 0.461,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -55,7 +55,7 @@
           "min_flow_fraction": 0.453,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -76,7 +76,7 @@
           "min_flow_fraction": 0.453,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -97,7 +97,7 @@
           "min_flow_fraction": 0.471,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -118,7 +118,7 @@
           "min_flow_fraction": 0.486,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -139,7 +139,7 @@
           "min_flow_fraction": 0.452,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -160,7 +160,7 @@
           "min_flow_fraction": 0.339,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -181,7 +181,7 @@
           "min_flow_fraction": 0.426,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -202,7 +202,7 @@
           "min_flow_fraction": 0.487,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -223,7 +223,7 @@
           "min_flow_fraction": 0.519,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -244,7 +244,7 @@
           "min_flow_fraction": 0.523,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -265,7 +265,7 @@
           "min_flow_fraction": 0.444,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -286,7 +286,7 @@
           "min_flow_fraction": 0.38,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -307,7 +307,7 @@
           "min_flow_fraction": 0.217,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -328,7 +328,7 @@
           "min_flow_fraction": 0.39,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -349,7 +349,7 @@
           "min_flow_fraction": 0.505,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -370,7 +370,7 @@
           "min_flow_fraction": 0.403,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -391,7 +391,7 @@
           "min_flow_fraction": 0.526,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -412,7 +412,7 @@
           "min_flow_fraction": 0.409,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -433,7 +433,7 @@
           "min_flow_fraction": 0.472,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -454,7 +454,7 @@
           "min_flow_fraction": 0.39,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -475,7 +475,7 @@
           "min_flow_fraction": 0.367,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -496,7 +496,7 @@
           "min_flow_fraction": 0.449,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -517,7 +517,7 @@
           "min_flow_fraction": 0.527,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -538,7 +538,7 @@
           "min_flow_fraction": 0.4,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -559,7 +559,7 @@
           "min_flow_fraction": 0.44,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -580,7 +580,7 @@
           "min_flow_fraction": 0.404,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -601,7 +601,7 @@
           "min_flow_fraction": 0.414,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -622,7 +622,7 @@
           "min_flow_fraction": 0.304,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -643,7 +643,7 @@
           "min_flow_fraction": 0.435,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -664,7 +664,7 @@
           "min_flow_fraction": 0.579,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -685,7 +685,7 @@
           "min_flow_fraction": 0.1,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -706,7 +706,7 @@
           "min_flow_fraction": 0.488,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -727,7 +727,7 @@
           "min_flow_fraction": 0.333,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -748,7 +748,7 @@
           "min_flow_fraction": 0.41,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -769,7 +769,7 @@
           "min_flow_fraction": 0.586,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -790,7 +790,7 @@
           "min_flow_fraction": 0.596,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -811,7 +811,7 @@
           "min_flow_fraction": 0.561,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -832,7 +832,7 @@
           "min_flow_fraction": 0.472,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -853,7 +853,7 @@
           "min_flow_fraction": 0.326,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -874,7 +874,7 @@
           "min_flow_fraction": 0.392,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -895,7 +895,7 @@
           "min_flow_fraction": 0.456,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -916,7 +916,7 @@
           "min_flow_fraction": 0.451,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -937,7 +937,7 @@
           "min_flow_fraction": 0.484,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -958,7 +958,7 @@
           "min_flow_fraction": 0.119,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -979,7 +979,7 @@
           "min_flow_fraction": 0.445,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1000,7 +1000,7 @@
           "min_flow_fraction": 0.372,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1021,7 +1021,7 @@
           "min_flow_fraction": 0.509,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1042,7 +1042,7 @@
           "min_flow_fraction": 0.543,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1063,7 +1063,7 @@
           "min_flow_fraction": 0.423,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1084,7 +1084,7 @@
           "min_flow_fraction": 0.417,
           "can_expand": false,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1105,7 +1105,7 @@
           "min_flow_fraction": 0.3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1126,7 +1126,7 @@
           "min_flow_fraction": 0.25,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1147,7 +1147,7 @@
           "min_flow_fraction": 0.3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1168,7 +1168,7 @@
           "min_flow_fraction": 0.25,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1189,7 +1189,7 @@
           "min_flow_fraction": 0.3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1210,7 +1210,7 @@
           "min_flow_fraction": 0.25,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1231,7 +1231,7 @@
           "min_flow_fraction": 0.3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1252,7 +1252,7 @@
           "min_flow_fraction": 0.25,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1273,7 +1273,7 @@
           "min_flow_fraction": 0.3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1294,7 +1294,7 @@
           "min_flow_fraction": 0.25,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1315,7 +1315,7 @@
           "min_flow_fraction": 0.3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1336,7 +1336,7 @@
           "min_flow_fraction": 0.25,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1357,7 +1357,7 @@
           "min_flow_fraction": 0.3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1378,7 +1378,7 @@
           "min_flow_fraction": 0.25,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1399,7 +1399,7 @@
           "min_flow_fraction": 0.3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1420,7 +1420,7 @@
           "min_flow_fraction": 0.25,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1441,7 +1441,7 @@
           "min_flow_fraction": 0.3,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         },
         {
@@ -1462,7 +1462,7 @@
           "min_flow_fraction": 0.25,
           "can_expand": true,
           "can_retire": true,
-          "emission_rate": 0.1828908353,
+          "emission_rate": 0.18289083532659,
           "capture_rate": 0.0
         }
       ]
