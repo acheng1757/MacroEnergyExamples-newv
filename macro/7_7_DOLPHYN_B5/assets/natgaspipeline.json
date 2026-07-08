@@ -21,7 +21,8 @@
                 "discharge_can_retire": false,
                 "discharge_constraints": {
                     "CapacityConstraint": true
-                }
+                },
+                "integer_decisions": false
             },
             "instance_data": [
                 {
