@@ -1,0 +1,75 @@
+{
+    "EthanolEndUse": [
+        {
+            "type": "FuelsEndUse",
+            "global_data": {
+                "co2_sink": "co2_sink"
+            },
+            "instance_data": [
+                {
+                    "id": "CA_Ethanol_Use",
+                    "emission_rate": 0.23037491,
+                    "fuel_commodity": "Ethanol",
+                    "fuel_start_vertex": "ethanol_CA",
+                    "fuel_demand_end_vertex": "ethanol_demand_global"
+                },
+                {
+                    "id": "NW_Ethanol_Use",
+                    "emission_rate": 0.23037491,
+                    "fuel_commodity": "Ethanol",
+                    "fuel_start_vertex": "ethanol_NW",
+                    "fuel_demand_end_vertex": "ethanol_demand_global"
+                },
+                {
+                    "id": "SW_Ethanol_Use",
+                    "emission_rate": 0.23037491,
+                    "fuel_commodity": "Ethanol",
+                    "fuel_start_vertex": "ethanol_SW",
+                    "fuel_demand_end_vertex": "ethanol_demand_global"
+                },
+                {
+                    "id": "TX_Ethanol_Use",
+                    "emission_rate": 0.23037491,
+                    "fuel_commodity": "Ethanol",
+                    "fuel_start_vertex": "ethanol_TX",
+                    "fuel_demand_end_vertex": "ethanol_demand_global"
+                },
+                {
+                    "id": "NCEN_Ethanol_Use",
+                    "emission_rate": 0.23037491,
+                    "fuel_commodity": "Ethanol",
+                    "fuel_start_vertex": "ethanol_NCEN",
+                    "fuel_demand_end_vertex": "ethanol_demand_global"
+                },
+                {
+                    "id": "CEN_Ethanol_Use",
+                    "emission_rate": 0.23037491,
+                    "fuel_commodity": "Ethanol",
+                    "fuel_start_vertex": "ethanol_CEN",
+                    "fuel_demand_end_vertex": "ethanol_demand_global"
+                },
+                {
+                    "id": "SE_Ethanol_Use",
+                    "emission_rate": 0.23037491,
+                    "fuel_commodity": "Ethanol",
+                    "fuel_start_vertex": "ethanol_SE",
+                    "fuel_demand_end_vertex": "ethanol_demand_global"
+                },
+                {
+                    "id": "MIDAT_Ethanol_Use",
+                    "emission_rate": 0.23037491,
+                    "fuel_commodity": "Ethanol",
+                    "fuel_start_vertex": "ethanol_MIDAT",
+                    "fuel_demand_end_vertex": "ethanol_demand_global"
+                },
+                {
+                    "id": "NE_Ethanol_Use",
+                    "emission_rate": 0.23037491,
+                    "fuel_commodity": "Ethanol",
+                    "fuel_start_vertex": "ethanol_NE",
+                    "fuel_demand_end_vertex": "ethanol_demand_global"
+                }
+            ]
+        }
+    ]
+}
