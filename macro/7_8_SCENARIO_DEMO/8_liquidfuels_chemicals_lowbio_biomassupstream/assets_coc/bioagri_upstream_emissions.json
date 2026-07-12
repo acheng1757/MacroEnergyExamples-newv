@@ -1,0 +1,70 @@
+{
+    "BioWoodUpstream": [
+        {
+            "type": "FossilFuelsUpstream",
+            "global_data": {
+                "timedata": "Biomass",
+                "emission_rate": 0.0529455197752751,
+                "co2_sink": "co2_sink",
+                "fuel_commodity": "Biomass_Agri",
+                "fossil_fuel_commodity": "Biomass_Agri"
+            },
+            "instance_data": [
+                {
+                    "id": "CA_BioAgri_Upstream",
+                    "location": "CA",
+                    "fossil_fuel_start_vertex" : "bioagri_supply_CA",
+                    "fuel_end_vertex" : "bioagri_CA"
+                },
+                {
+                    "id": "NW_BioAgri_Upstream",
+                    "location": "NW",
+                    "fossil_fuel_start_vertex" : "bioagri_supply_NW",
+                    "fuel_end_vertex" : "bioagri_NW"
+                },
+                {
+                    "id": "SW_BioAgri_Upstream",
+                    "location": "SW",
+                    "fossil_fuel_start_vertex" : "bioagri_supply_SW",
+                    "fuel_end_vertex" : "bioagri_SW"
+                },
+                {
+                    "id": "NCEN_BioAgri_Upstream",
+                    "location": "NCEN",
+                    "fossil_fuel_start_vertex" : "bioagri_supply_NCEN",
+                    "fuel_end_vertex" : "bioagri_NCEN"
+                },
+                {
+                    "id": "CEN_BioAgri_Upstream",
+                    "location": "CEN",
+                    "fossil_fuel_start_vertex" : "bioagri_supply_CEN",
+                    "fuel_end_vertex" : "bioagri_CEN"
+                },
+                {
+                    "id": "TX_BioAgri_Upstream",
+                    "location": "TX",
+                    "fossil_fuel_start_vertex" : "bioagri_supply_TX",
+                    "fuel_end_vertex" : "bioagri_TX"
+                },
+                {
+                    "id": "SE_BioAgri_Upstream",
+                    "location": "SE",
+                    "fossil_fuel_start_vertex" : "bioagri_supply_SE",
+                    "fuel_end_vertex" : "bioagri_SE"
+                },
+                {
+                    "id": "MIDAT_BioAgri_Upstream",
+                    "location": "MIDAT",
+                    "fossil_fuel_start_vertex" : "bioagri_supply_MIDAT",
+                    "fuel_end_vertex" : "bioagri_MIDAT"
+                },
+                {
+                    "id": "NE_BioAgri_Upstream",
+                    "location": "NE",
+                    "fossil_fuel_start_vertex" : "bioagri_supply_NE",
+                    "fuel_end_vertex" : "bioagri_NE"
+                }
+            ]
+        }
+    ]
+}

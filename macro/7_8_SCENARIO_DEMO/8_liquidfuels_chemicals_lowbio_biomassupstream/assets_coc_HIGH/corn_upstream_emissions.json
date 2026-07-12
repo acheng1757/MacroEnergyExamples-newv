@@ -1,0 +1,70 @@
+{
+    "CornUpstream": [
+        {
+            "type": "FossilFuelsUpstream",
+            "global_data": {
+                "timedata": "Biomass",
+                "emission_rate": 1.009848492023243,
+                "co2_sink": "co2_sink",
+                "fuel_commodity": "Biomass_Corn",
+                "fossil_fuel_commodity": "Biomass_Corn"
+            },
+            "instance_data": [
+                {
+                    "id": "CA_Corn_Upstream",
+                    "location": "CA",
+                    "fossil_fuel_start_vertex" : "biocorn_supply_CA",
+                    "fuel_end_vertex" : "biocorn_CA"
+                },
+                {
+                    "id": "NW_Corn_Upstream",
+                    "location": "NW",
+                    "fossil_fuel_start_vertex" : "biocorn_supply_NW",
+                    "fuel_end_vertex" : "biocorn_NW"
+                },
+                {
+                    "id": "SW_Corn_Upstream",
+                    "location": "SW",
+                    "fossil_fuel_start_vertex" : "biocorn_supply_SW",
+                    "fuel_end_vertex" : "biocorn_SW"
+                },
+                {
+                    "id": "NCEN_Corn_Upstream",
+                    "location": "NCEN",
+                    "fossil_fuel_start_vertex" : "biocorn_supply_NCEN",
+                    "fuel_end_vertex" : "biocorn_NCEN"
+                },
+                {
+                    "id": "CEN_Corn_Upstream",
+                    "location": "CEN",
+                    "fossil_fuel_start_vertex" : "biocorn_supply_CEN",
+                    "fuel_end_vertex" : "biocorn_CEN"
+                },
+                {
+                    "id": "TX_Corn_Upstream",
+                    "location": "TX",
+                    "fossil_fuel_start_vertex" : "biocorn_supply_TX",
+                    "fuel_end_vertex" : "biocorn_TX"
+                },
+                {
+                    "id": "SE_Corn_Upstream",
+                    "location": "SE",
+                    "fossil_fuel_start_vertex" : "biocorn_supply_SE",
+                    "fuel_end_vertex" : "biocorn_SE"
+                },
+                {
+                    "id": "MIDAT_Corn_Upstream",
+                    "location": "MIDAT",
+                    "fossil_fuel_start_vertex" : "biocorn_supply_MIDAT",
+                    "fuel_end_vertex" : "biocorn_MIDAT"
+                },
+                {
+                    "id": "NE_Corn_Upstream",
+                    "location": "NE",
+                    "fossil_fuel_start_vertex" : "biocorn_supply_NE",
+                    "fuel_end_vertex" : "biocorn_NE"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "BioherbUpstream": [
+        {
+            "type": "FossilFuelsUpstream",
+            "global_data": {
+                "timedata": "Biomass",
+                "emission_rate": 0.0529455197752751,
+                "co2_sink": "co2_sink",
+                "fuel_commodity": "Biomass_Herb",
+                "fossil_fuel_commodity": "Biomass_Herb"
+            },
+            "instance_data": [
+                {
+                    "id": "NW_Bioherb_Upstream",
+                    "location": "NW",
+                    "fossil_fuel_start_vertex" : "bioherb_supply_NW",
+                    "fuel_end_vertex" : "bioherb_NW"
+                },
+                {
+                    "id": "SW_Bioherb_Upstream",
+                    "location": "SW",
+                    "fossil_fuel_start_vertex" : "bioherb_supply_SW",
+                    "fuel_end_vertex" : "bioherb_SW"
+                },
+                {
+                    "id": "NCEN_Bioherb_Upstream",
+                    "location": "NCEN",
+                    "fossil_fuel_start_vertex" : "bioherb_supply_NCEN",
+                    "fuel_end_vertex" : "bioherb_NCEN"
+                },
+                {
+                    "id": "CEN_Bioherb_Upstream",
+                    "location": "CEN",
+                    "fossil_fuel_start_vertex" : "bioherb_supply_CEN",
+                    "fuel_end_vertex" : "bioherb_CEN"
+                },
+                {
+                    "id": "TX_Bioherb_Upstream",
+                    "location": "TX",
+                    "fossil_fuel_start_vertex" : "bioherb_supply_TX",
+                    "fuel_end_vertex" : "bioherb_TX"
+                },
+                {
+                    "id": "SE_Bioherb_Upstream",
+                    "location": "SE",
+                    "fossil_fuel_start_vertex" : "bioherb_supply_SE",
+                    "fuel_end_vertex" : "bioherb_SE"
+                },
+                {
+                    "id": "MIDAT_Bioherb_Upstream",
+                    "location": "MIDAT",
+                    "fossil_fuel_start_vertex" : "bioherb_supply_MIDAT",
+                    "fuel_end_vertex" : "bioherb_MIDAT"
+                },
+                {
+                    "id": "NE_Bioherb_Upstream",
+                    "location": "NE",
+                    "fossil_fuel_start_vertex" : "bioherb_supply_NE",
+                    "fuel_end_vertex" : "bioherb_NE"
+                }
+            ]
+        }
+    ]
+}

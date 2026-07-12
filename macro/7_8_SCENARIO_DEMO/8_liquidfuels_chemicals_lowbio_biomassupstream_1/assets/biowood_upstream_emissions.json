@@ -1,0 +1,70 @@
+{
+    "BioWoodUpstream": [
+        {
+            "type": "FossilFuelsUpstream",
+            "global_data": {
+                "timedata": "Biomass",
+                "emission_rate": 0.0529455197752751,
+                "co2_sink": "co2_sink",
+                "fuel_commodity": "Biomass_Wood",
+                "fossil_fuel_commodity": "Biomass_Wood"
+            },
+            "instance_data": [
+                {
+                    "id": "CA_BioWood_Upstream",
+                    "location": "CA",
+                    "fossil_fuel_start_vertex" : "biowood_supply_CA",
+                    "fuel_end_vertex" : "biowood_CA"
+                },
+                {
+                    "id": "NW_BioWood_Upstream",
+                    "location": "NW",
+                    "fossil_fuel_start_vertex" : "biowood_supply_NW",
+                    "fuel_end_vertex" : "biowood_NW"
+                },
+                {
+                    "id": "SW_BioWood_Upstream",
+                    "location": "SW",
+                    "fossil_fuel_start_vertex" : "biowood_supply_SW",
+                    "fuel_end_vertex" : "biowood_SW"
+                },
+                {
+                    "id": "NCEN_BioWood_Upstream",
+                    "location": "NCEN",
+                    "fossil_fuel_start_vertex" : "biowood_supply_NCEN",
+                    "fuel_end_vertex" : "biowood_NCEN"
+                },
+                {
+                    "id": "CEN_BioWood_Upstream",
+                    "location": "CEN",
+                    "fossil_fuel_start_vertex" : "biowood_supply_CEN",
+                    "fuel_end_vertex" : "biowood_CEN"
+                },
+                {
+                    "id": "TX_BioWood_Upstream",
+                    "location": "TX",
+                    "fossil_fuel_start_vertex" : "biowood_supply_TX",
+                    "fuel_end_vertex" : "biowood_TX"
+                },
+                {
+                    "id": "SE_BioWood_Upstream",
+                    "location": "SE",
+                    "fossil_fuel_start_vertex" : "biowood_supply_SE",
+                    "fuel_end_vertex" : "biowood_SE"
+                },
+                {
+                    "id": "MIDAT_BioWood_Upstream",
+                    "location": "MIDAT",
+                    "fossil_fuel_start_vertex" : "biowood_supply_MIDAT",
+                    "fuel_end_vertex" : "biowood_MIDAT"
+                },
+                {
+                    "id": "NE_BioWood_Upstream",
+                    "location": "NE",
+                    "fossil_fuel_start_vertex" : "biowood_supply_NE",
+                    "fuel_end_vertex" : "biowood_NE"
+                }
+            ]
+        }
+    ]
+}
