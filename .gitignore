@@ -37,3 +37,6 @@ output.log
 
 *.log
 /examples
+
+# Zip archives (results bundles, etc.)
+*.zip
