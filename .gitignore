@@ -40,3 +40,7 @@ output.log
 
 # Zip archives (results bundles, etc.)
 *.zip
+
+results_*.zip
+**/results_*.zip
+**/results_*/
