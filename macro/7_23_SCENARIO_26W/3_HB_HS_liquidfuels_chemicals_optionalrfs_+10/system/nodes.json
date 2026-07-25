@@ -1420,7 +1420,7 @@
         "location": "CA",
         "supply": {
           "segment1": {
-            "price": 250
+            "price": 176.0
           }
         }
       },
@@ -1429,7 +1429,7 @@
         "location": "NW",
         "supply": {
           "segment1": {
-            "price": 250
+            "price": 176.0
           }
         }
       },
@@ -1438,7 +1438,7 @@
         "location": "SW",
         "supply": {
           "segment1": {
-            "price": 250
+            "price": 176.0
           }
         }
       },
@@ -1447,7 +1447,7 @@
         "location": "TX",
         "supply": {
           "segment1": {
-            "price": 250
+            "price": 176.0
           }
         }
       },
@@ -1456,7 +1456,7 @@
         "location": "NCEN",
         "supply": {
           "segment1": {
-            "price": 250
+            "price": 176.0
           }
         }
       },
@@ -1465,7 +1465,7 @@
         "location": "CEN",
         "supply": {
           "segment1": {
-            "price": 250
+            "price": 176.0
           }
         }
       },
@@ -1474,7 +1474,7 @@
         "location": "SE",
         "supply": {
           "segment1": {
-            "price": 250
+            "price": 176.0
           }
         }
       },
@@ -1483,7 +1483,7 @@
         "location": "MIDAT",
         "supply": {
           "segment1": {
-            "price": 250
+            "price": 176.0
           }
         }
       },
@@ -1492,7 +1492,7 @@
         "location": "NE",
         "supply": {
           "segment1": {
-            "price": 250
+            "price": 176.0
           }
         }
       }
