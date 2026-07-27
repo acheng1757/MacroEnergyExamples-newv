@@ -1407,106 +1407,97 @@
   ]
 },
 {
-  "type": "Biomass_Corn",
-  "global_data": {
-    "time_interval": "Biomass",
-    "constraints": {
-      "BalanceConstraint": true
-    }
+    "type": "Biomass_Corn",
+    "global_data": {
+      "time_interval": "Biomass",
+      "constraints": {
+        "BalanceConstraint": true
+      }
+    },
+    "instance_data": [
+      {
+        "id": "biocorn_CA",
+        "location": "CA",
+        "supply": {
+          "segment1": {
+            "price": 160
+          }
+        }
+      },
+      {
+        "id": "biocorn_NW",
+        "location": "NW",
+        "supply": {
+          "segment1": {
+            "price": 160
+          }
+        }
+      },
+      {
+        "id": "biocorn_SW",
+        "location": "SW",
+        "supply": {
+          "segment1": {
+            "price": 160
+          }
+        }
+      },
+      {
+        "id": "biocorn_TX",
+        "location": "TX",
+        "supply": {
+          "segment1": {
+            "price": 160
+          }
+        }
+      },
+      {
+        "id": "biocorn_NCEN",
+        "location": "NCEN",
+        "supply": {
+          "segment1": {
+            "price": 160
+          }
+        }
+      },
+      {
+        "id": "biocorn_CEN",
+        "location": "CEN",
+        "supply": {
+          "segment1": {
+            "price": 160
+          }
+        }
+      },
+      {
+        "id": "biocorn_SE",
+        "location": "SE",
+        "supply": {
+          "segment1": {
+            "price": 160
+          }
+        }
+      },
+      {
+        "id": "biocorn_MIDAT",
+        "location": "MIDAT",
+        "supply": {
+          "segment1": {
+            "price": 160
+          }
+        }
+      },
+      {
+        "id": "biocorn_NE",
+        "location": "NE",
+        "supply": {
+          "segment1": {
+            "price": 160
+          }
+        }
+      }
+    ]
   },
-  "instance_data": [
-    {
-      "id": "biocorn_CA",
-      "location": "CA",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 111.0377101
-        }
-      }
-    },
-    {
-      "id": "biocorn_NW",
-      "location": "NW",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 86.74821098
-        }
-      }
-    },
-    {
-      "id": "biocorn_SW",
-      "location": "SW",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 144.0020302
-        }
-      }
-    },
-    {
-      "id": "biocorn_TX",
-      "location": "TX",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 373.2549973
-        }
-      }
-    },
-    {
-      "id": "biocorn_NCEN",
-      "location": "NCEN",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 9966.536659
-        }
-      }
-    },
-    {
-      "id": "biocorn_CEN",
-      "location": "CEN",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 4251.443072
-        }
-      }
-    },
-    {
-      "id": "biocorn_SE",
-      "location": "SE",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 263.2808203
-        }
-      }
-    },
-    {
-      "id": "biocorn_MIDAT",
-      "location": "MIDAT",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 778.9989346
-        }
-      }
-    },
-    {
-      "id": "biocorn_NE",
-      "location": "NE",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 53.78389081
-        }
-      }
-    }
-  ]
-},
   {
     "type": "Biomass_Agri",
     "global_data": {
@@ -1534,7 +1525,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 90.08
+            "max": 105.43
           }
         }
       },
@@ -1548,7 +1539,7 @@
           },
           "segment2": {
             "price": 77.16,
-            "max": 542.61
+            "max": 660.05
           }
         }
       },
@@ -1570,7 +1561,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 185.88
+            "max": 261.06
           }
         }
       },
@@ -1592,7 +1583,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 175.05
+            "max": 239.46
           }
         }
       },
@@ -1614,7 +1605,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 8755.38
+            "max": 12724.62
           }
         }
       },
@@ -1636,7 +1627,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 4437.82
+            "max": 5315.64
           }
         }
       },
@@ -1658,7 +1649,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 649.22
+            "max": 650.15
           }
         }
       },
@@ -1680,7 +1671,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 878.26
+            "max": 692.08
           }
         }
       },
@@ -1694,7 +1685,7 @@
           },
           "segment2": {
             "price": 77.16,
-            "max": 178.64
+            "max": 183.28
           }
         }
       }
@@ -1710,12 +1701,22 @@
     },
     "instance_data": [
       {
+        "id": "bioherb_CA",
+        "location": "CA",
+        "supply": {
+          "segment1": {
+            "price": 77.16,
+            "max": 0.13
+          }
+        }
+      },
+      {
         "id": "bioherb_NW",
         "location": "NW",
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 126.38
+            "max": 247.48
           }
         }
       },
@@ -1725,7 +1726,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 843.22
+            "max": 1775.25
           }
         }
       },
@@ -1735,7 +1736,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 9467.85
+            "max": 15019.96
           }
         }
       },
@@ -1745,7 +1746,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 1649.94
+            "max": 6503.51
           }
         }
       },
@@ -1755,7 +1756,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 11988.38
+            "max": 22269.54
           }
         }
       },
@@ -1765,7 +1766,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 4431.31
+            "max": 7963.12
           }
         }
       },
@@ -1775,7 +1776,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 803.75
+            "max": 1364.89
           }
         }
       },
@@ -1785,7 +1786,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 100.38
+            "max": 297.76
           }
         }
       }
@@ -1840,7 +1841,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 32.54
+            "max": 329.82
           },
           "segment5": {
             "price": 77.28,
@@ -1866,7 +1867,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 108.57
+            "max": 634.64
           },
           "segment5": {
             "price": 77.28,
@@ -1888,7 +1889,7 @@
           },
           "segment3": {
             "price": 77.16,
-            "max": 245.45
+            "max": 756.29
           },
           "segment4": {
             "price": 77.28,
@@ -1914,7 +1915,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 517.56
+            "max": 1893.52
           },
           "segment5": {
             "price": 77.28,
@@ -1940,7 +1941,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 889.43
+            "max": 2832.39
           },
           "segment5": {
             "price": 77.28,
@@ -1966,7 +1967,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 882.74
+            "max": 2114.63
           },
           "segment5": {
             "price": 77.28,
@@ -1992,7 +1993,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 705.26
+            "max": 1898.67
           },
           "segment5": {
             "price": 77.28,
@@ -2018,7 +2019,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 152.39
+            "max": 253.92
           },
           "segment5": {
             "price": 77.28,
