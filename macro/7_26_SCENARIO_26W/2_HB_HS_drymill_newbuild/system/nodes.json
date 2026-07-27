@@ -1420,7 +1420,8 @@
         "location": "CA",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 111.0377101
           }
         }
       },
@@ -1429,7 +1430,8 @@
         "location": "NW",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 86.74821098
           }
         }
       },
@@ -1438,7 +1440,8 @@
         "location": "SW",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 144.0020302
           }
         }
       },
@@ -1447,7 +1450,8 @@
         "location": "TX",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 373.2549973
           }
         }
       },
@@ -1456,7 +1460,8 @@
         "location": "NCEN",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 9966.536659
           }
         }
       },
@@ -1465,7 +1470,8 @@
         "location": "CEN",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 4251.443072
           }
         }
       },
@@ -1474,7 +1480,8 @@
         "location": "SE",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 263.2808203
           }
         }
       },
@@ -1483,7 +1490,8 @@
         "location": "MIDAT",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 778.9989346
           }
         }
       },
@@ -1492,7 +1500,8 @@
         "location": "NE",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 53.78389081
           }
         }
       }
