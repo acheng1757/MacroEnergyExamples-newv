@@ -23,7 +23,7 @@
         "Ethylene": 1,
         "Ethane": 1
     },
-    "NumberOfSubperiods": 1,
+    "NumberOfSubperiods": 26,
     "SubPeriodMap": {
         "path": "system/Period_map.csv"
     },
