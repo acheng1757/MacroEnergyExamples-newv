@@ -1,0 +1,264 @@
+{
+    "natgaspipeline": [
+        {
+            "type": "GasStorage",
+            "global_data": {
+                "storage_commodity": "NaturalGas",
+                "storage_long_duration": false,
+                "storage_constraints": {
+                    "StorageCapacityConstraint": true,
+                    "BalanceConstraint": true
+                },
+                "storage_existing_capacity": 0.0,
+                "storage_can_expand": false,
+                "storage_can_retire": false,
+                "charge_can_expand": false,
+                "charge_can_retire": false,
+                "charge_constraints": {
+                    "CapacityConstraint": true
+                },
+                "discharge_can_expand": false,
+                "discharge_can_retire": false,
+                "discharge_constraints": {
+                    "CapacityConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "natgas_CA_to_SW",
+                    "location": "CA",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_SW",
+                    "discharge_existing_capacity": 11052.88,
+                    "charge_existing_capacity": 11052.88
+                },
+                {
+                    "id": "natgas_NW_to_CA",
+                    "location": "NW",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_CA",
+                    "discharge_existing_capacity": 28772.98,
+                    "charge_existing_capacity": 28772.98
+                },
+                {
+                    "id": "natgas_NW_to_SW",
+                    "location": "NW",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_SW",
+                    "discharge_existing_capacity": 146209.82,
+                    "charge_existing_capacity": 146209.82
+                },
+                {
+                    "id": "natgas_NW_to_NCEN",
+                    "location": "NW",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_NCEN",
+                    "discharge_existing_capacity": 40548.35,
+                    "charge_existing_capacity": 40548.35
+                },
+                {
+                    "id": "natgas_NW_to_CEN",
+                    "location": "NW",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_CEN",
+                    "discharge_existing_capacity": 35021.91,
+                    "charge_existing_capacity": 35021.91
+                },
+                {
+                    "id": "natgas_SW_to_CA",
+                    "location": "SW",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_CA",
+                    "discharge_existing_capacity": 119819.81,
+                    "charge_existing_capacity": 119819.81
+                },
+                {
+                    "id": "natgas_SW_to_NW",
+                    "location": "SW",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_NW",
+                    "discharge_existing_capacity": 105775.55,
+                    "charge_existing_capacity": 105775.55
+                },
+                {
+                    "id": "natgas_SW_to_TX",
+                    "location": "SW",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_TX",
+                    "discharge_existing_capacity": 54567.26,
+                    "charge_existing_capacity": 54567.26
+                },
+                {
+                    "id": "natgas_SW_to_CEN",
+                    "location": "SW",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_CEN",
+                    "discharge_existing_capacity": 61741.49,
+                    "charge_existing_capacity": 61741.49
+                },
+                {
+                    "id": "natgas_TX_to_CEN",
+                    "location": "TX",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_CEN",
+                    "discharge_existing_capacity": 320710.97,
+                    "charge_existing_capacity": 320710.97
+                },
+                {
+                    "id": "natgas_NCEN_to_NW",
+                    "location": "NCEN",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_NW",
+                    "discharge_existing_capacity": 4588.47,
+                    "charge_existing_capacity": 4588.47
+                },
+                {
+                    "id": "natgas_NCEN_to_CEN",
+                    "location": "NCEN",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_CEN",
+                    "discharge_existing_capacity": 83314.88,
+                    "charge_existing_capacity": 83314.88
+                },
+                {
+                    "id": "natgas_NCEN_to_SE",
+                    "location": "NCEN",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_SE",
+                    "discharge_existing_capacity": 38748.46,
+                    "charge_existing_capacity": 38748.46
+                },
+                {
+                    "id": "natgas_NCEN_to_MIDAT",
+                    "location": "NCEN",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_MIDAT",
+                    "discharge_existing_capacity": 91198.93,
+                    "charge_existing_capacity": 91198.93
+                },
+                {
+                    "id": "natgas_CEN_to_NW",
+                    "location": "CEN",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_NW",
+                    "discharge_existing_capacity": 1077.4,
+                    "charge_existing_capacity": 1077.4
+                },
+                {
+                    "id": "natgas_CEN_to_SW",
+                    "location": "CEN",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_SW",
+                    "discharge_existing_capacity": 41803.21,
+                    "charge_existing_capacity": 41803.21
+                },
+                {
+                    "id": "natgas_CEN_to_TX",
+                    "location": "CEN",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_TX",
+                    "discharge_existing_capacity": 167795.9,
+                    "charge_existing_capacity": 167795.9
+                },
+                {
+                    "id": "natgas_CEN_to_NCEN",
+                    "location": "CEN",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_NCEN",
+                    "discharge_existing_capacity": 156121.93,
+                    "charge_existing_capacity": 156121.93
+                },
+                {
+                    "id": "natgas_CEN_to_SE",
+                    "location": "CEN",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_SE",
+                    "discharge_existing_capacity": 410338.16,
+                    "charge_existing_capacity": 410338.16
+                },
+                {
+                    "id": "natgas_SE_to_NCEN",
+                    "location": "SE",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_NCEN",
+                    "discharge_existing_capacity": 65379.3,
+                    "charge_existing_capacity": 65379.3
+                },
+                {
+                    "id": "natgas_SE_to_CEN",
+                    "location": "SE",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_CEN",
+                    "discharge_existing_capacity": 135930.14,
+                    "charge_existing_capacity": 135930.14
+                },
+                {
+                    "id": "natgas_SE_to_MIDAT",
+                    "location": "SE",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_MIDAT",
+                    "discharge_existing_capacity": 132558.5,
+                    "charge_existing_capacity": 132558.5
+                },
+                {
+                    "id": "natgas_MIDAT_to_NCEN",
+                    "location": "MIDAT",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_NCEN",
+                    "discharge_existing_capacity": 134827.39,
+                    "charge_existing_capacity": 134827.39
+                },
+                {
+                    "id": "natgas_MIDAT_to_SE",
+                    "location": "MIDAT",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_SE",
+                    "discharge_existing_capacity": 150925.04,
+                    "charge_existing_capacity": 150925.04
+                },
+                {
+                    "id": "natgas_MIDAT_to_NE",
+                    "location": "MIDAT",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_NE",
+                    "discharge_existing_capacity": 129110.82,
+                    "charge_existing_capacity": 129110.82
+                },
+                {
+                    "id": "natgas_NE_to_MIDAT",
+                    "location": "NE",
+                    "charge_electricity_consumption": 0.0,
+                    "discharge_electricity_consumption": 0.0,
+                    "external_discharge_end_vertex": "natgas_MIDAT",
+                    "discharge_existing_capacity": 22600.1,
+                    "charge_existing_capacity": 22600.1
+                }
+            ]
+        }
+    ]
+}
