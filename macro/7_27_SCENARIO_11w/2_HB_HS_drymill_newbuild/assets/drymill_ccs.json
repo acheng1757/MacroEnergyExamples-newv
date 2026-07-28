@@ -39,7 +39,8 @@
             "integer_decisions": false,
             "constraints": {
               "CapacityConstraint": true,
-              "MinFlowConstraint": true
+              "MinFlowConstraint": true,
+              "MaxCapacityConstraint": true
             }
           },
           "co2_content_edge": {
@@ -84,6 +85,7 @@
               "fixed_om_cost": 191772.15,
               "variable_om_cost": -25.37,
               "min_flow_fraction": 0.8,
+              "max_capacity": 100.0108508,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
@@ -130,6 +132,7 @@
               "fixed_om_cost": 191772.15,
               "variable_om_cost": -25.37,
               "min_flow_fraction": 0.8,
+              "max_capacity": 78.13347717,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
@@ -176,6 +179,7 @@
               "fixed_om_cost": 191772.15,
               "variable_om_cost": -25.37,
               "min_flow_fraction": 0.8,
+              "max_capacity": 129.7015721,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
@@ -222,6 +226,7 @@
               "fixed_om_cost": 191772.15,
               "variable_om_cost": -25.37,
               "min_flow_fraction": 0.8,
+              "max_capacity": 335.9739518,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
@@ -268,6 +273,7 @@
               "fixed_om_cost": 191772.15,
               "variable_om_cost": -25.37,
               "min_flow_fraction": 0.8,
+              "max_capacity": 8978.317861,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
@@ -314,6 +320,7 @@
               "fixed_om_cost": 191772.15,
               "variable_om_cost": -25.37,
               "min_flow_fraction": 0.8,
+              "max_capacity": 3830.884385,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
@@ -360,6 +367,7 @@
               "fixed_om_cost": 191772.15,
               "variable_om_cost": -25.37,
               "min_flow_fraction": 0.8,
+              "max_capacity": 237.5257706,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
@@ -406,6 +414,7 @@
               "fixed_om_cost": 191772.15,
               "variable_om_cost": -25.37,
               "min_flow_fraction": 0.8,
+              "max_capacity": 701.638625,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
@@ -452,6 +461,7 @@
               "fixed_om_cost": 191772.15,
               "variable_om_cost": -25.37,
               "min_flow_fraction": 0.8,
+              "max_capacity": 48.2056897,
               "availability": {
                 "timeseries": {
                   "path": "system/availability.csv",
