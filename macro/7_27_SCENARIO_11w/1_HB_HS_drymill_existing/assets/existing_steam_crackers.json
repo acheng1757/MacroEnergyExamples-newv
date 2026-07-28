@@ -92,9 +92,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },
@@ -151,7 +151,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 8222.227234,
+                  "investment_cost": 8222.23,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -164,7 +164,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 16914.897,
+                  "investment_cost": 16914.9,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -190,7 +190,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 61944.78541,
+                  "investment_cost": 61944.79,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -222,9 +222,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },
@@ -281,7 +281,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 8222.227234,
+                  "investment_cost": 8222.23,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -294,7 +294,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 16914.897,
+                  "investment_cost": 16914.9,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -320,7 +320,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 61944.78541,
+                  "investment_cost": 61944.79,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -352,9 +352,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },
@@ -411,7 +411,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 8222.227234,
+                  "investment_cost": 8222.23,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -424,7 +424,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 16914.897,
+                  "investment_cost": 16914.9,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -450,7 +450,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 61944.78541,
+                  "investment_cost": 61944.79,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -482,9 +482,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "existing_capacity": 53163.59567,
               "min_flow_fraction": 0.8
             },
@@ -541,7 +541,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 8222.227234,
+                  "investment_cost": 8222.23,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -554,7 +554,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 16914.897,
+                  "investment_cost": 16914.9,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -580,7 +580,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 61944.78541,
+                  "investment_cost": 61944.79,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -612,9 +612,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "existing_capacity": 5063.199587,
               "min_flow_fraction": 0.8
             },
@@ -671,7 +671,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 8222.227234,
+                  "investment_cost": 8222.23,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -684,7 +684,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 16914.897,
+                  "investment_cost": 16914.9,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -710,7 +710,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 61944.78541,
+                  "investment_cost": 61944.79,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -742,9 +742,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "existing_capacity": 25315.99794,
               "min_flow_fraction": 0.8
             },
@@ -801,7 +801,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 8222.227234,
+                  "investment_cost": 8222.23,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -814,7 +814,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 16914.897,
+                  "investment_cost": 16914.9,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -840,7 +840,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 61944.78541,
+                  "investment_cost": 61944.79,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -872,9 +872,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "existing_capacity": 2531.599794,
               "min_flow_fraction": 0.8
             },
@@ -931,7 +931,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 8222.227234,
+                  "investment_cost": 8222.23,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -944,7 +944,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 16914.897,
+                  "investment_cost": 16914.9,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -970,7 +970,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 61944.78541,
+                  "investment_cost": 61944.79,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -1002,9 +1002,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "existing_capacity": 2531.599794,
               "min_flow_fraction": 0.8
             },
@@ -1061,7 +1061,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 8222.227234,
+                  "investment_cost": 8222.23,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -1074,7 +1074,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 16914.897,
+                  "investment_cost": 16914.9,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -1100,7 +1100,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 61944.78541,
+                  "investment_cost": 61944.79,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -1132,9 +1132,9 @@
                   "header": "ethylene"
                 }
               },
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "existing_capacity": 0.0,
               "min_flow_fraction": 0.8
             },
@@ -1191,7 +1191,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 8222.227234,
+                  "investment_cost": 8222.23,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -1204,7 +1204,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 16914.897,
+                  "investment_cost": 16914.9,
                   "can_expand": true,
                   "existing_capacity": 0
                 }
@@ -1230,7 +1230,7 @@
                 "ethane_consumption_edge": {
                   "is_retrofit": true,
                   "retrofit_efficiency": 1,
-                  "investment_cost": 61944.78541,
+                  "investment_cost": 61944.79,
                   "can_expand": true,
                   "existing_capacity": 0
                 }

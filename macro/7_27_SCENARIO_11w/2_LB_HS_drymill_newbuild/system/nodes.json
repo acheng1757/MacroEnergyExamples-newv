@@ -1420,7 +1420,8 @@
         "location": "CA",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 111.0377101
           }
         }
       },
@@ -1429,7 +1430,8 @@
         "location": "NW",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 86.74821098
           }
         }
       },
@@ -1438,7 +1440,8 @@
         "location": "SW",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 144.0020302
           }
         }
       },
@@ -1447,7 +1450,8 @@
         "location": "TX",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 373.2549973
           }
         }
       },
@@ -1456,7 +1460,8 @@
         "location": "NCEN",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 9966.536659
           }
         }
       },
@@ -1465,7 +1470,8 @@
         "location": "CEN",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 4251.443072
           }
         }
       },
@@ -1474,7 +1480,8 @@
         "location": "SE",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 263.2808203
           }
         }
       },
@@ -1483,7 +1490,8 @@
         "location": "MIDAT",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 778.9989346
           }
         }
       },
@@ -1492,7 +1500,8 @@
         "location": "NE",
         "supply": {
           "segment1": {
-            "price": 160
+            "price": 160,
+            "max": 53.78389081
           }
         }
       }
@@ -1525,7 +1534,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 105.43
+            "max": 90.08
           }
         }
       },
@@ -1539,7 +1548,7 @@
           },
           "segment2": {
             "price": 77.16,
-            "max": 660.05
+            "max": 542.61
           }
         }
       },
@@ -1561,7 +1570,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 261.06
+            "max": 185.88
           }
         }
       },
@@ -1583,7 +1592,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 239.46
+            "max": 175.05
           }
         }
       },
@@ -1605,7 +1614,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 12724.62
+            "max": 8755.38
           }
         }
       },
@@ -1627,7 +1636,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 5315.64
+            "max": 4437.82
           }
         }
       },
@@ -1649,7 +1658,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 650.15
+            "max": 649.22
           }
         }
       },
@@ -1671,7 +1680,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 692.08
+            "max": 878.26
           }
         }
       },
@@ -1685,7 +1694,7 @@
           },
           "segment2": {
             "price": 77.16,
-            "max": 183.28
+            "max": 178.64
           }
         }
       }
@@ -1701,22 +1710,12 @@
     },
     "instance_data": [
       {
-        "id": "bioherb_CA",
-        "location": "CA",
-        "supply": {
-          "segment1": {
-            "price": 77.16,
-            "max": 0.13
-          }
-        }
-      },
-      {
         "id": "bioherb_NW",
         "location": "NW",
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 247.48
+            "max": 126.38
           }
         }
       },
@@ -1726,7 +1725,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 1775.25
+            "max": 843.22
           }
         }
       },
@@ -1736,7 +1735,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 15019.96
+            "max": 9467.85
           }
         }
       },
@@ -1746,7 +1745,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 6503.51
+            "max": 1649.94
           }
         }
       },
@@ -1756,7 +1755,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 22269.54
+            "max": 11988.38
           }
         }
       },
@@ -1766,7 +1765,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 7963.12
+            "max": 4431.31
           }
         }
       },
@@ -1776,7 +1775,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 1364.89
+            "max": 803.75
           }
         }
       },
@@ -1786,7 +1785,7 @@
         "supply": {
           "segment1": {
             "price": 77.16,
-            "max": 297.76
+            "max": 100.38
           }
         }
       }
@@ -1841,7 +1840,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 329.82
+            "max": 32.54
           },
           "segment5": {
             "price": 77.28,
@@ -1867,7 +1866,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 634.64
+            "max": 108.57
           },
           "segment5": {
             "price": 77.28,
@@ -1889,7 +1888,7 @@
           },
           "segment3": {
             "price": 77.16,
-            "max": 756.29
+            "max": 245.45
           },
           "segment4": {
             "price": 77.28,
@@ -1915,7 +1914,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 1893.52
+            "max": 517.56
           },
           "segment5": {
             "price": 77.28,
@@ -1941,7 +1940,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 2832.39
+            "max": 889.43
           },
           "segment5": {
             "price": 77.28,
@@ -1967,7 +1966,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 2114.63
+            "max": 882.74
           },
           "segment5": {
             "price": 77.28,
@@ -1993,7 +1992,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 1898.67
+            "max": 705.26
           },
           "segment5": {
             "price": 77.28,
@@ -2019,7 +2018,7 @@
           },
           "segment4": {
             "price": 77.16,
-            "max": 253.92
+            "max": 152.39
           },
           "segment5": {
             "price": 77.28,

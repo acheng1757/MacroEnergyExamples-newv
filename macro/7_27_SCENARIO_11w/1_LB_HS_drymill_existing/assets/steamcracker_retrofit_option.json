@@ -85,9 +85,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -134,9 +134,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -183,9 +183,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -232,9 +232,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -281,9 +281,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -330,9 +330,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -379,9 +379,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -428,9 +428,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -477,9 +477,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 90689.94866168762,
-              "fixed_om_cost": 49635.759267535745,
-              "variable_om_cost": -2.393332994100141,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -595,9 +595,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -644,9 +644,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -693,9 +693,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -742,9 +742,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -791,9 +791,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -840,9 +840,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -889,9 +889,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -938,9 +938,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -987,9 +987,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1105,9 +1105,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 98911.77652128073,
-              "fixed_om_cost": 54135.66977734655,
-              "variable_om_cost": -2.273331701113315,
+              "investment_cost": 98911.78,
+              "fixed_om_cost": 54135.67,
+              "variable_om_cost": -2.27,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1154,9 +1154,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 98911.77652128073,
-              "fixed_om_cost": 54135.66977734655,
-              "variable_om_cost": -2.273331701113315,
+              "investment_cost": 98911.78,
+              "fixed_om_cost": 54135.67,
+              "variable_om_cost": -2.27,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1203,9 +1203,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 98911.77652128073,
-              "fixed_om_cost": 54135.66977734655,
-              "variable_om_cost": -2.273331701113315,
+              "investment_cost": 98911.78,
+              "fixed_om_cost": 54135.67,
+              "variable_om_cost": -2.27,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1252,9 +1252,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 98911.77652128073,
-              "fixed_om_cost": 54135.66977734655,
-              "variable_om_cost": -2.273331701113315,
+              "investment_cost": 98911.78,
+              "fixed_om_cost": 54135.67,
+              "variable_om_cost": -2.27,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1301,9 +1301,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 98911.77652128073,
-              "fixed_om_cost": 54135.66977734655,
-              "variable_om_cost": -2.273331701113315,
+              "investment_cost": 98911.78,
+              "fixed_om_cost": 54135.67,
+              "variable_om_cost": -2.27,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1350,9 +1350,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 98911.77652128073,
-              "fixed_om_cost": 54135.66977734655,
-              "variable_om_cost": -2.273331701113315,
+              "investment_cost": 98911.78,
+              "fixed_om_cost": 54135.67,
+              "variable_om_cost": -2.27,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1399,9 +1399,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 98911.77652128073,
-              "fixed_om_cost": 54135.66977734655,
-              "variable_om_cost": -2.273331701113315,
+              "investment_cost": 98911.78,
+              "fixed_om_cost": 54135.67,
+              "variable_om_cost": -2.27,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1448,9 +1448,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 98911.77652128073,
-              "fixed_om_cost": 54135.66977734655,
-              "variable_om_cost": -2.273331701113315,
+              "investment_cost": 98911.78,
+              "fixed_om_cost": 54135.67,
+              "variable_om_cost": -2.27,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1497,9 +1497,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 98911.77652128073,
-              "fixed_om_cost": 54135.66977734655,
-              "variable_om_cost": -2.273331701113315,
+              "investment_cost": 98911.78,
+              "fixed_om_cost": 54135.67,
+              "variable_om_cost": -2.27,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1615,9 +1615,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 107604.02402443803,
-              "fixed_om_cost": 58895.31361204106,
-              "variable_om_cost": -2.2636149972277417,
+              "investment_cost": 107604.02,
+              "fixed_om_cost": 58895.31,
+              "variable_om_cost": -2.26,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1664,9 +1664,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 107604.02402443803,
-              "fixed_om_cost": 58895.31361204106,
-              "variable_om_cost": -2.2636149972277417,
+              "investment_cost": 107604.02,
+              "fixed_om_cost": 58895.31,
+              "variable_om_cost": -2.26,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1713,9 +1713,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 107604.02402443803,
-              "fixed_om_cost": 58895.31361204106,
-              "variable_om_cost": -2.2636149972277417,
+              "investment_cost": 107604.02,
+              "fixed_om_cost": 58895.31,
+              "variable_om_cost": -2.26,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1762,9 +1762,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 107604.02402443803,
-              "fixed_om_cost": 58895.31361204106,
-              "variable_om_cost": -2.2636149972277417,
+              "investment_cost": 107604.02,
+              "fixed_om_cost": 58895.31,
+              "variable_om_cost": -2.26,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1811,9 +1811,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 107604.02402443803,
-              "fixed_om_cost": 58895.31361204106,
-              "variable_om_cost": -2.2636149972277417,
+              "investment_cost": 107604.02,
+              "fixed_om_cost": 58895.31,
+              "variable_om_cost": -2.26,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1860,9 +1860,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 107604.02402443803,
-              "fixed_om_cost": 58895.31361204106,
-              "variable_om_cost": -2.2636149972277417,
+              "investment_cost": 107604.02,
+              "fixed_om_cost": 58895.31,
+              "variable_om_cost": -2.26,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1909,9 +1909,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 107604.02402443803,
-              "fixed_om_cost": 58895.31361204106,
-              "variable_om_cost": -2.2636149972277417,
+              "investment_cost": 107604.02,
+              "fixed_om_cost": 58895.31,
+              "variable_om_cost": -2.26,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -1958,9 +1958,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 107604.02402443803,
-              "fixed_om_cost": 58895.31361204106,
-              "variable_om_cost": -2.2636149972277417,
+              "investment_cost": 107604.02,
+              "fixed_om_cost": 58895.31,
+              "variable_om_cost": -2.26,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2007,9 +2007,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 107604.02402443803,
-              "fixed_om_cost": 58895.31361204106,
-              "variable_om_cost": -2.2636149972277417,
+              "investment_cost": 107604.02,
+              "fixed_om_cost": 58895.31,
+              "variable_om_cost": -2.26,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2125,9 +2125,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2174,9 +2174,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2223,9 +2223,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2272,9 +2272,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2321,9 +2321,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2370,9 +2370,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2419,9 +2419,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2468,9 +2468,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2517,9 +2517,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2635,9 +2635,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2684,9 +2684,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2733,9 +2733,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2782,9 +2782,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2831,9 +2831,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2880,9 +2880,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2929,9 +2929,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -2978,9 +2978,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -3027,9 +3027,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 90689.94846735353,
-              "fixed_om_cost": 49635.75917036871,
-              "variable_om_cost": -2.393091569960389,
+              "investment_cost": 90689.95,
+              "fixed_om_cost": 49635.76,
+              "variable_om_cost": -2.39,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -3145,9 +3145,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CA",
-              "investment_cost": 120149.90088763791,
-              "fixed_om_cost": 65759.56480356639,
-              "variable_om_cost": -1.8949334327023846,
+              "investment_cost": 120149.9,
+              "fixed_om_cost": 65759.56,
+              "variable_om_cost": -1.89,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -3194,9 +3194,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NW",
-              "investment_cost": 120149.90088763791,
-              "fixed_om_cost": 65759.56480356639,
-              "variable_om_cost": -1.8949334327023846,
+              "investment_cost": 120149.9,
+              "fixed_om_cost": 65759.56,
+              "variable_om_cost": -1.89,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -3243,9 +3243,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SW",
-              "investment_cost": 120149.90088763791,
-              "fixed_om_cost": 65759.56480356639,
-              "variable_om_cost": -1.8949334327023846,
+              "investment_cost": 120149.9,
+              "fixed_om_cost": 65759.56,
+              "variable_om_cost": -1.89,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -3292,9 +3292,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_TX",
-              "investment_cost": 120149.90088763791,
-              "fixed_om_cost": 65759.56480356639,
-              "variable_om_cost": -1.8949334327023846,
+              "investment_cost": 120149.9,
+              "fixed_om_cost": 65759.56,
+              "variable_om_cost": -1.89,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -3341,9 +3341,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NCEN",
-              "investment_cost": 120149.90088763791,
-              "fixed_om_cost": 65759.56480356639,
-              "variable_om_cost": -1.8949334327023846,
+              "investment_cost": 120149.9,
+              "fixed_om_cost": 65759.56,
+              "variable_om_cost": -1.89,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -3390,9 +3390,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_CEN",
-              "investment_cost": 120149.90088763791,
-              "fixed_om_cost": 65759.56480356639,
-              "variable_om_cost": -1.8949334327023846,
+              "investment_cost": 120149.9,
+              "fixed_om_cost": 65759.56,
+              "variable_om_cost": -1.89,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -3439,9 +3439,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_SE",
-              "investment_cost": 120149.90088763791,
-              "fixed_om_cost": 65759.56480356639,
-              "variable_om_cost": -1.8949334327023846,
+              "investment_cost": 120149.9,
+              "fixed_om_cost": 65759.56,
+              "variable_om_cost": -1.89,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -3488,9 +3488,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_MIDAT",
-              "investment_cost": 120149.90088763791,
-              "fixed_om_cost": 65759.56480356639,
-              "variable_om_cost": -1.8949334327023846,
+              "investment_cost": 120149.9,
+              "fixed_om_cost": 65759.56,
+              "variable_om_cost": -1.89,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {
@@ -3537,9 +3537,9 @@
             "ethane_consumption_edge": {
               "commodity": "Ethane",
               "start_vertex": "ethane_NE",
-              "investment_cost": 120149.90088763791,
-              "fixed_om_cost": 65759.56480356639,
-              "variable_om_cost": -1.8949334327023846,
+              "investment_cost": 120149.9,
+              "fixed_om_cost": 65759.56,
+              "variable_om_cost": -1.89,
               "min_flow_fraction": 0.8,
               "availability": {
                 "timeseries": {

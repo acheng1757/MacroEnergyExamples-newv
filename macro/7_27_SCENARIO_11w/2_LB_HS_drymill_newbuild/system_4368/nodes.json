@@ -1407,106 +1407,106 @@
   ]
 },
 {
-  "type": "Biomass_Corn",
-  "global_data": {
-    "time_interval": "Biomass",
-    "constraints": {
-      "BalanceConstraint": true
-    }
+    "type": "Biomass_Corn",
+    "global_data": {
+      "time_interval": "Biomass",
+      "constraints": {
+        "BalanceConstraint": true
+      }
+    },
+    "instance_data": [
+      {
+        "id": "biocorn_CA",
+        "location": "CA",
+        "supply": {
+          "segment1": {
+            "price": 160,
+            "max": 111.0377101
+          }
+        }
+      },
+      {
+        "id": "biocorn_NW",
+        "location": "NW",
+        "supply": {
+          "segment1": {
+            "price": 160,
+            "max": 86.74821098
+          }
+        }
+      },
+      {
+        "id": "biocorn_SW",
+        "location": "SW",
+        "supply": {
+          "segment1": {
+            "price": 160,
+            "max": 144.0020302
+          }
+        }
+      },
+      {
+        "id": "biocorn_TX",
+        "location": "TX",
+        "supply": {
+          "segment1": {
+            "price": 160,
+            "max": 373.2549973
+          }
+        }
+      },
+      {
+        "id": "biocorn_NCEN",
+        "location": "NCEN",
+        "supply": {
+          "segment1": {
+            "price": 160,
+            "max": 9966.536659
+          }
+        }
+      },
+      {
+        "id": "biocorn_CEN",
+        "location": "CEN",
+        "supply": {
+          "segment1": {
+            "price": 160,
+            "max": 4251.443072
+          }
+        }
+      },
+      {
+        "id": "biocorn_SE",
+        "location": "SE",
+        "supply": {
+          "segment1": {
+            "price": 160,
+            "max": 263.2808203
+          }
+        }
+      },
+      {
+        "id": "biocorn_MIDAT",
+        "location": "MIDAT",
+        "supply": {
+          "segment1": {
+            "price": 160,
+            "max": 778.9989346
+          }
+        }
+      },
+      {
+        "id": "biocorn_NE",
+        "location": "NE",
+        "supply": {
+          "segment1": {
+            "price": 160,
+            "max": 53.78389081
+          }
+        }
+      }
+    ]
   },
-  "instance_data": [
-    {
-      "id": "biocorn_CA",
-      "location": "CA",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 111.0377101
-        }
-      }
-    },
-    {
-      "id": "biocorn_NW",
-      "location": "NW",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 86.74821098
-        }
-      }
-    },
-    {
-      "id": "biocorn_SW",
-      "location": "SW",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 144.0020302
-        }
-      }
-    },
-    {
-      "id": "biocorn_TX",
-      "location": "TX",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 373.2549973
-        }
-      }
-    },
-    {
-      "id": "biocorn_NCEN",
-      "location": "NCEN",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 9966.536659
-        }
-      }
-    },
-    {
-      "id": "biocorn_CEN",
-      "location": "CEN",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 4251.443072
-        }
-      }
-    },
-    {
-      "id": "biocorn_SE",
-      "location": "SE",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 263.2808203
-        }
-      }
-    },
-    {
-      "id": "biocorn_MIDAT",
-      "location": "MIDAT",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 778.9989346
-        }
-      }
-    },
-    {
-      "id": "biocorn_NE",
-      "location": "NE",
-      "supply": {
-        "segment1": {
-          "price": 160,
-          "max": 53.78389081
-        }
-      }
-    }
-  ]
-},
   {
     "type": "Biomass_Agri",
     "global_data": {
