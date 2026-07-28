@@ -40,8 +40,7 @@
             "constraints": {
               "CapacityConstraint": true,
               "MinFlowConstraint": true
-            },
-            "can_retrofit": false
+            }
           },
           "co2_content_edge": {
             "commodity": "CO2",
@@ -291,35 +290,7 @@
             "co2_captured_edge": {
               "end_vertex": "co2_captured_NCEN"
             }
-          },
-          "retrofit_options": [
-            {
-              "template_id": "NCEN_DryMill_CCS_Fermentation",
-              "id": "NCEN_DryMill_CCS_Fermentation_RETROFIT",
-              "edges": {
-                "biomass_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 27458.48,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            },
-            {
-              "template_id": "NCEN_DryMill_CCS_Fermentation_Exhaust",
-              "id": "NCEN_DryMill_CCS_Fermentation_Exhaust_RETROFIT",
-              "edges": {
-                "biomass_consumption_edge": {
-                  "is_retrofit": true,
-                  "retrofit_efficiency": 1,
-                  "investment_cost": 45179.42,
-                  "can_expand": true,
-                  "existing_capacity": 0
-                }
-              }
-            }
-          ]
+          }
         },
         {
           "id": "CEN_DryMill_Existing_Non_CCS",
