@@ -122,7 +122,7 @@
             "fuel_emission_rate": 0.185341119
           },
           "edges": {
-            "biomassc_consumption_edge": {
+            "biomass_consumption_edge": {
               "commodity": "Biomass_Corn",
               "start_vertex": "biocorn_NW",
               "availability": {
