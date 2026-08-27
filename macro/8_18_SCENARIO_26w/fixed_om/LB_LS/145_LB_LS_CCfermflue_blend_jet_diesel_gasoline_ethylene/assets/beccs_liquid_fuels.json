@@ -1,0 +1,5548 @@
+{
+  "beccs_liquid_fuels": [
+    {
+      "type": "BECCSLiquidFuels",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "gasoline_commodity": "Gasoline",
+        "jetfuel_commodity": "JetFuel",
+        "diesel_commodity": "Diesel",
+        "gasoline_end_vertex": "gasoline_global",
+        "jetfuel_end_vertex": "jetfuel_global",
+        "diesel_end_vertex": "diesel_global"
+      },
+      "instance_data": [
+        {
+          "id": "NW_Gasoline_Gasification_Non_CCS_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0104,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2185171503695085,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_Gasoline_Gasification_Non_CCS_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0104,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2185171503695085,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Gasoline_Gasification_Non_CCS_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0127,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2199751803699168,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Gasoline_Gasification_Non_CCS_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0382,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2457425253746122,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Gasoline_Gasification_Non_CCS_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0215,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.22980730037155,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Gasoline_Gasification_Non_CCS_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0171,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2228912403707335,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Gasoline_Gasification_Non_CCS_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0171,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2238912403707334,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_Gasoline_Gasification_Non_CCS_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0382,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2477425253746122,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_Gasoline_Gasification_Non_CCS_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1504,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.3183730403952312,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_Gasoline_Gasification_Non_CCS_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1659,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.3135792503980892,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_Gasoline_Gasification_Non_CCS_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1437,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2989989503940063,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Gasoline_Gasification_Non_CCS_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1226,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.3091476653901273,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Gasoline_Gasification_Non_CCS_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1171,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.3025025903891068,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Gasoline_Gasification_Non_CCS_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1282,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2947927403911481,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Gasoline_Gasification_Non_CCS_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1304,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.3092507703915564,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Gasoline_Gasification_Non_CCS_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1093,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.3043994853876777,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_Gasoline_Gasification_Non_CCS_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.096,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.3186513053852278,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_Gasoline_Gasification_Non_CCS_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.036,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.223284495374204,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_Gasoline_Gasification_Non_CCS_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.8616,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2108291403421525,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_Gasoline_Gasification_Non_CCS_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.8849,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2211384553464397,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Gasoline_Gasification_Non_CCS_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.8305,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.1754167203364365,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Gasoline_Gasification_Non_CCS_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9194,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2407379203527684,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Gasoline_Gasification_Non_CCS_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9038,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2325317103499103,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Gasoline_Gasification_Non_CCS_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9138,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2220928453517477,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Gasoline_Gasification_Non_CCS_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9216,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2401959503531765,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_Gasoline_Gasification_Non_CCS_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 356053.6,
+          "fixed_om_cost": 283503.36,
+          "variable_om_cost": 22.04,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9449,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 1.2415052653574636,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BECCSLiquidFuels",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "gasoline_commodity": "Gasoline",
+        "jetfuel_commodity": "JetFuel",
+        "diesel_commodity": "Diesel",
+        "gasoline_end_vertex": "gasoline_global",
+        "jetfuel_end_vertex": "jetfuel_global",
+        "diesel_end_vertex": "diesel_global"
+      },
+      "instance_data": [
+        {
+          "id": "NW_Gasoline_Gasification_CCS_31_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0104,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.84041127860985,
+          "capture_rate": 0.3781058717596585,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_Gasoline_Gasification_CCS_31_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0104,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.84041127860985,
+          "capture_rate": 0.3781058717596585,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Gasoline_Gasification_CCS_31_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0127,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8414168819011316,
+          "capture_rate": 0.3785582984687852,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Gasoline_Gasification_CCS_31_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0382,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.85918861975087,
+          "capture_rate": 0.3865539056237422,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Gasoline_Gasification_CCS_31_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0215,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.848198095066258,
+          "capture_rate": 0.38160920530529197,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Gasoline_Gasification_CCS_31_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0171,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8434280884836949,
+          "capture_rate": 0.3794631518870386,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Gasoline_Gasification_CCS_31_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0171,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8441177884836948,
+          "capture_rate": 0.3797734518870386,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_Gasoline_Gasification_CCS_31_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0382,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8605680197508699,
+          "capture_rate": 0.38717450562374217,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_Gasoline_Gasification_CCS_31_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1504,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.9092818859605909,
+          "capture_rate": 0.4090911544346403,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_Gasoline_Gasification_CCS_31_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1659,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.9059756089995621,
+          "capture_rate": 0.4076036413985271,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_Gasoline_Gasification_CCS_31_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1437,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8959195760867461,
+          "capture_rate": 0.40307937430726015,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Gasoline_Gasification_CCS_31_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1226,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.9029191448195708,
+          "capture_rate": 0.40622852057055653,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Gasoline_Gasification_CCS_31_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1171,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.898336036591367,
+          "capture_rate": 0.40416655379773986,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Gasoline_Gasification_CCS_31_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1282,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8930185530477748,
+          "capture_rate": 0.4017741873433733,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Gasoline_Gasification_CCS_31_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1304,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.9029902563390564,
+          "capture_rate": 0.40626051405249997,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Gasoline_Gasification_CCS_31_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1093,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8996443250718813,
+          "capture_rate": 0.4047551603157964,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_Gasoline_Gasification_CCS_31_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.096,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.9094738053241915,
+          "capture_rate": 0.4091775000610362,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_Gasoline_Gasification_CCS_31_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.036,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8436993164595884,
+          "capture_rate": 0.3795851789146155,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_Gasoline_Gasification_CCS_31_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.8616,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8351088580939826,
+          "capture_rate": 0.37572028224816995,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_Gasoline_Gasification_CCS_31_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.8849,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8422191926524395,
+          "capture_rate": 0.3789192626940003,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Gasoline_Gasification_CCS_31_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.8305,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8106849120160402,
+          "capture_rate": 0.36473180832039626,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Gasoline_Gasification_CCS_31_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9194,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8557369436673044,
+          "capture_rate": 0.38500097668546407,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Gasoline_Gasification_CCS_31_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9038,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8500771206283331,
+          "capture_rate": 0.3824545897215772,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Gasoline_Gasification_CCS_31_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9138,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8428774354391003,
+          "capture_rate": 0.37921540991264735,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Gasoline_Gasification_CCS_31_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9216,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8553631469585858,
+          "capture_rate": 0.3848328033945907,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_Gasoline_Gasification_CCS_31_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 434628.32,
+          "fixed_om_cost": 354088.0,
+          "variable_om_cost": 23.59,
+          "electricity_consumption": 0.1041,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9449,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.8562661815170427,
+          "capture_rate": 0.385239083840421,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BECCSLiquidFuels",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "gasoline_commodity": "Gasoline",
+        "jetfuel_commodity": "JetFuel",
+        "diesel_commodity": "Diesel",
+        "gasoline_end_vertex": "gasoline_global",
+        "jetfuel_end_vertex": "jetfuel_global",
+        "diesel_end_vertex": "diesel_global"
+      },
+      "instance_data": [
+        {
+          "id": "NW_Gasoline_Gasification_CCS_99_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0104,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.00840776833754963,
+          "capture_rate": 1.2101093820319588,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_Gasoline_Gasification_CCS_99_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0104,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.00840776833754963,
+          "capture_rate": 1.2101093820319588,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Gasoline_Gasification_CCS_99_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0127,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008417828744552446,
+          "capture_rate": 1.2115573516253644,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Gasoline_Gasification_CCS_99_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0382,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008595623425084846,
+          "capture_rate": 1.2371469019495274,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Gasoline_Gasification_CCS_99_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0215,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008485670372563717,
+          "capture_rate": 1.2213216299989862,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Gasoline_Gasification_CCS_99_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0171,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008437949558558082,
+          "capture_rate": 1.2144532908121755,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Gasoline_Gasification_CCS_99_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0171,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.00844484955855808,
+          "capture_rate": 1.2154463908121753,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_Gasoline_Gasification_CCS_99_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.0382,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008609423425084846,
+          "capture_rate": 1.2391331019495273,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_Gasoline_Gasification_CCS_99_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1504,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.009096773978727117,
+          "capture_rate": 1.309276266416504,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_Gasoline_Gasification_CCS_99_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1659,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.009063696827746838,
+          "capture_rate": 1.3045155535703423,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_Gasoline_Gasification_CCS_99_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1437,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008963092757718666,
+          "capture_rate": 1.2900358576362876,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Gasoline_Gasification_CCS_99_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1226,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.009033118891191901,
+          "capture_rate": 1.3001145464989354,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Gasoline_Gasification_CCS_99_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1171,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008987267873684859,
+          "capture_rate": 1.293515322515422,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Gasoline_Gasification_CCS_99_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1282,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008934069908698944,
+          "capture_rate": 1.285858670482449,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Gasoline_Gasification_CCS_99_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1304,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.009033830315701761,
+          "capture_rate": 1.3002169400758545,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Gasoline_Gasification_CCS_99_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.1093,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.009000356449174999,
+          "capture_rate": 1.2953991289385027,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_Gasoline_Gasification_CCS_99_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.096,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.009098694007158094,
+          "capture_rate": 1.3095526113780698,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_Gasoline_Gasification_CCS_99_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 2.036,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008440663018082028,
+          "capture_rate": 1.214843832356122,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_Gasoline_Gasification_CCS_99_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.8616,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008354721068360873,
+          "capture_rate": 1.2024744192737917,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_Gasoline_Gasification_CCS_99_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.8849,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008425855341890455,
+          "capture_rate": 1.2127126000045492,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_Gasoline_Gasification_CCS_99_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.8305,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008110375370321433,
+          "capture_rate": 1.1673063449661152,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Gasoline_Gasification_CCS_99_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9194,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008561091650434123,
+          "capture_rate": 1.2321768287023342,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_Gasoline_Gasification_CCS_99_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9038,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.008504468801414401,
+          "capture_rate": 1.2240272415484958,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_Gasoline_Gasification_CCS_99_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9138,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.00843244063292708,
+          "capture_rate": 1.2136604047188206,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Gasoline_Gasification_CCS_99_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9216,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.00855735205743694,
+          "capture_rate": 1.2316385982957396,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_Gasoline_Gasification_CCS_99_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 590486.4,
+          "fixed_om_cost": 434613.76,
+          "variable_om_cost": 28.74,
+          "electricity_consumption": 1.1596,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 1.9449,
+          "jetfuel_production": 0.0,
+          "diesel_production": 0.0,
+          "electricity_production": 0.0,
+          "emission_rate": 0.00856638633096652,
+          "capture_rate": 1.232938879026497,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BECCSLiquidFuels",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "gasoline_commodity": "Gasoline",
+        "jetfuel_commodity": "JetFuel",
+        "diesel_commodity": "Diesel",
+        "gasoline_end_vertex": "gasoline_global",
+        "jetfuel_end_vertex": "jetfuel_global",
+        "diesel_end_vertex": "diesel_global"
+      },
+      "instance_data": [
+        {
+          "id": "NW_FT_High_Diesel_Non_CCS_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6563,
+          "jetfuel_production": 0.6767,
+          "diesel_production": 1.3405,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0478138304076108,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Diesel_Non_CCS_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6563,
+          "jetfuel_production": 0.6767,
+          "diesel_production": 1.3405,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0478138304076108,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Diesel_Non_CCS_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6571,
+          "jetfuel_production": 0.6774,
+          "diesel_production": 1.342,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0490832379550223,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Diesel_Non_CCS_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6654,
+          "jetfuel_production": 0.686,
+          "diesel_production": 1.359,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0726814247502574,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Diesel_Non_CCS_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.66,
+          "jetfuel_production": 0.6804,
+          "diesel_production": 1.3479,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0581608681446695,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Diesel_Non_CCS_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6585,
+          "jetfuel_production": 0.6789,
+          "diesel_production": 1.3449,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0516220530498457,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Diesel_Non_CCS_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6585,
+          "jetfuel_production": 0.6789,
+          "diesel_production": 1.3449,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0526220530498456,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Diesel_Non_CCS_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6654,
+          "jetfuel_production": 0.686,
+          "diesel_production": 1.359,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0746814247502572,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Diesel_Non_CCS_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.702,
+          "jetfuel_production": 0.7238,
+          "diesel_production": 1.4338,
+          "electricity_production": 0.0,
+          "emission_rate": 1.1357865058945493,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Diesel_Non_CCS_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.7071,
+          "jetfuel_production": 0.729,
+          "diesel_production": 1.4442,
+          "electricity_production": 0.0,
+          "emission_rate": 1.1296723587264317,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Diesel_Non_CCS_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6999,
+          "jetfuel_production": 0.7215,
+          "diesel_production": 1.4294,
+          "electricity_production": 0.0,
+          "emission_rate": 1.116978283252314,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Diesel_Non_CCS_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.693,
+          "jetfuel_production": 0.7144,
+          "diesel_production": 1.4153,
+          "electricity_production": 0.0,
+          "emission_rate": 1.128918911551903,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Diesel_Non_CCS_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6912,
+          "jetfuel_production": 0.7126,
+          "diesel_production": 1.4116,
+          "electricity_production": 0.0,
+          "emission_rate": 1.1227453926833733,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Diesel_Non_CCS_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6948,
+          "jetfuel_production": 0.7163,
+          "diesel_production": 1.419,
+          "electricity_production": 0.0,
+          "emission_rate": 1.114092430420432,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Diesel_Non_CCS_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6955,
+          "jetfuel_production": 0.717,
+          "diesel_production": 1.4205,
+          "electricity_production": 0.0,
+          "emission_rate": 1.1283618379678437,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Diesel_Non_CCS_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6886,
+          "jetfuel_production": 0.7099,
+          "diesel_production": 1.4064,
+          "electricity_production": 0.0,
+          "emission_rate": 1.1253024662674322,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Diesel_Non_CCS_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6843,
+          "jetfuel_production": 0.7055,
+          "diesel_production": 1.3975,
+          "electricity_production": 0.0,
+          "emission_rate": 1.140686020982962,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Diesel_Non_CCS_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6647,
+          "jetfuel_production": 0.6853,
+          "diesel_production": 1.3575,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0504120172028455,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Diesel_Non_CCS_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6078,
+          "jetfuel_production": 0.6266,
+          "diesel_production": 1.2413,
+          "electricity_production": 0.0,
+          "emission_rate": 1.052763524731025,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Diesel_Non_CCS_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6154,
+          "jetfuel_production": 0.6344,
+          "diesel_production": 1.2568,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0610923039788482,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Diesel_Non_CCS_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.5976,
+          "jetfuel_production": 0.6161,
+          "diesel_production": 1.2205,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0199918190672608,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Diesel_Non_CCS_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6266,
+          "jetfuel_production": 0.646,
+          "diesel_production": 1.2798,
+          "electricity_production": 0.0,
+          "emission_rate": 1.07776812096373,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Diesel_Non_CCS_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6215,
+          "jetfuel_production": 0.6408,
+          "diesel_production": 1.2694,
+          "electricity_production": 0.0,
+          "emission_rate": 1.070882268131848,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Diesel_Non_CCS_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6248,
+          "jetfuel_production": 0.6441,
+          "diesel_production": 1.2761,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0595946020952007,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Diesel_Non_CCS_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6273,
+          "jetfuel_production": 0.6468,
+          "diesel_production": 1.2812,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0770375285111418,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Diesel_Non_CCS_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 492864.96,
+          "fixed_om_cost": 547339.52,
+          "variable_om_cost": 0.0,
+          "electricity_consumption": 2.8679,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.635,
+          "jetfuel_production": 0.6546,
+          "diesel_production": 1.2968,
+          "electricity_production": 0.0,
+          "emission_rate": 1.0763663077589647,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BECCSLiquidFuels",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "gasoline_commodity": "Gasoline",
+        "jetfuel_commodity": "JetFuel",
+        "diesel_commodity": "Diesel",
+        "gasoline_end_vertex": "gasoline_global",
+        "jetfuel_end_vertex": "jetfuel_global",
+        "diesel_end_vertex": "diesel_global"
+      },
+      "instance_data": [
+        {
+          "id": "NW_FT_High_Diesel_CCS_53_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6563,
+          "jetfuel_production": 0.6767,
+          "diesel_production": 1.3405,
+          "electricity_production": 0.0,
+          "emission_rate": 0.494672909335433,
+          "capture_rate": 0.5531409210721777,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Diesel_CCS_53_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6563,
+          "jetfuel_production": 0.6767,
+          "diesel_production": 1.3405,
+          "electricity_production": 0.0,
+          "emission_rate": 0.494672909335433,
+          "capture_rate": 0.5531409210721777,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Diesel_CCS_53_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6571,
+          "jetfuel_production": 0.6774,
+          "diesel_production": 1.342,
+          "electricity_production": 0.0,
+          "emission_rate": 0.49527219663856603,
+          "capture_rate": 0.5538110413164563,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Diesel_CCS_53_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6654,
+          "jetfuel_production": 0.686,
+          "diesel_production": 1.359,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5064129006245964,
+          "capture_rate": 0.566268524125661,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Diesel_CCS_53_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.66,
+          "jetfuel_production": 0.6804,
+          "diesel_production": 1.3479,
+          "electricity_production": 0.0,
+          "emission_rate": 0.4995577458510984,
+          "capture_rate": 0.558603122293571,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Diesel_CCS_53_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6585,
+          "jetfuel_production": 0.6789,
+          "diesel_production": 1.3449,
+          "electricity_production": 0.0,
+          "emission_rate": 0.49647077124483213,
+          "capture_rate": 0.5551512818050136,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Diesel_CCS_53_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6585,
+          "jetfuel_production": 0.6789,
+          "diesel_production": 1.3449,
+          "electricity_production": 0.0,
+          "emission_rate": 0.49694287124483205,
+          "capture_rate": 0.5556791818050135,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Diesel_CCS_53_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6654,
+          "jetfuel_production": 0.686,
+          "diesel_production": 1.359,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5073571006245964,
+          "capture_rate": 0.5673243241256608,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Diesel_CCS_53_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.702,
+          "jetfuel_production": 0.7238,
+          "diesel_production": 1.4338,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5362048094328167,
+          "capture_rate": 0.5995816964617326,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Diesel_CCS_53_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.7071,
+          "jetfuel_production": 0.729,
+          "diesel_production": 1.4442,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5333183205547484,
+          "capture_rate": 0.5963540381716833,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Diesel_CCS_53_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6999,
+          "jetfuel_production": 0.7215,
+          "diesel_production": 1.4294,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5273254475234175,
+          "capture_rate": 0.5896528357288966,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Diesel_CCS_53_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.693,
+          "jetfuel_production": 0.7144,
+          "diesel_production": 1.4153,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5329626181436533,
+          "capture_rate": 0.5959562934082496,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Diesel_CCS_53_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6912,
+          "jetfuel_production": 0.7126,
+          "diesel_production": 1.4116,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5300480998858205,
+          "capture_rate": 0.5926972927975528,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Diesel_CCS_53_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6948,
+          "jetfuel_production": 0.7163,
+          "diesel_production": 1.419,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5259630364014859,
+          "capture_rate": 0.5881293940189461,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Diesel_CCS_53_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6955,
+          "jetfuel_production": 0.717,
+          "diesel_production": 1.4205,
+          "electricity_production": 0.0,
+          "emission_rate": 0.532699623704619,
+          "capture_rate": 0.5956622142632247,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Diesel_CCS_53_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6886,
+          "jetfuel_production": 0.7099,
+          "diesel_production": 1.4064,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5312552943248547,
+          "capture_rate": 0.5940471719425775,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Diesel_CCS_53_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6843,
+          "jetfuel_production": 0.7055,
+          "diesel_production": 1.3975,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5385178705060563,
+          "capture_rate": 0.6021681504769056,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Diesel_CCS_53_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6647,
+          "jetfuel_production": 0.6853,
+          "diesel_production": 1.3575,
+          "electricity_production": 0.0,
+          "emission_rate": 0.4958995133214633,
+          "capture_rate": 0.5545125038813822,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Diesel_CCS_53_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6078,
+          "jetfuel_production": 0.6266,
+          "diesel_production": 1.2413,
+          "electricity_production": 0.0,
+          "emission_rate": 0.49700966002551683,
+          "capture_rate": 0.5557538647055081,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Diesel_CCS_53_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6154,
+          "jetfuel_production": 0.6344,
+          "diesel_production": 1.2568,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5009416767084142,
+          "capture_rate": 0.5601506272704341,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Diesel_CCS_53_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.5976,
+          "jetfuel_production": 0.6161,
+          "diesel_production": 1.2205,
+          "electricity_production": 0.0,
+          "emission_rate": 0.4815381377816538,
+          "capture_rate": 0.538453681285607,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Diesel_CCS_53_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6266,
+          "jetfuel_production": 0.646,
+          "diesel_production": 1.2798,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5088143299069768,
+          "capture_rate": 0.5689537910567531,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Diesel_CCS_53_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6215,
+          "jetfuel_production": 0.6408,
+          "diesel_production": 1.2694,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5055635187850454,
+          "capture_rate": 0.5653187493468026,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Diesel_CCS_53_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6248,
+          "jetfuel_production": 0.6441,
+          "diesel_production": 1.2761,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5002346116491442,
+          "capture_rate": 0.5593599904460566,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Diesel_CCS_53_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6273,
+          "jetfuel_production": 0.6468,
+          "diesel_production": 1.2812,
+          "electricity_production": 0.0,
+          "emission_rate": 0.50846941721011,
+          "capture_rate": 0.5685681113010318,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Diesel_CCS_53_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 547496.32,
+          "fixed_om_cost": 596414.56,
+          "variable_om_cost": 1.06,
+          "electricity_consumption": 2.9403,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.635,
+          "jetfuel_production": 0.6546,
+          "diesel_production": 1.2968,
+          "electricity_production": 0.0,
+          "emission_rate": 0.5081525338930072,
+          "capture_rate": 0.5682137738659575,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BECCSLiquidFuels",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "gasoline_commodity": "Gasoline",
+        "jetfuel_commodity": "JetFuel",
+        "diesel_commodity": "Diesel",
+        "gasoline_end_vertex": "gasoline_global",
+        "jetfuel_end_vertex": "jetfuel_global",
+        "diesel_end_vertex": "diesel_global"
+      },
+      "instance_data": [
+        {
+          "id": "NW_FT_High_Diesel_CCS_99_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6563,
+          "jetfuel_production": 0.6767,
+          "diesel_production": 1.3405,
+          "electricity_production": 0.0,
+          "emission_rate": 0.0049247250029158095,
+          "capture_rate": 1.042889105404695,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Diesel_CCS_99_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6563,
+          "jetfuel_production": 0.6767,
+          "diesel_production": 1.3405,
+          "electricity_production": 0.0,
+          "emission_rate": 0.0049247250029158095,
+          "capture_rate": 1.042889105404695,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Diesel_CCS_99_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6571,
+          "jetfuel_production": 0.6774,
+          "diesel_production": 1.342,
+          "electricity_production": 0.0,
+          "emission_rate": 0.004930691218388644,
+          "capture_rate": 1.0441525467366337,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Diesel_CCS_99_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6654,
+          "jetfuel_production": 0.686,
+          "diesel_production": 1.359,
+          "electricity_production": 0.0,
+          "emission_rate": 0.00504160269632625,
+          "capture_rate": 1.0676398220539312,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Diesel_CCS_99_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.66,
+          "jetfuel_production": 0.6804,
+          "diesel_production": 1.3479,
+          "electricity_production": 0.0,
+          "emission_rate": 0.004973356080279987,
+          "capture_rate": 1.0531875120643894,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Diesel_CCS_99_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6585,
+          "jetfuel_production": 0.6789,
+          "diesel_production": 1.3449,
+          "electricity_production": 0.0,
+          "emission_rate": 0.004942623649334314,
+          "capture_rate": 1.0466794294005113,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Diesel_CCS_99_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6585,
+          "jetfuel_production": 0.6789,
+          "diesel_production": 1.3449,
+          "electricity_production": 0.0,
+          "emission_rate": 0.004947323649334314,
+          "capture_rate": 1.0476747294005113,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Diesel_CCS_99_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6654,
+          "jetfuel_production": 0.686,
+          "diesel_production": 1.359,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005051002696326249,
+          "capture_rate": 1.069630422053931,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Diesel_CCS_99_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.702,
+          "jetfuel_production": 0.7238,
+          "diesel_production": 1.4338,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005338196577704424,
+          "capture_rate": 1.130448309316845,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Diesel_CCS_99_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.7071,
+          "jetfuel_production": 0.729,
+          "diesel_production": 1.4442,
+          "electricity_production": 0.0,
+          "emission_rate": 0.0053094600860142714,
+          "capture_rate": 1.1243628986404175,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Diesel_CCS_99_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6999,
+          "jetfuel_production": 0.7215,
+          "diesel_production": 1.4294,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005249797931285918,
+          "capture_rate": 1.111728485321028,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Diesel_CCS_99_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.693,
+          "jetfuel_production": 0.7144,
+          "diesel_production": 1.4153,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005305918884293986,
+          "capture_rate": 1.123612992667609,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Diesel_CCS_99_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6912,
+          "jetfuel_production": 0.7126,
+          "diesel_production": 1.4116,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005276903345611896,
+          "capture_rate": 1.1174684893377613,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Diesel_CCS_99_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6948,
+          "jetfuel_production": 0.7163,
+          "diesel_production": 1.419,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005236234422976073,
+          "capture_rate": 1.1088561959974559,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Diesel_CCS_99_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6955,
+          "jetfuel_production": 0.717,
+          "diesel_production": 1.4205,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005303300638448908,
+          "capture_rate": 1.1230585373293949,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Diesel_CCS_99_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6886,
+          "jetfuel_production": 0.7099,
+          "diesel_production": 1.4064,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005288921591456974,
+          "capture_rate": 1.1200135446759754,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Diesel_CCS_99_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6843,
+          "jetfuel_production": 0.7055,
+          "diesel_production": 1.3975,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005361224298619963,
+          "capture_rate": 1.1353247966843418,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Diesel_CCS_99_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6647,
+          "jetfuel_production": 0.6853,
+          "diesel_production": 1.3575,
+          "electricity_production": 0.0,
+          "emission_rate": 0.004936936480853413,
+          "capture_rate": 1.0454750807219921,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Diesel_CCS_99_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6078,
+          "jetfuel_production": 0.6266,
+          "diesel_production": 1.2413,
+          "electricity_production": 0.0,
+          "emission_rate": 0.004947988566235857,
+          "capture_rate": 1.0478155361647892,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Diesel_CCS_99_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6154,
+          "jetfuel_production": 0.6344,
+          "diesel_production": 1.2568,
+          "electricity_production": 0.0,
+          "emission_rate": 0.004987133828700627,
+          "capture_rate": 1.0561051701501476,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Diesel_CCS_99_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.5976,
+          "jetfuel_production": 0.6161,
+          "diesel_production": 1.2205,
+          "electricity_production": 0.0,
+          "emission_rate": 0.004793961549616164,
+          "capture_rate": 1.0151978575176446,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Diesel_CCS_99_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6266,
+          "jetfuel_production": 0.646,
+          "diesel_production": 1.2798,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005065510168529571,
+          "capture_rate": 1.0727026107952005,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Diesel_CCS_99_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6215,
+          "jetfuel_production": 0.6408,
+          "diesel_production": 1.2694,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005033146660219726,
+          "capture_rate": 1.0658491214716281,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Diesel_CCS_99_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6248,
+          "jetfuel_production": 0.6441,
+          "diesel_production": 1.2761,
+          "electricity_production": 0.0,
+          "emission_rate": 0.004980094629847483,
+          "capture_rate": 1.0546145074653532,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Diesel_CCS_99_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.6273,
+          "jetfuel_production": 0.6468,
+          "diesel_production": 1.2812,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005062076384002407,
+          "capture_rate": 1.0719754521271394,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Diesel_CCS_99_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 644392.0,
+          "fixed_om_cost": 646477.44,
+          "variable_om_cost": 4.26,
+          "electricity_consumption": 3.5965,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.635,
+          "jetfuel_production": 0.6546,
+          "diesel_production": 1.2968,
+          "electricity_production": 0.0,
+          "emission_rate": 0.005058921646467174,
+          "capture_rate": 1.0713073861124975,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BECCSLiquidFuels",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "gasoline_commodity": "Gasoline",
+        "jetfuel_commodity": "JetFuel",
+        "diesel_commodity": "Diesel",
+        "gasoline_end_vertex": "gasoline_global",
+        "jetfuel_end_vertex": "jetfuel_global",
+        "diesel_end_vertex": "diesel_global"
+      },
+      "instance_data": [
+        {
+          "id": "NW_FT_High_Jetfuel_CCS_75_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3138,
+          "jetfuel_production": 1.3982,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7706,
+          "emission_rate": 0.3252189441975838,
+          "capture_rate": 0.9627768744067088,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Jetfuel_CCS_75_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3138,
+          "jetfuel_production": 1.3982,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7706,
+          "emission_rate": 0.3252189441975838,
+          "capture_rate": 0.9627768744067088,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Jetfuel_CCS_75_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3141,
+          "jetfuel_production": 1.3997,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7714,
+          "emission_rate": 0.32560648170498435,
+          "capture_rate": 0.9639241389088153,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Jetfuel_CCS_75_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3181,
+          "jetfuel_production": 1.4175,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7812,
+          "emission_rate": 0.3323356630400918,
+          "capture_rate": 0.9838451806830444,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Jetfuel_CCS_75_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3155,
+          "jetfuel_production": 1.4059,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7748,
+          "emission_rate": 0.328166631734587,
+          "capture_rate": 0.971503196917243,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Jetfuel_CCS_75_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3148,
+          "jetfuel_production": 1.4028,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7731,
+          "emission_rate": 0.32638155671978564,
+          "capture_rate": 0.9662186679130291,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Jetfuel_CCS_75_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3148,
+          "jetfuel_production": 1.4028,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7731,
+          "emission_rate": 0.3266340567197856,
+          "capture_rate": 0.966966167913029,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Jetfuel_CCS_75_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3181,
+          "jetfuel_production": 1.4175,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7812,
+          "emission_rate": 0.3328406630400918,
+          "capture_rate": 0.9853401806830443,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Jetfuel_CCS_75_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3356,
+          "jetfuel_production": 1.4955,
+          "diesel_production": 0.0,
+          "electricity_production": 0.8242,
+          "emission_rate": 0.3516538071638244,
+          "capture_rate": 1.0410345380394408,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Jetfuel_CCS_75_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3381,
+          "jetfuel_production": 1.5063,
+          "diesel_production": 0.0,
+          "electricity_production": 0.8302,
+          "emission_rate": 0.35057906971562897,
+          "capture_rate": 1.037852889554189,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Jetfuel_CCS_75_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3346,
+          "jetfuel_production": 1.4909,
+          "diesel_production": 0.0,
+          "electricity_production": 0.8217,
+          "emission_rate": 0.3467036946416225,
+          "capture_rate": 1.0263802445331203,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Jetfuel_CCS_75_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3313,
+          "jetfuel_production": 1.4762,
+          "diesel_production": 0.0,
+          "electricity_production": 0.8136,
+          "emission_rate": 0.3490820883213163,
+          "capture_rate": 1.033421231763105,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Jetfuel_CCS_75_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3304,
+          "jetfuel_production": 1.4723,
+          "diesel_production": 0.0,
+          "electricity_production": 0.8115,
+          "emission_rate": 0.34735574455281476,
+          "capture_rate": 1.028310570507838,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Jetfuel_CCS_75_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3322,
+          "jetfuel_production": 1.4801,
+          "diesel_production": 0.0,
+          "electricity_production": 0.8157,
+          "emission_rate": 0.34550593208981795,
+          "capture_rate": 1.0228343930183723,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Jetfuel_CCS_75_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3325,
+          "jetfuel_production": 1.4816,
+          "diesel_production": 0.0,
+          "electricity_production": 0.8166,
+          "emission_rate": 0.3491759695972186,
+          "capture_rate": 1.033699157520479,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Jetfuel_CCS_75_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3292,
+          "jetfuel_production": 1.4669,
+          "diesel_production": 0.0,
+          "electricity_production": 0.8085,
+          "emission_rate": 0.3477668632769125,
+          "capture_rate": 1.029527644750464,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Jetfuel_CCS_75_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3271,
+          "jetfuel_production": 1.4576,
+          "diesel_production": 0.0,
+          "electricity_production": 0.8034,
+          "emission_rate": 0.35124913823250864,
+          "capture_rate": 1.0398365577378228,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Jetfuel_CCS_75_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3178,
+          "jetfuel_production": 1.4159,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7804,
+          "emission_rate": 0.3266456255326912,
+          "capture_rate": 0.9670004161809377,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Jetfuel_CCS_75_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2906,
+          "jetfuel_production": 1.2947,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7135,
+          "emission_rate": 0.32197893120174054,
+          "capture_rate": 0.9531851527655489,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Jetfuel_CCS_75_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2942,
+          "jetfuel_production": 1.3109,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7225,
+          "emission_rate": 0.3247855750294473,
+          "capture_rate": 0.961493930037671,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Jetfuel_CCS_75_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2857,
+          "jetfuel_production": 1.273,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7016,
+          "emission_rate": 0.31276590609813154,
+          "capture_rate": 0.925910949736053,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Jetfuel_CCS_75_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2996,
+          "jetfuel_production": 1.3348,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7357,
+          "emission_rate": 0.33003490639415733,
+          "capture_rate": 0.9770340298203274,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Jetfuel_CCS_75_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2972,
+          "jetfuel_production": 1.324,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7297,
+          "emission_rate": 0.32782714384235284,
+          "capture_rate": 0.9704981783055795,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Jetfuel_CCS_75_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2987,
+          "jetfuel_production": 1.331,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7335,
+          "emission_rate": 0.3252785626256557,
+          "capture_rate": 0.9629533685650601,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Jetfuel_CCS_75_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2999,
+          "jetfuel_production": 1.3364,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7365,
+          "emission_rate": 0.3299174439015579,
+          "capture_rate": 0.9766862943224341,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Jetfuel_CCS_75_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 756402.08,
+          "fixed_om_cost": 344508.64,
+          "variable_om_cost": 49.22,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3036,
+          "jetfuel_production": 1.3526,
+          "diesel_production": 0.0,
+          "electricity_production": 0.7455,
+          "emission_rate": 0.3304515877292647,
+          "capture_rate": 0.9782675715945561,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BECCSLiquidFuels",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "gasoline_commodity": "Gasoline",
+        "jetfuel_commodity": "JetFuel",
+        "diesel_commodity": "Diesel",
+        "gasoline_end_vertex": "gasoline_global",
+        "jetfuel_end_vertex": "jetfuel_global",
+        "diesel_end_vertex": "diesel_global"
+      },
+      "instance_data": [
+        {
+          "id": "NW_FT_High_Jetfuel_CCS_84_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4122,
+          "jetfuel_production": 1.8406,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2456,
+          "emission_rate": 0.18618233756270247,
+          "capture_rate": 0.9687949426029455,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Jetfuel_CCS_84_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4122,
+          "jetfuel_production": 1.8406,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2456,
+          "emission_rate": 0.18618233756270247,
+          "capture_rate": 0.9687949426029455,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Jetfuel_CCS_84_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4127,
+          "jetfuel_production": 1.8426,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2459,
+          "emission_rate": 0.18640605417879383,
+          "capture_rate": 0.9699590461859321,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Jetfuel_CCS_84_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4179,
+          "jetfuel_production": 1.866,
+          "diesel_production": 0.0,
+          "electricity_production": 0.249,
+          "emission_rate": 0.19042959526384473,
+          "capture_rate": 0.9908954373902789,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Jetfuel_CCS_84_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4145,
+          "jetfuel_production": 1.8508,
+          "diesel_production": 0.0,
+          "electricity_production": 0.247,
+          "emission_rate": 0.18794572064315937,
+          "capture_rate": 0.9779706605178788,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Jetfuel_CCS_84_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4136,
+          "jetfuel_production": 1.8467,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2464,
+          "emission_rate": 0.18685348741097663,
+          "capture_rate": 0.9722872533519056,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Jetfuel_CCS_84_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4136,
+          "jetfuel_production": 1.8467,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2464,
+          "emission_rate": 0.1870146874109766,
+          "capture_rate": 0.9731260533519055,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Jetfuel_CCS_84_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4179,
+          "jetfuel_production": 1.866,
+          "diesel_production": 0.0,
+          "electricity_production": 0.249,
+          "emission_rate": 0.19075199526384473,
+          "capture_rate": 0.9925730373902788,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Jetfuel_CCS_84_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4409,
+          "jetfuel_production": 1.9687,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2627,
+          "emission_rate": 0.20156608437645962,
+          "capture_rate": 1.048843868331106,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Jetfuel_CCS_84_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4441,
+          "jetfuel_production": 1.983,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2646,
+          "emission_rate": 0.20071410068909934,
+          "capture_rate": 1.0444105934120131,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Jetfuel_CCS_84_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4396,
+          "jetfuel_production": 1.9626,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2619,
+          "emission_rate": 0.1984769345281855,
+          "capture_rate": 1.0327695575821463,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Jetfuel_CCS_84_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4352,
+          "jetfuel_production": 1.9433,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2593,
+          "emission_rate": 0.2002204266753173,
+          "capture_rate": 1.0418417735437726,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Jetfuel_CCS_84_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4341,
+          "jetfuel_production": 1.9382,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2586,
+          "emission_rate": 0.19917753513508887,
+          "capture_rate": 1.036415114586306,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Jetfuel_CCS_84_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4364,
+          "jetfuel_production": 1.9484,
+          "diesel_production": 0.0,
+          "electricity_production": 0.26,
+          "emission_rate": 0.1978781182155458,
+          "capture_rate": 1.0296536325012395,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Jetfuel_CCS_84_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4368,
+          "jetfuel_production": 1.9504,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2603,
+          "emission_rate": 0.20019743483163716,
+          "capture_rate": 1.0417221360842261,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Jetfuel_CCS_84_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4325,
+          "jetfuel_production": 1.9311,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2577,
+          "emission_rate": 0.19952292697876906,
+          "capture_rate": 1.0382123520458528,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Jetfuel_CCS_84_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4298,
+          "jetfuel_production": 1.9189,
+          "diesel_production": 0.0,
+          "electricity_production": 0.256,
+          "emission_rate": 0.20188822728222075,
+          "capture_rate": 1.0505201305479328,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Jetfuel_CCS_84_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.4175,
+          "jetfuel_production": 1.864,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2487,
+          "emission_rate": 0.18682067864775337,
+          "capture_rate": 0.9721165338072922,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Jetfuel_CCS_84_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3817,
+          "jetfuel_production": 1.7043,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2274,
+          "emission_rate": 0.18570132428457972,
+          "capture_rate": 0.9662920025428379,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Jetfuel_CCS_84_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3865,
+          "jetfuel_production": 1.7257,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2303,
+          "emission_rate": 0.18724434875353926,
+          "capture_rate": 0.974321090164198,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Jetfuel_CCS_84_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3753,
+          "jetfuel_production": 1.6759,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2236,
+          "emission_rate": 0.18015129165930038,
+          "capture_rate": 0.9374125523810245,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Jetfuel_CCS_84_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3936,
+          "jetfuel_production": 1.7572,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2345,
+          "emission_rate": 0.1902283563029557,
+          "capture_rate": 0.9898482957004915,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Jetfuel_CCS_84_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3904,
+          "jetfuel_production": 1.743,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2326,
+          "emission_rate": 0.188984739990316,
+          "capture_rate": 0.9833771706195847,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Jetfuel_CCS_84_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3924,
+          "jetfuel_production": 1.7521,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2338,
+          "emission_rate": 0.18725106476272724,
+          "capture_rate": 0.9743560367430248,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Jetfuel_CCS_84_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.394,
+          "jetfuel_production": 1.7593,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2347,
+          "emission_rate": 0.1901296729190471,
+          "capture_rate": 0.9893347992834782,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Jetfuel_CCS_84_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 784258.72,
+          "fixed_om_cost": 351016.96,
+          "variable_om_cost": 50.29,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3988,
+          "jetfuel_production": 1.7806,
+          "diesel_production": 0.0,
+          "electricity_production": 0.2376,
+          "emission_rate": 0.19022189738800663,
+          "capture_rate": 0.9898146869048384,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BECCSLiquidFuels",
+      "global_data": {
+        "co2_sink": "co2_sink",
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "gasoline_commodity": "Gasoline",
+        "jetfuel_commodity": "JetFuel",
+        "diesel_commodity": "Diesel",
+        "gasoline_end_vertex": "gasoline_global",
+        "jetfuel_end_vertex": "jetfuel_global",
+        "diesel_end_vertex": "diesel_global"
+      },
+      "instance_data": [
+        {
+          "id": "NW_FT_High_Jetfuel_CCS_99_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3135,
+          "jetfuel_production": 1.3978,
+          "diesel_production": 0.0,
+          "electricity_production": 0.506,
+          "emission_rate": 0.012495079504453185,
+          "capture_rate": 1.2756574467278283,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Jetfuel_CCS_99_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3135,
+          "jetfuel_production": 1.3978,
+          "diesel_production": 0.0,
+          "electricity_production": 0.506,
+          "emission_rate": 0.012495079504453185,
+          "capture_rate": 1.2756574467278283,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Jetfuel_CCS_99_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3139,
+          "jetfuel_production": 1.3993,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5066,
+          "emission_rate": 0.012509968763574127,
+          "capture_rate": 1.2771775326358148,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Jetfuel_CCS_99_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3179,
+          "jetfuel_production": 1.4171,
+          "diesel_production": 0.0,
+          "electricity_production": 0.513,
+          "emission_rate": 0.01276849524346497,
+          "capture_rate": 1.3035712205776602,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Jetfuel_CCS_99_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3153,
+          "jetfuel_production": 1.4055,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5088,
+          "emission_rate": 0.012608325800057898,
+          "capture_rate": 1.2872190762677609,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Jetfuel_CCS_99_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3146,
+          "jetfuel_production": 1.4024,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5077,
+          "emission_rate": 0.012539747281816014,
+          "capture_rate": 1.280217704451788,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Jetfuel_CCS_99_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3146,
+          "jetfuel_production": 1.4024,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5077,
+          "emission_rate": 0.012549447281816012,
+          "capture_rate": 1.281208004451788,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Jetfuel_CCS_99_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3179,
+          "jetfuel_production": 1.4171,
+          "diesel_production": 0.0,
+          "electricity_production": 0.513,
+          "emission_rate": 0.01278789524346497,
+          "capture_rate": 1.3055518205776602,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Jetfuel_CCS_99_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3354,
+          "jetfuel_production": 1.4951,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5412,
+          "emission_rate": 0.013510702829072576,
+          "capture_rate": 1.3793452589309807,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Jetfuel_CCS_99_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3378,
+          "jetfuel_production": 1.5059,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5451,
+          "emission_rate": 0.013469427642919177,
+          "capture_rate": 1.3751313602868869,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Jetfuel_CCS_99_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3343,
+          "jetfuel_production": 1.4905,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5395,
+          "emission_rate": 0.013320535051709747,
+          "capture_rate": 1.359930501207021,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Jetfuel_CCS_99_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.331,
+          "jetfuel_production": 1.4758,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5342,
+          "emission_rate": 0.013411887090060793,
+          "capture_rate": 1.369256885081149,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Jetfuel_CCS_99_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3302,
+          "jetfuel_production": 1.4719,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5328,
+          "emission_rate": 0.013345563942258437,
+          "capture_rate": 1.3624857703111828,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Jetfuel_CCS_99_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3319,
+          "jetfuel_production": 1.4797,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5356,
+          "emission_rate": 0.01327451023786315,
+          "capture_rate": 1.3552316998511156,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Jetfuel_CCS_99_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3322,
+          "jetfuel_production": 1.4812,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5362,
+          "emission_rate": 0.013415499496984092,
+          "capture_rate": 1.3696256857591018,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Jetfuel_CCS_99_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3289,
+          "jetfuel_production": 1.4665,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5309,
+          "emission_rate": 0.013361351535335136,
+          "capture_rate": 1.3640975696332296,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Jetfuel_CCS_99_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3269,
+          "jetfuel_production": 1.4573,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5275,
+          "emission_rate": 0.013495115980609481,
+          "capture_rate": 1.3777539541853105,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CA_FT_High_Jetfuel_CCS_99_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3175,
+          "jetfuel_production": 1.4156,
+          "diesel_production": 0.0,
+          "electricity_production": 0.5124,
+          "emission_rate": 0.012549905984344027,
+          "capture_rate": 1.2812548346696737,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NW_FT_High_Jetfuel_CCS_99_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2903,
+          "jetfuel_production": 1.2943,
+          "diesel_production": 0.0,
+          "electricity_production": 0.4685,
+          "emission_rate": 0.012370499143350023,
+          "capture_rate": 1.2629386908927294,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SW_FT_High_Jetfuel_CCS_99_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.294,
+          "jetfuel_production": 1.3105,
+          "diesel_production": 0.0,
+          "electricity_production": 0.4744,
+          "emission_rate": 0.012478336364119923,
+          "capture_rate": 1.2739480929265883,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "TX_FT_High_Jetfuel_CCS_99_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2855,
+          "jetfuel_production": 1.2727,
+          "diesel_production": 0.0,
+          "electricity_production": 0.4607,
+          "emission_rate": 0.012016549515656826,
+          "capture_rate": 1.226802988180918,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NCEN_FT_High_Jetfuel_CCS_99_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2993,
+          "jetfuel_production": 1.3345,
+          "diesel_production": 0.0,
+          "electricity_production": 0.4831,
+          "emission_rate": 0.012680019880494534,
+          "capture_rate": 1.2945385245003795,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "CEN_FT_High_Jetfuel_CCS_99_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2969,
+          "jetfuel_production": 1.3237,
+          "diesel_production": 0.0,
+          "electricity_production": 0.4792,
+          "emission_rate": 0.012595195066647937,
+          "capture_rate": 1.285878523144474,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "SE_FT_High_Jetfuel_CCS_99_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2985,
+          "jetfuel_production": 1.3306,
+          "diesel_production": 0.0,
+          "electricity_production": 0.4817,
+          "emission_rate": 0.01249729673269218,
+          "capture_rate": 1.2758838097304135,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_FT_High_Jetfuel_CCS_99_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.2997,
+          "jetfuel_production": 1.336,
+          "diesel_production": 0.0,
+          "electricity_production": 0.4836,
+          "emission_rate": 0.012675509139615479,
+          "capture_rate": 1.2940780104083662,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        },
+        {
+          "id": "NE_FT_High_Jetfuel_CCS_99_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 818543.04,
+          "fixed_om_cost": 359028.32,
+          "variable_om_cost": 52.08,
+          "electricity_consumption": 0.0,
+          "min_flow_fraction": 0.85,
+          "gasoline_production": 0.3033,
+          "jetfuel_production": 1.3522,
+          "diesel_production": 0.0,
+          "electricity_production": 0.4895,
+          "emission_rate": 0.012696046360385375,
+          "capture_rate": 1.296174712442225,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_liquid_fuels"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
