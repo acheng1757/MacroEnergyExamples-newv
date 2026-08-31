@@ -1,0 +1,942 @@
+{
+  "drymillccs": [
+    {
+      "type": "BioEthanol",
+      "global_data": {
+        "transforms": {
+          "timedata": "Biomass",
+          "constraints": {
+            "BalanceConstraint": true
+          }
+        },
+        "edges": {
+          "elec_consumption_edge": {
+            "commodity": "Electricity",
+            "unidirectional": true,
+            "has_capacity": false
+          },
+          "elec_production_edge": {
+            "commodity": "Electricity",
+            "unidirectional": true,
+            "has_capacity": false
+          },
+          "natgas_consumption_edge": {
+            "commodity": "NaturalGas",
+            "unidirectional": true,
+            "has_capacity": false
+          },
+          "ethanol_production_edge": {
+            "commodity": "Ethanol",
+            "unidirectional": true,
+            "has_capacity": false
+          },
+          "biomass_consumption_edge": {
+            "commodity": "Biomass",
+            "unidirectional": true,
+            "has_capacity": true,
+            "can_expand": true,
+            "can_retire": true,
+            "integer_decisions": false,
+            "constraints": {
+              "CapacityConstraint": true,
+              "MinFlowConstraint": true
+            }
+          },
+          "co2_content_edge": {
+            "commodity": "CO2",
+            "unidirectional": true,
+            "has_capacity": false,
+            "start_vertex": "co2_sink"
+          },
+          "co2_emission_edge": {
+            "commodity": "CO2",
+            "unidirectional": true,
+            "has_capacity": false,
+            "end_vertex": "co2_sink"
+          },
+          "co2_captured_edge": {
+            "commodity": "CO2Captured",
+            "unidirectional": true,
+            "has_capacity": false
+          }
+        }
+      },
+      "instance_data": [
+        {
+          "id": "CA_DryMill_CCS_Fermentation",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.185341119,
+            "fuel_capture_rate": 0.0
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_CA",
+              "investment_cost": 27458.48,
+              "fixed_om_cost": 191772.15,
+              "variable_om_cost": -25.37,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_CA"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_CA"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_CA"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_CA"
+            }
+          }
+        },
+        {
+          "id": "NW_DryMill_CCS_Fermentation",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.185341119,
+            "fuel_capture_rate": 0.0
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_NW",
+              "investment_cost": 27458.48,
+              "fixed_om_cost": 191772.15,
+              "variable_om_cost": -25.37,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_NW"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_NW"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_NW"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_NW"
+            }
+          }
+        },
+        {
+          "id": "SW_DryMill_CCS_Fermentation",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.185341119,
+            "fuel_capture_rate": 0.0
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_SW",
+              "investment_cost": 27458.48,
+              "fixed_om_cost": 191772.15,
+              "variable_om_cost": -25.37,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_SW"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_SW"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_SW"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_SW"
+            }
+          }
+        },
+        {
+          "id": "TX_DryMill_CCS_Fermentation",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.185341119,
+            "fuel_capture_rate": 0.0
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_TX",
+              "investment_cost": 27458.48,
+              "fixed_om_cost": 191772.15,
+              "variable_om_cost": -25.37,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_TX"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_TX"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_TX"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_TX"
+            }
+          }
+        },
+        {
+          "id": "NCEN_DryMill_CCS_Fermentation",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.185341119,
+            "fuel_capture_rate": 0.0
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_NCEN",
+              "investment_cost": 27458.48,
+              "fixed_om_cost": 191772.15,
+              "variable_om_cost": -25.37,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_NCEN"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_NCEN"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_NCEN"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_NCEN"
+            }
+          }
+        },
+        {
+          "id": "CEN_DryMill_CCS_Fermentation",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.185341119,
+            "fuel_capture_rate": 0.0
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_CEN",
+              "investment_cost": 27458.48,
+              "fixed_om_cost": 191772.15,
+              "variable_om_cost": -25.37,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_CEN"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_CEN"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_CEN"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_CEN"
+            }
+          }
+        },
+        {
+          "id": "SE_DryMill_CCS_Fermentation",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.185341119,
+            "fuel_capture_rate": 0.0
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_SE",
+              "investment_cost": 27458.48,
+              "fixed_om_cost": 191772.15,
+              "variable_om_cost": -25.37,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_SE"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_SE"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_SE"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_SE"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_DryMill_CCS_Fermentation",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.185341119,
+            "fuel_capture_rate": 0.0
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_MIDAT",
+              "investment_cost": 27458.48,
+              "fixed_om_cost": 191772.15,
+              "variable_om_cost": -25.37,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_MIDAT"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_MIDAT"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_MIDAT"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_MIDAT"
+            }
+          }
+        },
+        {
+          "id": "NE_DryMill_CCS_Fermentation",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.185341119,
+            "fuel_capture_rate": 0.0
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_NE",
+              "investment_cost": 27458.48,
+              "fixed_om_cost": 191772.15,
+              "variable_om_cost": -25.37,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_NE"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_NE"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_NE"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_NE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BioEthanol",
+      "global_data": {
+        "transforms": {
+          "timedata": "Biomass",
+          "constraints": {
+            "BalanceConstraint": true
+          }
+        },
+        "edges": {
+          "elec_consumption_edge": {
+            "commodity": "Electricity",
+            "unidirectional": true,
+            "has_capacity": false
+          },
+          "elec_production_edge": {
+            "commodity": "Electricity",
+            "unidirectional": true,
+            "has_capacity": false
+          },
+          "natgas_consumption_edge": {
+            "commodity": "NaturalGas",
+            "unidirectional": true,
+            "has_capacity": false
+          },
+          "ethanol_production_edge": {
+            "commodity": "Ethanol",
+            "unidirectional": true,
+            "has_capacity": false
+          },
+          "biomass_consumption_edge": {
+            "commodity": "Biomass",
+            "unidirectional": true,
+            "has_capacity": true,
+            "can_expand": true,
+            "can_retire": true,
+            "integer_decisions": false,
+            "constraints": {
+              "CapacityConstraint": true,
+              "MinFlowConstraint": true
+            }
+          },
+          "co2_content_edge": {
+            "commodity": "CO2",
+            "unidirectional": true,
+            "has_capacity": false,
+            "start_vertex": "co2_sink"
+          },
+          "co2_emission_edge": {
+            "commodity": "CO2",
+            "unidirectional": true,
+            "has_capacity": false,
+            "end_vertex": "co2_sink"
+          },
+          "co2_captured_edge": {
+            "commodity": "CO2Captured",
+            "unidirectional": true,
+            "has_capacity": false
+          }
+        }
+      },
+      "instance_data": [
+        {
+          "id": "CA_DryMill_CCS_Fermentation_Exhaust",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.032434696,
+            "fuel_capture_rate": 0.152906423
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_CA",
+              "investment_cost": 45179.42,
+              "fixed_om_cost": 201481.25,
+              "variable_om_cost": -25.28,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_CA"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_CA"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_CA"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_CA"
+            }
+          }
+        },
+        {
+          "id": "NW_DryMill_CCS_Fermentation_Exhaust",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.032434696,
+            "fuel_capture_rate": 0.152906423
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_NW",
+              "investment_cost": 45179.42,
+              "fixed_om_cost": 201481.25,
+              "variable_om_cost": -25.28,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_NW"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_NW"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_NW"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_NW"
+            }
+          }
+        },
+        {
+          "id": "SW_DryMill_CCS_Fermentation_Exhaust",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.032434696,
+            "fuel_capture_rate": 0.152906423
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_SW",
+              "investment_cost": 45179.42,
+              "fixed_om_cost": 201481.25,
+              "variable_om_cost": -25.28,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_SW"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_SW"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_SW"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_SW"
+            }
+          }
+        },
+        {
+          "id": "TX_DryMill_CCS_Fermentation_Exhaust",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.032434696,
+            "fuel_capture_rate": 0.152906423
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_TX",
+              "investment_cost": 45179.42,
+              "fixed_om_cost": 201481.25,
+              "variable_om_cost": -25.28,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_TX"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_TX"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_TX"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_TX"
+            }
+          }
+        },
+        {
+          "id": "NCEN_DryMill_CCS_Fermentation_Exhaust",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.032434696,
+            "fuel_capture_rate": 0.152906423
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_NCEN",
+              "investment_cost": 45179.42,
+              "fixed_om_cost": 201481.25,
+              "variable_om_cost": -25.28,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_NCEN"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_NCEN"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_NCEN"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_NCEN"
+            }
+          }
+        },
+        {
+          "id": "CEN_DryMill_CCS_Fermentation_Exhaust",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.032434696,
+            "fuel_capture_rate": 0.152906423
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_CEN",
+              "investment_cost": 45179.42,
+              "fixed_om_cost": 201481.25,
+              "variable_om_cost": -25.28,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_CEN"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_CEN"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_CEN"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_CEN"
+            }
+          }
+        },
+        {
+          "id": "SE_DryMill_CCS_Fermentation_Exhaust",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.032434696,
+            "fuel_capture_rate": 0.152906423
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_SE",
+              "investment_cost": 45179.42,
+              "fixed_om_cost": 201481.25,
+              "variable_om_cost": -25.28,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_SE"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_SE"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_SE"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_SE"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_DryMill_CCS_Fermentation_Exhaust",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.032434696,
+            "fuel_capture_rate": 0.152906423
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_MIDAT",
+              "investment_cost": 45179.42,
+              "fixed_om_cost": 201481.25,
+              "variable_om_cost": -25.28,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_MIDAT"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_MIDAT"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_MIDAT"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_MIDAT"
+            }
+          }
+        },
+        {
+          "id": "NE_DryMill_CCS_Fermentation_Exhaust",
+          "transforms": {
+            "ethanol_production": 3.104337995,
+            "elec_consumption": 0.085342825,
+            "elec_production": 0,
+            "co2_biomass_content": 1.758866658,
+            "natgas_consumption": 1.013397519,
+            "process_emission_rate": 0.686017394,
+            "process_capture_rate": 0.357687672,
+            "fuel_emission_rate": 0.032434696,
+            "fuel_capture_rate": 0.152906423
+          },
+          "edges": {
+            "biomass_consumption_edge": {
+              "commodity": "Biomass_Corn",
+              "start_vertex": "biocorn_NE",
+              "investment_cost": 45179.42,
+              "fixed_om_cost": 201481.25,
+              "variable_om_cost": -25.28,
+              "min_flow_fraction": 0.8,
+              "availability": {
+                "timeseries": {
+                  "path": "system/availability.csv",
+                  "header": "bioethanol"
+                }
+              }
+            },
+            "elec_consumption_edge": {
+              "start_vertex": "elec_NE"
+            },
+            "elec_production_edge": {
+              "end_vertex": "elec_NE"
+            },
+            "ethanol_production_edge": {
+              "end_vertex": "ethanol_global"
+            },
+            "natgas_consumption_edge": {
+              "start_vertex": "natgas_NE"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2_captured_NE"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
