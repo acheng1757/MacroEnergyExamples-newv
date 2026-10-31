@@ -1,0 +1,33 @@
+{
+    "FuelsEndUse": [
+        {
+            "type": "FuelsEndUse",
+            "global_data": {
+                "co2_sink": "co2_sink"
+            },
+            "instance_data": [
+                {
+                    "id": "Global_Gasoline_Use",
+                    "emission_rate": 0.243968185,
+                    "fuel_commodity": "Gasoline",
+                    "fuel_start_vertex": "gasoline_global",
+                    "fuel_demand_end_vertex": "gasoline_demand_global"
+                },
+                {
+                    "id": "Global_JetFuel_Use",
+                    "emission_rate": 0.246356685,
+                    "fuel_commodity": "JetFuel",
+                    "fuel_start_vertex": "jetfuel_global",
+                    "fuel_demand_end_vertex": "jetfuel_demand_global"
+                },
+                {
+                    "id": "Global_Diesel_Use",
+                    "emission_rate": 0.249427613,
+                    "fuel_commodity": "Diesel",
+                    "fuel_start_vertex": "diesel_global",
+                    "fuel_demand_end_vertex": "diesel_demand_global"
+                }
+            ]
+        }
+    ]
+}
