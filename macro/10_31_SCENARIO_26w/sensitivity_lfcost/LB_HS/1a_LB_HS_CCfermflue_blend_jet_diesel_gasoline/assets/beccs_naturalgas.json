@@ -1,0 +1,1600 @@
+{
+  "beccs_naturalgas": [
+    {
+      "type": "BECCSNaturalGas",
+      "global_data": {
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "co2_sink": "co2_sink"
+      },
+      "instance_data": [
+        {
+          "id": "NW_Bio_NG_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7372,
+          "emission_rate": 1.20839744007279,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SW_Bio_NG_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7372,
+          "emission_rate": 1.20839744007279,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_NG_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7402,
+          "emission_rate": 1.2098442880728704,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_NG_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.775,
+          "emission_rate": 1.2354830400737953,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_NG_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7523,
+          "emission_rate": 1.2196316800731923,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_NG_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7462,
+          "emission_rate": 1.2127379840730312,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_NG_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7462,
+          "emission_rate": 1.2137379840730311,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NE_Bio_NG_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.775,
+          "emission_rate": 1.2374830400737955,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CA_Bio_NG_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.9277,
+          "emission_rate": 1.307548864077857,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NW_Bio_NG_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.9489,
+          "emission_rate": 1.3026768000784203,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SW_Bio_NG_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.9186,
+          "emission_rate": 1.288208320077616,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_NG_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.8899,
+          "emission_rate": 1.2984632640768519,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_NG_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.8823,
+          "emission_rate": 1.2918461440766507,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_NG_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.8975,
+          "emission_rate": 1.284080384077053,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_NG_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.9005,
+          "emission_rate": 1.2985272320771333,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_NG_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.8718,
+          "emission_rate": 1.2937821760763693,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NE_Bio_NG_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.8536,
+          "emission_rate": 1.3081010880758868,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CA_Bio_NG_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7719,
+          "emission_rate": 1.213036192073715,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NW_Bio_NG_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5345,
+          "emission_rate": 1.201458624067401,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SW_Bio_NG_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5663,
+          "emission_rate": 1.2116505280682457,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_NG_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.4922,
+          "emission_rate": 1.1662027520662752,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_NG_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.6132,
+          "emission_rate": 1.2310766720694923,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_NG_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.592,
+          "emission_rate": 1.2229487360689293,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_NG_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.6056,
+          "emission_rate": 1.2124595520692913,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_NG_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.6162,
+          "emission_rate": 1.2305235200695728,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NE_Bio_NG_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 867993.28,
+          "fixed_om_cost": 500251.36,
+          "variable_om_cost": 9.04,
+          "electricity_consumption": 0.208,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.6479,
+          "emission_rate": 1.2317154240704173,
+          "capture_rate": 0.0,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BECCSNaturalGas",
+      "global_data": {
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "co2_sink": "co2_sink"
+      },
+      "instance_data": [
+        {
+          "id": "NW_Bio_NG_CCS_40_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7159,
+          "emission_rate": 0.7333070106356894,
+          "capture_rate": 0.4789710694365364,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SW_Bio_NG_CCS_40_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7159,
+          "emission_rate": 0.7333070106356894,
+          "capture_rate": 0.4789710694365364,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_NG_CCS_40_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7189,
+          "emission_rate": 0.7341848028021377,
+          "capture_rate": 0.479544413270168,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_NG_CCS_40_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7535,
+          "emission_rate": 0.7497235127162928,
+          "capture_rate": 0.48969376735693054,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_NG_CCS_40_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.731,
+          "emission_rate": 0.7401155714679307,
+          "capture_rate": 0.4834181886046941,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_NG_CCS_40_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.725,
+          "emission_rate": 0.7359403871350343,
+          "capture_rate": 0.48069110093743106,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_NG_CCS_40_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.725,
+          "emission_rate": 0.7365452871350342,
+          "capture_rate": 0.48108620093743104,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NE_Bio_NG_CCS_40_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7535,
+          "emission_rate": 0.7509333127162929,
+          "capture_rate": 0.4904839673569306,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CA_Bio_NG_CCS_40_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.905,
+          "emission_rate": 0.7934471171219307,
+          "capture_rate": 0.5182525309553229,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NW_Bio_NG_CCS_40_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.926,
+          "emission_rate": 0.7905181622870686,
+          "capture_rate": 0.5163394377907436,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SW_Bio_NG_CCS_40_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.896,
+          "emission_rate": 0.7817402406225857,
+          "capture_rate": 0.5106059994544283,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_NG_CCS_40_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.8675,
+          "emission_rate": 0.7879188150413271,
+          "capture_rate": 0.5146416330349287,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_NG_CCS_40_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.86,
+          "emission_rate": 0.7839096346252066,
+          "capture_rate": 0.5120229734508499,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_NG_CCS_40_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.875,
+          "emission_rate": 0.7792250954574479,
+          "capture_rate": 0.5089631926190076,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_NG_CCS_40_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.878,
+          "emission_rate": 0.7879665876238963,
+          "capture_rate": 0.5146728364526391,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_NG_CCS_40_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.8495,
+          "emission_rate": 0.7850716620426375,
+          "capture_rate": 0.5127819700331395,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NE_Bio_NG_CCS_40_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.8315,
+          "emission_rate": 0.793717609043948,
+          "capture_rate": 0.5184292070313503,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CA_Bio_NG_CCS_40_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7505,
+          "emission_rate": 0.7361428205498446,
+          "capture_rate": 0.48082332352329904,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NW_Bio_NG_CCS_40_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5149,
+          "emission_rate": 0.728935935483655,
+          "capture_rate": 0.4761160325832238,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SW_Bio_NG_CCS_40_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5464,
+          "emission_rate": 0.7351282532313618,
+          "capture_rate": 0.48016064283635485,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_NG_CCS_40_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.4729,
+          "emission_rate": 0.7075733451533791,
+          "capture_rate": 0.46216271891238236,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_NG_CCS_40_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5929,
+          "emission_rate": 0.74691933181131,
+          "capture_rate": 0.48786217225764356,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_NG_CCS_40_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5719,
+          "emission_rate": 0.7419845866461722,
+          "capture_rate": 0.4846389654222229,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_NG_CCS_40_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5854,
+          "emission_rate": 0.7356513513951893,
+          "capture_rate": 0.48050231267356475,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_NG_CCS_40_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5959,
+          "emission_rate": 0.7465873239777584,
+          "capture_rate": 0.48764531609127515,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NE_Bio_NG_CCS_40_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 1015075.04,
+          "fixed_om_cost": 586130.72,
+          "variable_om_cost": 9.76,
+          "electricity_consumption": 0.2528,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.6274,
+          "emission_rate": 0.7473355417254651,
+          "capture_rate": 0.48813402634440617,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "BECCSNaturalGas",
+      "global_data": {
+        "biomass_constraints": {
+          "MinFlowConstraint": true,
+          "CapacityConstraint": true
+        },
+        "co2_sink": "co2_sink"
+      },
+      "instance_data": [
+        {
+          "id": "NW_Bio_NG_CCS_99_Herb",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7159,
+          "emission_rate": 0.010789274912642833,
+          "capture_rate": 1.201488805159583,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SW_Bio_NG_CCS_99_Herb",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.709,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7159,
+          "emission_rate": 0.010789274912642833,
+          "capture_rate": 1.201488805159583,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_NG_CCS_99_Herb",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.711,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7189,
+          "emission_rate": 0.010802190023043544,
+          "capture_rate": 1.2029270260492622,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_NG_CCS_99_Herb",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.743,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7535,
+          "emission_rate": 0.01103081379265171,
+          "capture_rate": 1.2283864662805715,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_NG_CCS_99_Herb",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.723,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.731,
+          "emission_rate": 0.010889450464646384,
+          "capture_rate": 1.2126443096079784,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_NG_CCS_99_Herb",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.715,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.725,
+          "emission_rate": 0.010828020243844964,
+          "capture_rate": 1.2058034678286205,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_NG_CCS_99_Herb",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.716,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.725,
+          "emission_rate": 0.010836920243844963,
+          "capture_rate": 1.2067945678286203,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NE_Bio_NG_CCS_99_Herb",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Herb",
+          "co2_content": 1.745,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7535,
+          "emission_rate": 0.011048613792651712,
+          "capture_rate": 1.2303686662805717,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CA_Bio_NG_CCS_99_Wood",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.843,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.905,
+          "emission_rate": 0.011674126867887581,
+          "capture_rate": 1.300025521209366,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NW_Bio_NG_CCS_99_Wood",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.842,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.926,
+          "emission_rate": 0.011631032640692554,
+          "capture_rate": 1.2952265674371197,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SW_Bio_NG_CCS_99_Wood",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.822,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.896,
+          "emission_rate": 0.01150188153668545,
+          "capture_rate": 1.2808443585403286,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_NG_CCS_99_Wood",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.827,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.8675,
+          "emission_rate": 0.011592787987878701,
+          "capture_rate": 1.290967660088377,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_NG_CCS_99_Wood",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.86,
+          "emission_rate": 0.011533800211876928,
+          "capture_rate": 1.2843988078641795,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_NG_CCS_99_Wood",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.814,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.875,
+          "emission_rate": 0.011464875763880477,
+          "capture_rate": 1.276723412312575,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_NG_CCS_99_Wood",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.829,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.878,
+          "emission_rate": 0.011593490874281189,
+          "capture_rate": 1.2910459332022541,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_NG_CCS_99_Wood",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.819,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.8495,
+          "emission_rate": 0.01155089732547444,
+          "capture_rate": 1.2863027347503024,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NE_Bio_NG_CCS_99_Wood",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Wood",
+          "co2_content": 1.83,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.8315,
+          "emission_rate": 0.01167810666307018,
+          "capture_rate": 1.300468709412228,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CA_Bio_NG_CCS_99_Agri_Res",
+          "location": "CA",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.72,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.7505,
+          "emission_rate": 0.010830998682251002,
+          "capture_rate": 1.2061351453908926,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NW_Bio_NG_CCS_99_Agri_Res",
+          "location": "NW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.665,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5149,
+          "emission_rate": 0.010724962515795244,
+          "capture_rate": 1.1943270055510835,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SW_Bio_NG_CCS_99_Agri_Res",
+          "location": "SW",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.681,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5464,
+          "emission_rate": 0.010816071175002702,
+          "capture_rate": 1.204472824892714,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "TX_Bio_NG_CCS_99_Agri_Res",
+          "location": "TX",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.622,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.4729,
+          "emission_rate": 0.010410650970185299,
+          "capture_rate": 1.1593254130955761,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NCEN_Bio_NG_CCS_99_Agri_Res",
+          "location": "NCEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5929,
+          "emission_rate": 0.01098955538621371,
+          "capture_rate": 1.22379194868274,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "CEN_Bio_NG_CCS_99_Agri_Res",
+          "location": "CEN",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.697,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5719,
+          "emission_rate": 0.01091694961340874,
+          "capture_rate": 1.2157066024549863,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "SE_Bio_NG_CCS_99_Agri_Res",
+          "location": "SE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.689,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5854,
+          "emission_rate": 0.010823767610211935,
+          "capture_rate": 1.2053298964585422,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "MIDAT_Bio_NG_CCS_99_Agri_Res",
+          "location": "MIDAT",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.709,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.5959,
+          "emission_rate": 0.010984670496614422,
+          "capture_rate": 1.2232479695724192,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        },
+        {
+          "id": "NE_Bio_NG_CCS_99_Agri_Res",
+          "location": "NE",
+          "biomass_commodity": "Biomass_Agri",
+          "co2_content": 1.716,
+          "investment_cost": 1125140.8,
+          "fixed_om_cost": 646257.92,
+          "variable_om_cost": 14.86,
+          "electricity_consumption": 0.9841,
+          "min_flow_fraction": 0.85,
+          "natgas_production": 2.6274,
+          "emission_rate": 0.010995679155821877,
+          "capture_rate": 1.2244738889140494,
+          "availability": {
+            "timeseries": {
+              "path": "system/availability.csv",
+              "header": "beccs_naturalgas"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

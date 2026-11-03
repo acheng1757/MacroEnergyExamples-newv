@@ -1,0 +1,69 @@
+{
+    "FossilRefineryRepresentation": [
+        {
+            "type": "ConstrainedFossilLiquidFuels",
+            "global_data": {
+                "transforms": {
+                    "timedata": "LiquidFuels",
+                    "constraints": {
+                        "BalanceConstraint": true
+                    },
+                    "max_jetfuel_ratio": 0.2763,
+                    "max_diesel_ratio": 0.7449,
+                    "min_jetfuel_ratio": 0.1988,
+                    "min_diesel_ratio": 0.5661,
+                    "gasoline_emission_rate": 0.0,
+                    "jetfuel_emission_rate": 0.0,
+                    "diesel_emission_rate": 0.0
+                },
+                "edges": {
+                    "fossil_gasoline_edge": {
+                        "commodity": "Fossil_Gasoline",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "start_vertex": "gasoline_fossil_global"
+                    },
+                    "fossil_jetfuel_edge": {
+                        "commodity": "Fossil_JetFuel",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "start_vertex": "jetfuel_fossil_global"
+                    },
+                    "fossil_diesel_edge": {
+                        "commodity": "Fossil_Diesel",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "start_vertex": "diesel_fossil_global"
+                    },
+                    "gasoline_edge": {
+                        "commodity": "Gasoline",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "gasoline_global"
+                    },
+                    "jetfuel_edge": {
+                        "commodity": "JetFuel",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "jetfuel_global"
+                    },
+                    "diesel_edge": {
+                        "commodity": "Diesel",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "diesel_global"
+                    },
+                    "co2_edge": {
+                        "commodity": "CO2",
+                        "unidirectional": true,
+                        "has_capacity": false,
+                        "end_vertex": "co2_sink"
+                    }
+                }
+            },
+            "instance_data": [
+                {"id": "Global_Fossil_Petroleum_Refinery"}
+            ]
+        }
+    ]
+}
